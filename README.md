@@ -40,6 +40,23 @@ The Stanley Cup is the hardest trophy to win in all of professional sports, awar
 ## Data Collection
 ###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners and losers for the past 30 years (1991-2022).  To obtain this information, a scrape of:
 ```
+Team Stats per season: 
+API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
+API Example: https://statsapi.web.nhl.com/api/v1/teams/1?expand=team.stats&season=20142015 
+
+
+Roster per team per season:
+API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
+API Example: https://statsapi.web.nhl.com/api/v1/teams/1?expand=team.roster&season=20142015
+
+Player Stats per season:
+API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
+API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=statsSingleSeason&season=19801981
+
+
+Player Stats year by year season:
+API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
+API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=yearByYear
 ###url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
 ```
 
