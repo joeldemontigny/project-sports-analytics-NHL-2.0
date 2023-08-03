@@ -17,8 +17,10 @@ We will leverage player statistics such as Age, Height, Nationality, and Right-h
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
 # Technology used:
-## Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
-## JavaScript: Used to plot the interactive charts.
+
+Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
+
+JavaScript: Used to plot the interactive charts.
 ## MySQL with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
 ## HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
 ## Bootstrap: Utilised alongside HTML and CSS for navigation bars and buttons??
