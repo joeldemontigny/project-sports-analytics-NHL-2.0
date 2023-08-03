@@ -1,6 +1,7 @@
 # project-sports-analytics-NHL-2.0
 [Project 3 proposal.docx](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/files/12222431/Project.3.proposal.docx)
 
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/f38c5b9e-7594-4f0d-ad95-857a2b5108be)
 
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/cead8b13-dcb9-48cb-92b8-19ee070227a9)
