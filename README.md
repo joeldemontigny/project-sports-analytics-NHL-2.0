@@ -21,10 +21,14 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
 
 JavaScript: Used to plot the interactive charts.
-## MySQL with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
-## HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
-## Bootstrap: Utilised alongside HTML and CSS for navigation bars and buttons??
-## Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
+
+MySQL with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
+
+HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
+
+Bootstrap: Utilised alongside HTML and CSS for navigation bars and buttons??
+
+Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
 
 ## Table of Contents
 
