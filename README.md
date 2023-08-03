@@ -198,59 +198,114 @@ Joel Demontigny
 Glossary
 
 ## Player Statistics per Season:
+
 timeOnIce  - Time One Ice
+
 assists - Assists
+
 goals - Goals
+
 pim – Penalty Infraction Minutes
+
 shots – Shots on Goal
+
 games – Number of Games
+
 hits – Number of Hits Given
+
 powerPlayGoals – Power Play Goals
+
 powerPlayPoints – Power Play Goals
+
 powerPlayTimeOnIce – Total Power Play Time On Ice
+
 evenTimeOnIce – Even Strength Time On Ice
+
 faceOffPct – Face-off Winning Percentage
+
 shotPct – Shot of Goal Percentage
+
 gameWinningGoals – Number of Game Winning Goals
+
 overTimeGoals – Number of Over-Time Goals
+
 shortHandedGoals – Number of Short-Handed Goals
+
 shortHandedPoints – Number of Short-Handed Points
+
 shortHandedTimeOnIce – Total Short-Handed Time On Ice
+
 blocked - Total Number of Blocked Shots
+
 plusMinus – Plus - Minus
+
 points – Total Points
+
 shifts – Total Number of Shifts per season
+
 timeOnIcePerGame – Total Time on Ice per Each Game
+
 evenTimeOnIcePerGame – Total Even Strength Time On Ice
+
 shortHandedTimeOnIcePerGame – Total Short-Handed Time On Ice
+
 powerPlayTimeOnIcePerGame –Total Power Play Time On Ice
 
+
 ## Team Statistics per Season:
+
 gamesPlayed – Total Number of Games Played in Specified Season
+
 wins – Total Team Wins in Specified Season
+
 losses – Total Team Losses
+
 ot – Total Number of Over-Time(s) in Specified Season
+
 pts – Total Number of Points in Specified Season
+
 ptPctg – TotalPoint Percentage
+
 goalsPerGame – Average Goals per Game
+
 goalsAgainstPerGame - Average Goals Against Per Game
+
 evGGARatio – Ratio of Goals Scored In an Even Strength Game
+
 powerPlayPercentage – Power Play Goals Percentage
+
 powerPlayGoals – Number of Power Play Goals
+
 powerPlayGoalsAgainst – Number of Power Play Goals Against
+
 powerPlayOpportunities – Total Number of Power Play
+
 penaltyKillPercentage – Total Number of Penalty Kills
+
 shotsPerGame – Average Shots per Game
+
 shotsAllowed – Average Shots per Game
+
 winScoreFirst – Total Games Won when Team Scores First
+
 winOppScoreFirst – Total Number of Games Lost when Opposing Team Scores First
+
 winLeadFirstPer - Total Number of Games Won when Team Leads after the 1st Period
+
 winLeadSecondPer - Total Number of Games Won when Team Leads after the 2nd Period
+
 winOutshootOpp – Total Wins when Team Out-Shoots Opponents
+
 winOutshotByOpp – Tota Wins when Opposing Team Out-Shoots Team
+
 faceOffsTaken – Total Number of Faceoffs Taken
+
 faceOffsWon – Total Number of Faceoffs Won
+
 faceOffsLost - Total Number of Faceoffs Lost
+
 faceOffWinPercentage – Faceoff Win Percentage
+
 shootingPctg – Shooting Faceoff Percentage
+
 savePctg – Average Save Percentage
