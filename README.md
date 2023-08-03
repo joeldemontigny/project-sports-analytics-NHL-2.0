@@ -16,6 +16,14 @@ We will leverage player statistics such as Age, Height, Nationality, and Right-h
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
+## Technology used:
+Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
+JavaScript: Used to plot the interactive charts.
+MySQL with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
+HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
+#Bootstrap: Utilised alongside HTML and CSS for navigation bars and buttons??
+Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
+
 ## Table of Contents
 
 - [Background](#background)
@@ -168,6 +176,14 @@ This project aims to provide insights into the factors that contribute to succes
 #- Game-by-Game data should provide more gandular analysis.
 #- Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
 #- Statistical comparison for the Stanley Cup Finals only.  This would create far more variability and likely easier to identify trends and key statistic differentials.
+
+## How to access the index.html
+First download the folder called 'NHLStats'.
+Open you terminal and 'cd' into where the 'NHL' folder is located in your computer.
+Then in the terminal type in, 'python -m http.server'.
+It should show, 'Serving HTTP on :: 8000'.
+Go to your browser and type in the search bar, 'localhost8000'.
+This will display the dashboard.
 
 ## Team Members
 Ravina Kolsawala
