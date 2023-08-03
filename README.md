@@ -156,32 +156,23 @@ The stats that were compiled from the winning teams are:
 # Hypothesis
 All teams are created equal and there are no KPIs that indicate a material difference
 # Null Hypothesis
-There are KPIs that have a material influence on the odds of a hockey team winning the Stanley Cup.
+There are KPIs that have a material influence on the odds of a hockey team winning the Stanley Cup.  If a top performer in this KPI, the team will then be favored to win.
 
 ## Analysis
 The main focus of this project is to compile and analyze the nationality distributions, player statistics, and team statistics of the Stanley Cup winning teams over the past 30 seasons. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.  Our analysis is as follows:
 - Player distribution by nationality.  When selecting a particular year's winners from the applicable dropdown, you can see the headcount of the player distribution. 
 - The Canadian player reduction in representation was most significant impacted in the decade of 2003-2012 and has remained consistent since.
-- The correlation between PPG vs Pts is 0.83. This graph clearly depicts the correlation between scoring PPG and resulting in an overall increase in points.
-- The correlation between PIM and +/- is 0.16. Except for outliers, the lower a player's PIM, the more likely of a more positive +/- result.
-- Of the 2000+ entries, +2 to -2 is very dense. The winning team (blue) has a slightly above 0 stronger representation with an average +/- of slightly above 4 and the losing team at 2. When compare the two sets of values, the p-value supports that there is a very strong correlation between a more positive +/- and winning. 
-- The results of the box plots depicts how the winning team has far more consistency amongst its players. This is also supported by having less outliers than the losing team at each extremity.
-- When comparing the identified key stats for the season between the winning and losing team, it is apparent that the one stat with the most material difference and impact is the '+/-'.
+- The majority of the goals scored are shots taken in the XXX quadrant of the defending team's ice area.
+- YOY we see a consistent increase in representation of European born players.  As seen from the interactive map, Russia was heavily represented in the first 2 decades of data, however as of late we now see greater talent and representation from locations Sweden, Finland, and Czech Republic.
+- The KPI with the greatest differential when comparing Stanley Cup winning teams vs others, are +/-, and PPK.
 
 ## Conclusion
 This project aims to provide insights into the factors that contribute to success in hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.  These characteristics may be consider the makeup of a Stanley Cup winning team:  
-- Based on our overall analysis and supporting data, there is no material difference regarding age groups and winning.  Years of experience requires additional analysis.
-- There should be a heightened focus on recruiting European players.   Their hockey programs have significantly evolved, and the number of European players playing in the NHL is showing a steady increase, while the Canadian player representation is reducing.
-- More PPG equates to a higher overall point value and niot a substitute for regular goals.
-- It is favorable and improves the likelihood of winning to have more consistency amongst contributing players vs having one or two superstars on the team.  The box plot comparing the +/- statistic supports this theor as the winning team has less outliers and more consistency when compared to the losing team.  The +/- statistic is also the only key statistic analyzed that has a material difference(100% increase) in results when comparing the winning and losing teams.
-- Future analysis reviewing Stanley Cup Finals' data only, can provide greater variability in data points and provide additional trending, influencing additional recommendations.
+- Within the European market, we see a shift in players from home countries with smaller population numbers then some of it's other representing countries with strong hockey programs.
+- Consistency amongst player performance holds greater value then a couple of superstars.  The sum of the team's performance is greater than that of an elite player.  I.E. Vegas Golden Knights vs Edmonton Oilers.  As per our ideal makeup and criteria, 60% of Vegas players fell within the idea range for performance where has Edmonton only had 10% (McDavid and Drisital).
 
 ## Future Work
 #This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
-#- Age was used and not the years of expereince. Years of experience is a valuable metric and should be added. 
-#- Game-by-Game data should provide more gandular analysis.
-#- Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
-#- Statistical comparison for the Stanley Cup Finals only.  This would create far more variability and likely easier to identify trends and key statistic differentials.
 
 ## How to access the index.html
 First download the folder called 'NHLStats'.
