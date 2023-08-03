@@ -147,7 +147,7 @@ The stats that were compiled from the winning teams are:
 >
 >![](images/playerstatswinninglosingperseason.png)
 
-## Hypothesis
+# Hypothesis
 All teams are created equal and there are no KPIs that indicate a material difference
 # Null Hypothesis
 There are KPIs that have a material influence on the odds of a hockey team winning the Stanley Cup.
