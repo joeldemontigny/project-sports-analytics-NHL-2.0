@@ -172,7 +172,7 @@ This project aims to provide insights into the factors that contribute to succes
 - Consistency amongst player performance holds greater value then a couple of superstars.  The sum of the team's performance is greater than that of an elite player.  I.E. Vegas Golden Knights vs Edmonton Oilers.  As per our ideal makeup and criteria, 60% of Vegas players fell within the idea range for performance where has Edmonton only had 10% (McDavid and Drisital).
 
 ## Future Work
-#This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
+#This project is an ongoing effort, and future updates will include a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup the following year.
 
 ## How to access the index.html
 First download the folder called 'NHLStats'.
