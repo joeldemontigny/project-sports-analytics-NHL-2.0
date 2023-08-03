@@ -1,7 +1,7 @@
 # project-sports-analytics-NHL-2.0
 [Project 3 proposal.docx](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/files/12222431/Project.3.proposal.docx)
 
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/304544f5-4059-4bf1-be0a-96184a725264)
+
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/cead8b13-dcb9-48cb-92b8-19ee070227a9)
 
@@ -10,8 +10,8 @@
 _(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
 
 ## Overview
-For this project, we are focused on reviewing the best characteristics to project the 2024 Stanley Cup winning team.  We will be using statistics and data from previous Stanley Cup winning teams over the last 30 years from our initial project, (https://github.com/rbrennan55/project-sports-analytics-NHL.git).
-We will leverage player statistics such as Age, Height, Nationality, and Right-handed vs Left-handed.  Additionally, we will leverage team statistics such as +/-, Points (pts), Points Per Game (ppg), Penalty Infraction Minutes (PIM), Overtime Goals (OT Goals), Powerplay Goals (PPG), and Location (successful goals vs misses).
+For this version of our project, we are focused on validating our model by cross-referencing the makeup of the top potential performing teams, as per our model, prior to the 2022-2023 season vs the actual top performing teams (Stanley Cup Playoffs/Finals/etc... need to review and finalize).  We will be using statistics and data from previous Stanley Cup winning teams over the last 30 years from our initial project, (https://github.com/rbrennan55/project-sports-analytics-NHL.git).
+We will leverage player statistics such as Age, Height, Nationality, and Right-handed vs Left-handed.  Additionally, we will leverage team statistics such as +/-, Points (pts), Points Per Game (ppg), Penalty Infraction Minutes (PIM), Overtime Goals (OT Goals), Powerplay Goals (PPG), and Location (successful goals vs misses).  Once our model has been validated for the 2022-2023 season, we will be able to leverage this model to review the makeup of the 2023 NHL teams and predict which team has the best chance to win the Stanley Cup in 2024 based on current rosters.
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
@@ -31,14 +31,14 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 The Stanley Cup is the hardest trophy to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must win 16 games in order to win "The Cup". Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
 ## Limitations
-###A few limitations were identified from the beginning of this project.
-###- This is our fist project in Datavisualization, therefore the experience level for the team was low
-###- Free APIs were used as there was not a budget to purchase additional APIs
-###- The NHL APIs were missing data for the 1990-1991 Minnesota North Stars as the data was not kept when the team was relocated to Dallas.  Therefore the 1990 - 1991 season was removed leaving us with 29 seasons of awarded Stanley Cups.  The 2004 - 2005 season was cancelled due to the NHL labour dispute.  
+###- A few limitations were identified from the beginning of this project.
+###- This is an enhanced version of our initial project in an attempt to prove our hypothesis and needed to reserve predictive modeling for a future version.
+###- Financials, only free APIs were used as there was not a budget to purchase additional APIs
+###- The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
 
 
 ## Data Collection
-###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners and losers for the past 30 years (1991-2022).  To obtain this information, a scrape of:
+###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player and team.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 years (1992-2023).  To obtain this information, a scrape of:
 ```
 Team Stats per season: 
 API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
@@ -66,7 +66,7 @@ API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=year
 
 Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to '19911992' 
 
-Once the winning and loosing teams were identified from the awarded 29 Stanley Cup from 1991-2022, the following NHL API's were used
+Once the winning teams we identified the 30 Stanley Cup winning teams from 1991-2022, the following NHL API's were used
 
 ```
 Teams Information
@@ -127,7 +127,7 @@ GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeaso
 Returns all statistics for that player from specified season
 ```
 
-The stats that were compiled for both the winning and losing teams were:
+The stats that were compiled from the winning teams are:
 - Penalty Minutes (PIM)
 - PowerPlay Goals (PPG)
 - Over Time Winning Gola (OTG)
@@ -138,9 +138,14 @@ The stats that were compiled for both the winning and losing teams were:
 >
 >![](images/playerstatswinninglosingperseason.png)
 
+## Hypothesis
+All teams are created equal and there are no KPIs that indicate a material difference
+# Null Hypothesis
+There are KPIs that have a material influence on the odds of a hockey team winning the Stanley Cup.
+
 ## Analysis
-The main focus of this project is to compare the nationality distributions and player statistics on the winning and losing teams. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.  Our analysis is as follows:
-- There is a noticeable increase in European players when comparing the most recent winning team's roster vs that of 1991-1992. Canadian representation has had a significant reduction, and the U.S. remains constant, but most recently had the lowest representation.
+The main focus of this project is to compile and analyze the nationality distributions, player statistics, and team statistics of the Stanley Cup winning teams over the past 30 seasons. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.  Our analysis is as follows:
+- Player distribution by nationality.  When selecting a particular year's winners from the applicable dropdown, you can see the headcount of the player distribution. 
 - The Canadian player reduction in representation was most significant impacted in the decade of 2003-2012 and has remained consistent since.
 - The correlation between PPG vs Pts is 0.83. This graph clearly depicts the correlation between scoring PPG and resulting in an overall increase in points.
 - The correlation between PIM and +/- is 0.16. Except for outliers, the lower a player's PIM, the more likely of a more positive +/- result.
@@ -157,29 +162,89 @@ This project aims to provide insights into the factors that contribute to succes
 - Future analysis reviewing Stanley Cup Finals' data only, can provide greater variability in data points and provide additional trending, influencing additional recommendations.
 
 ## Future Work
-This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
-- Age was used and not the years of expereince. Years of expereince is a valuable metric and should be added. 
-- Game-by-Game analysis should provide more gandular analysis.
-- Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
-- Statistical comparison for the Stanley Cup Finals only.  This would create far more variability and likely easier to identify trends and key statistic differentials.
+#This project is an ongoing effort, and future updates may include additional seasons, and more in-depth analysis on suplimentary statistics. We welcome contributions and suggestions from the community to further enhance this repository.  We have outlined areas of work that are most important:
+#- Age was used and not the years of expereince. Years of experience is a valuable metric and should be added. 
+#- Game-by-Game data should provide more gandular analysis.
+#- Nationality counts per team per season dropped considerably in 2012 and began to increase season following. Analysis of this is required
+#- Statistical comparison for the Stanley Cup Finals only.  This would create far more variability and likely easier to identify trends and key statistic differentials.
 
 ## Team Members
-Joel Demontigny, Ravina Kolsawala, Ron Brennan
+Ravina Kolsawala, Ron Brennan, Gosaye White, Ghislain Nyirumuheto, Joel Demontigny
 
-## Appendix
-Glossary:
-- PIM – Penalty Infraction Minutes – It is the cumulative total of time that a player has spent in the penalty box due to on ice infractions
-- PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
-- PTS – Points – Scoring points, calculated as the sum of goals and assists.
-- +/- – Plus/minus – The number of team even strength or shorthanded goals for minus the number of team even strength or shorthanded goals against while the player is on the ice.
-- PPG – Power play goals – Number of goals the player has scored while his team was on the power play.
-- OTG - Overtime Goal
+
 
 Reference content:
 
-- `https://statsapi.web.nhl.com/api/v1/teams`
-- `https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>`
-- `https://statsapi.web.nhl.com/api/v1/people/<ID>`
-- `https://en.wikipedia.org/wiki/Ice_hockey_statistics#:~:text=Team%20statistics%20STK%20-%20winning%20or%20losing%20streak,tie%20%28Note%3A%20The%20NHL%20no%20longer%20uses%20ties.` 
+Team Stats per season: 
+- API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
+
+Roster per team per season:
+- API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
+
+Player Stats per season:
+- API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
+
+Player Stats year by year season:
+- API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
 
 "Copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.“
+## Appendix
+Glossary
+
+## Player Statistics per Season:
+timeOnIce  - Time One Ice
+assists - Assists
+goals - Goals
+pim – Penalty Infraction Minutes
+shots – Shots on Goal
+games – Number of Games
+hits – Number of Hits Given
+powerPlayGoals – Power Play Goals
+powerPlayPoints – Power Play Goals
+powerPlayTimeOnIce – Total Power Play Time On Ice
+evenTimeOnIce – Even Strength Time On Ice
+faceOffPct – Face-off Winning Percentage
+shotPct – Shot of Goal Percentage
+gameWinningGoals – Number of Game Winning Goals
+overTimeGoals – Number of Over-Time Goals
+shortHandedGoals – Number of Short-Handed Goals
+shortHandedPoints – Number of Short-Handed Points
+shortHandedTimeOnIce – Total Short-Handed Time On Ice
+blocked - Total Number of Blocked Shots
+plusMinus – Plus - Minus
+points – Total Points
+shifts – Total Number of Shifts per season
+timeOnIcePerGame – Total Time on Ice per Each Game
+evenTimeOnIcePerGame – Total Even Strength Time On Ice
+shortHandedTimeOnIcePerGame – Total Short-Handed Time On Ice
+powerPlayTimeOnIcePerGame –Total Power Play Time On Ice
+
+## Team Statistics per Season:
+gamesPlayed – Total Number of Games Played in Specified Season
+wins – Total Team Wins in Specified Season
+losses – Total Team Losses
+ot – Total Number of Over-Time(s) in Specified Season
+pts – Total Number of Points in Specified Season
+ptPctg – TotalPoint Percentage
+goalsPerGame – Average Goals per Game
+goalsAgainstPerGame - Average Goals Against Per Game
+evGGARatio – Ratio of Goals Scored In an Even Strength Game
+powerPlayPercentage – Power Play Goals Percentage
+powerPlayGoals – Number of Power Play Goals
+powerPlayGoalsAgainst – Number of Power Play Goals Against
+powerPlayOpportunities – Total Number of Power Play
+penaltyKillPercentage – Total Number of Penalty Kills
+shotsPerGame – Average Shots per Game
+shotsAllowed – Average Shots per Game
+winScoreFirst – Total Games Won when Team Scores First
+winOppScoreFirst – Total Number of Games Lost when Opposing Team Scores First
+winLeadFirstPer - Total Number of Games Won when Team Leads after the 1st Period
+winLeadSecondPer - Total Number of Games Won when Team Leads after the 2nd Period
+winOutshootOpp – Total Wins when Team Out-Shoots Opponents
+winOutshotByOpp – Tota Wins when Opposing Team Out-Shoots Team
+faceOffsTaken – Total Number of Faceoffs Taken
+faceOffsWon – Total Number of Faceoffs Won
+faceOffsLost - Total Number of Faceoffs Lost
+faceOffWinPercentage – Faceoff Win Percentage
+shootingPctg – Shooting Faceoff Percentage
+savePctg – Average Save Percentage
