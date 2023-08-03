@@ -170,25 +170,12 @@ This project aims to provide insights into the factors that contribute to succes
 #- Statistical comparison for the Stanley Cup Finals only.  This would create far more variability and likely easier to identify trends and key statistic differentials.
 
 ## Team Members
-Ravina Kolsawala, Ron Brennan, Gosaye White, Ghislain Nyirumuheto, Joel Demontigny
+Ravina Kolsawala
+Ron Brennan
+Gosaye White
+Ghislain Nyirumuheto
+Joel Demontigny
 
-
-
-Reference content:
-
-Team Stats per season: 
-- API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
-
-Roster per team per season:
-- API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
-
-Player Stats per season:
-- API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
-
-Player Stats year by year season:
-- API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
-
-"Copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.“
 ## Appendix
 Glossary
 
