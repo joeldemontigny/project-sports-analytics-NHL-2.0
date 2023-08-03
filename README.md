@@ -192,10 +192,15 @@ Go to your browser and type in the search bar, 'localhost8000'.
 This will display the dashboard.
 
 ## Team Members
+
 Ravina Kolsawala
+
 Ron Brennan
+
 Gosaye White
+
 Ghislain Nyirumuheto
+
 Joel Demontigny
 
 ## Appendix
