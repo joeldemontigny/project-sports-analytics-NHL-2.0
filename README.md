@@ -43,17 +43,16 @@ Pandas: Used to clean, prepare, and transform the data for analysis by removing 
 
 
 ## Background
-The Stanley Cup is the hardest trophy to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must win 16 games in order to win "The Cup". Understanding the composition of winning and losing teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
+The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
 ## Limitations
-###- A few limitations were identified from the beginning of this project.
 ###- This is an enhanced version of our initial project in an attempt to prove our hypothesis and needed to reserve predictive modeling for a future version.
 ###- Financials, only free APIs were used as there was not a budget to purchase additional APIs
 ###- The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
 
 
 ## Data Collection
-###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player and team.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 years (1992-2023).  To obtain this information, a scrape of:
+###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player and team.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
 ```
 Team Stats per season: 
 API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
