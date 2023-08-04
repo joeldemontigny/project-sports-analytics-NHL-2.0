@@ -193,10 +193,10 @@ Ghislain Nyirumuheto
 
 Joel Demontigny
 
-## Appendix
-Glossary
+# Appendix
+## Glossary
 
-## Player Statistics per Season:
+### Player Statistics per Season:
 
 timeOnIce  - Time One Ice
 
@@ -251,7 +251,7 @@ shortHandedTimeOnIcePerGame – Total Short-Handed Time On Ice
 powerPlayTimeOnIcePerGame –Total Power Play Time On Ice
 
 
-## Team Statistics per Season:
+### Team Statistics per Season:
 
 gamesPlayed – Total Number of Games Played in Specified Season
 
