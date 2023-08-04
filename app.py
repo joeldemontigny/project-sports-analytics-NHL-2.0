@@ -125,33 +125,33 @@ def get_teams():
         teams_list.append(team_dict)
     return jsonify(teams_list)
 
-# @app.route("/api/v1.0/team_stats")
-# def get_team_stats():
-#     session = Session(engine)
+@app.route("/api/v1.0/team_stats")
+def get_team_stats():
+    session = Session(engine)
     
-#     # Join the TeamStat and Team tables using SQLAlchemy's ORM
-#     team_stats_info = (
-#         session.query(Team_stats, Teams.team_name)
-#         .join(Teams, Team_stats.team_id == Teams.team_id)
-#         .all()
-#     )
+    # Join the TeamStat and Team tables using SQLAlchemy's ORM
+    team_stats_info = (
+        session.query(Team_stats, Teams.team_name)
+        .join(Teams, Team_stats.team_id == Teams.team_id)
+        .all()
+    )
 
-#     team_stats_list = []
-#     for team_stat, team_name in team_stats_info:
-#         team_stat_dict = {
-#             "id": team_stat.id,
-#             "team_name": team_name,
-#             "team_stats_pts": team_stat.team_stats_pts,
-#             "team_stats_wins": team_stat.team_stats_wins, 
-#             "team_stats_goalsPerGame": team_stat.team_stats_goalsPerGame,
-#             "team_stats_goalsAgainstPerGame": team_stat.team_stats_goalsAgainstPerGame,
-#             "team_stats_shotsPerGame": team_stat.team_stats_shotsPerGame,
-#             "team_stats_shotsAllowed": team_stat.team_stats_shotsAllowed
-#             # Include other attributes here from team_stat
-#         }
-#         team_stats_list.append(team_stat_dict)
+    team_stats_list = []
+    for team_stat, team_name in team_stats_info:
+        team_stat_dict = {
+            "id": team_stat.id,
+            "team_name": team_name,
+            "team_stats_pts": team_stat.team_stats_pts,
+            "team_stats_wins": team_stat.team_stats_wins, 
+            "team_stats_goalsPerGame": team_stat.team_stats_goalsPerGame,
+            "team_stats_goalsAgainstPerGame": team_stat.team_stats_goalsAgainstPerGame,
+            "team_stats_shotsPerGame": team_stat.team_stats_shotsPerGame,
+            "team_stats_shotsAllowed": team_stat.team_stats_shotsAllowed
+            # Include other attributes here from team_stat
+        }
+        team_stats_list.append(team_stat_dict)
 
-#     return jsonify(team_stats_list)
+    return jsonify(team_stats_list)
 
  
 
