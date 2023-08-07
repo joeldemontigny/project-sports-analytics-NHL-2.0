@@ -13,10 +13,3 @@ API Example: https://statsapi.web.nhl.com/api/v1/teams/1?expand=team.roster&seas
 Player Stats by season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
 API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=statsSingleSeason&season=19801981
-
-
-Player Stats year by year season:
-API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
-API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=yearByYear
-
-
