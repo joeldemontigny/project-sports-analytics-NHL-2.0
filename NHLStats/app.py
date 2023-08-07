@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, distinct
 from sqlalchemy.pool import NullPool
 from sqlalchemy import create_engine, MetaData, Table
-
+#from flask_cors import CORS
 from flask import Flask, jsonify
 
 
@@ -116,7 +116,9 @@ def get_player():
             "player_firstName":player.player_firstName, 
             "player_lastName":player.player_lastName,  
             "player_birthDate":player.player_birthDate,  
-            "player_birthCity":player.player_birthCity,   
+            "player_birthCity":player.player_birthCity,
+            "player_birthCity_Lat":player.player_birthCity_Lat, 
+            "player_birthCity_Long":player.player_birthCity_Long,    
             "player_birthStateProvince":player.player_birthStateProvince,  
             "player_birthCountry":player.player_birthCountry,  
             "player_nationality":player.player_nationality,  
@@ -160,6 +162,7 @@ def get_team_stats():
         team_stat_dict = {
             #"id": team_stat.id,
             "team_name": team_name,
+            "team_stats_season_id":team_stat.season_id,
             "team_stats_pts": team_stat.team_stats_pts,
             "team_stats_wins": team_stat.team_stats_wins, 
             "team_stats_goalsPerGame": team_stat.team_stats_goalsPerGame,
@@ -187,6 +190,7 @@ def get_player_stats():
     for player_stat, player_name in player_stats_info:
         player_stat_dict = {
             "player_name": player_name,
+            "player_stats_season_id":player_stat.season_id,
             "player_stats_pim": player_stat.player_stats_pim,
             "player_stats_assists": player_stat.player_stats_assists, 
             "player_stats_goals": player_stat.player_stats_goals,
@@ -215,6 +219,7 @@ def get_goalie_stats():
     for goalie_stat, player_name in goalie_stats_info:
         goalie_stat_dict = {
             "player_name": player_name,
+            "goalie_stats_goalie_season_id":goalie_stat.season_id,
             "goalie_stats_goalie_shutouts": goalie_stat.goalie_stats_goalie_shutouts,
             "goalie_stats_shortHandedSavePercentage": goalie_stat.goalie_stats_shortHandedSavePercentage, 
             "goalie_stats_wins": goalie_stat.goalie_stats_wins,
@@ -230,4 +235,6 @@ def get_goalie_stats():
 
 # Run the APIs.
 if __name__ == "__main__":
+    #CORS(app)
     app.run(debug= True)
+    
