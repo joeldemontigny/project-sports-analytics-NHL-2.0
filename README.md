@@ -21,11 +21,11 @@ Python Flask API: Utilised to automatically fetch data from MySQL database and r
 
 JavaScript: Used to plot the interactive charts.
 
+API Ninjas: Used to identify longitute of latitude of a player's birth city.
+
 SQLalchamy with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
 
 HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
-
-Bootstrap: Utilised alongside HTML and CSS for navigation bars and buttons??
 
 Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
 
@@ -33,7 +33,7 @@ Numpy:
 
 Datetime: 
 
-MySQL
+MySQL: Used to house our data.
 
 ## Table of Contents
 
@@ -48,36 +48,43 @@ MySQL
 
 
 ## Background
+
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
+For this project version, we are focused on providing the best visuals representing data related to Stanley Cup winning teams over the last 30 seasons.   We are providing an enhanced user experience by creating an interactive dashboard that will enable the end user to select various filters to analyze and compare data from each winning team over the course of the last 30 seasons vs the rest of the league, or for informative purposes to analyze player statistics.  The basis of this project, is the evolution of our initial data gathering and analysis on this topic which can be found here: (https://github.com/rbrennan55/project-sports-analytics-NHL.git). 
+
+
 ## Limitations
-###- This is an enhanced version of our initial project in an attempt to prove our hypothesis and needed to reserve predictive modeling for a future version.
+###- Data/API related limitations ***needs updating***.
 ###- Financials, only free APIs were used as there was not a budget to purchase additional APIs
 ###- The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
 
 
 ## Data Collection
-###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as ###all the statistical information for each player and team.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
+###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
 ```
 Team Stats per season: 
 API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
-API Example: https://statsapi.web.nhl.com/api/v1/teams/1?expand=team.stats&season=20142015 
-
 
 Roster per team per season:
 API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
-API Example: https://statsapi.web.nhl.com/api/v1/teams/1?expand=team.roster&season=20142015
 
 Player Stats per season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
-API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=statsSingleSeason&season=19801981
-
 
 Player Stats year by year season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
-API Example: https://statsapi.web.nhl.com/api/v1/people/8477474/stats?stats=yearByYear
-###url = "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions"
-```
+
+# Leveraging various datapoints, we were able to create the following interactive web page and dashboard(s):
+
+## Interactive world map
+
+## Winning team comparison
+
+## Player statistics information
+
+## Goalie statistics comparison
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/deb52ecd-c463-4515-8f09-e4859228c72b)
 
 >_stanleycup_winner_cleaned_df.head()/stanleycup_losing_cleaned_df.head()_
 >
@@ -157,26 +164,8 @@ The stats that were compiled from the winning teams are:
 >
 >![](images/playerstatswinninglosingperseason.png)
 
-# Hypothesis
-All teams are created equal and there are no KPIs that indicate a material difference
-# Null Hypothesis
-There are KPIs that have a material influence on the odds of a hockey team winning the Stanley Cup.  If a top performer in this KPI, the team will then be favored to win.
-
-## Analysis
-The main focus of this project is to compile and analyze the nationality distributions, player statistics, and team statistics of the Stanley Cup winning teams over the past 30 seasons. By examining these variables, we can gain a deeper understanding of the factors that may contribute to a team's success or failure in the pursuit of the Stanley Cup.  Our analysis is as follows:
-- Player distribution by nationality.  When selecting a particular year's winners from the applicable dropdown, you can see the headcount of the player distribution. 
-- The Canadian player reduction in representation was most significant impacted in the decade of 2003-2012 and has remained consistent since.
-- The majority of the goals scored are shots taken in the XXX quadrant of the defending team's ice area.
-- YOY we see a consistent increase in representation of European born players.  As seen from the interactive map, Russia was heavily represented in the first 2 decades of data, however as of late we now see greater talent and representation from locations Sweden, Finland, and Czech Republic.
-- The KPI with the greatest differential when comparing Stanley Cup winning teams vs others, are +/-, and PPK.
-
-## Conclusion
-This project aims to provide insights into the factors that contribute to success in hockey. The findings of this analysis may be valuable for coaches, players, and fans alike, as they shed light on the characteristics of championship teams.  These characteristics may be consider the makeup of a Stanley Cup winning team:  
-- Within the European market, we see a shift in players from home countries with smaller population numbers then some of it's other representing countries with strong hockey programs.
-- Consistency amongst player performance holds greater value then a couple of superstars.  The sum of the team's performance is greater than that of an elite player.  I.E. Vegas Golden Knights vs Edmonton Oilers.  As per our ideal makeup and criteria, 60% of Vegas players fell within the idea range for performance where has Edmonton only had 10% (McDavid and Drisital).
-
 ## Future Work
-#This project is an ongoing effort, and future updates will include a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup the following year.
+# This project is an ongoing effort, and future updates will include proving our hypothesis and a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup for the following year.
 
 ## How to access the index.html
 First download the folder called 'NHLStats'.
