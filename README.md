@@ -11,7 +11,7 @@
 _(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
 
 ## Overview
-For this project, are focused on providing the best visuals representing data related to previous Stanley Cup winning teams over the last 30 seasons.   We are providing an enhanced user experience by creating an interactive dashboard that will enable the end user to select various filters to analyze and compare data from each winning team over the course of the last 30 seasons vs the rest of the league, or for informative purposes to analyze player statistics.  The basis of this project, is the evolution of our initial data gathering and analysis on this topic which can be found here: (https://github.com/rbrennan55/project-sports-analytics-NHL.git). 
+For this project, we are focused on providing the best visuals representing data related to previous Stanley Cup winning teams over the last 30 seasons.   We are providing an enhanced user experience by creating an interactive dashboard that will enable the end user to select various filters to analyze and compare data from each winning team over the course of the last 30 seasons vs the rest of the league, or for informative purposes to analyze player statistics.  The basis of this project, is the evolution of our initial data gathering and analysis on this topic which can be found here: (https://github.com/rbrennan55/project-sports-analytics-NHL.git). 
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
