@@ -29,9 +29,9 @@ HTML and CSS: Utilised to create the web application, with HTML providing the st
 
 Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
 
-Numpy: 
+Numpy: Used to to perform mathematical operations on arrays.
 
-Datetime: 
+Datetime: Used to manipulate date of births, time on ice, and other relevant statistics.
 
 MySQL: Used to house our data.
 
