@@ -8,6 +8,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, distinct
 from sqlalchemy.pool import NullPool
+from sqlalchemy import create_engine, MetaData, Table
 
 from flask import Flask, jsonify
 
@@ -40,15 +41,31 @@ Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
 
-# Save references to each table
-Season = Base.classes.season
-Player = Base.classes.player
-Teams = Base.classes.team
-Team_stats = Base.classes.team_stats
-
-
 # Create our session (link) from Python to the DB
 session = Session(engine)
+# Access the MetaData from the engine's underlying MetaData
+metadata = MetaData(bind=engine)
+# Load the existing table information
+metadata.reflect()
+# Print the table names
+for table_name in metadata.tables.keys():
+    print(table_name)
+# Save references to each table
+Season = Base.classes.season
+#print(Season)
+Player = Base.classes.player
+#print(Player)
+Player_stats =Base.classes.player_stats
+print(Player_stats)
+Goalie_stats =Base.classes.goalie_stats
+print(Goalie_stats)
+Teams = Base.classes.team
+#print(Teams)
+Team_stats = Base.classes.team_stats
+#print(Team_stats)
+
+
+
 
 #################################################
 # Flask Setup
@@ -63,12 +80,14 @@ app = Flask (__name__)
 def homepage():
     #list of all APIs
     return( f' -:Project_sports_analytics-NHL-2.0:-<br/>'
-            f' Season:/api/v1.0/season<br/>'
-            f' Players:/api/v1.0/players<br/>'
-            f' Teams:/api/v1.0/teams <br/>'
-            f' Teams:/api/v1.0/team_stats <br/>')
+            f' Season:/api/nhl2.0/season<br/>'
+            f' Players:/api/nhl2.0/players<br/>'
+            f' Player_Stats:/api/nhl2.0/player_stats <br/>'
+            f' Goalie_Stats:/api/nhl2.0/goalie_stats <br/>'
+            f' Teams:/api/nhl2.0/teams <br/>'
+            f' Team_Stats:/api/nhl2.0/team_stats <br/>')
 #Append precippitation data, zip into dictionary and jasonify it.
-@app.route("/api/v1.0/season")
+@app.route("/api/nhl2.0/season")
 def get_season():
     session = Session(engine)
 
@@ -84,7 +103,7 @@ def get_season():
     return jsonify(season_list)
 
 
-@app.route("/api/v1.0/players")
+@app.route("/api/nhl2.0/players")
 def get_player():
     session = Session(engine)
     
@@ -110,7 +129,7 @@ def get_player():
 
     return jsonify(player_list)
 
-@app.route("/api/v1.0/teams")
+@app.route("/api/nhl2.0/teams")
 def get_teams():
     session = Session(engine)
 
@@ -125,7 +144,7 @@ def get_teams():
         teams_list.append(team_dict)
     return jsonify(teams_list)
 
-@app.route("/api/v1.0/team_stats")
+@app.route("/api/nhl2.0/team_stats")
 def get_team_stats():
     session = Session(engine)
     
@@ -139,7 +158,7 @@ def get_team_stats():
     team_stats_list = []
     for team_stat, team_name in team_stats_info:
         team_stat_dict = {
-            "id": team_stat.id,
+            #"id": team_stat.id,
             "team_name": team_name,
             "team_stats_pts": team_stat.team_stats_pts,
             "team_stats_wins": team_stat.team_stats_wins, 
@@ -153,6 +172,60 @@ def get_team_stats():
 
     return jsonify(team_stats_list)
 
+@app.route("/api/nhl2.0/player_stats")
+def get_player_stats():
+    session = Session(engine)
+    
+    # Join the PlayerStat and Player tables using SQLAlchemy's ORM
+    player_stats_info = (
+        session.query(Player_stats, Player.player_name)
+        .join(Player, Player_stats.player_id == Player.player_id)
+        .all()
+    )
+
+    player_stats_list = []
+    for player_stat, player_name in player_stats_info:
+        player_stat_dict = {
+            "player_name": player_name,
+            "player_stats_pim": player_stat.player_stats_pim,
+            "player_stats_assists": player_stat.player_stats_assists, 
+            "player_stats_goals": player_stat.player_stats_goals,
+            "player_stats_shots": player_stat.player_stats_shots,
+            "player_stats_penaltyMinutes": player_stat.player_stats_penaltyMinutes,
+            "player_stats_plusMinus": player_stat.player_stats_plusMinus,
+            "player_stats_points": player_stat.player_stats_points
+            # Include other attributes here from team_stat
+        }
+        player_stats_list.append(player_stat_dict)
+
+    return jsonify(player_stats_list)
+
+@app.route("/api/nhl2.0/goalie_stats")
+def get_goalie_stats():
+    session = Session(engine)
+    
+    # Join the PlayerStat and Player tables using SQLAlchemy's ORM
+    goalie_stats_info = (
+        session.query(Goalie_stats, Player.player_name)
+        .join(Player, Goalie_stats.player_id == Player.player_id)
+        .all()
+    )
+
+    goalie_stats_list = []
+    for goalie_stat, player_name in goalie_stats_info:
+        goalie_stat_dict = {
+            "player_name": player_name,
+            "goalie_stats_goalie_shutouts": goalie_stat.goalie_stats_goalie_shutouts,
+            "goalie_stats_shortHandedSavePercentage": goalie_stat.goalie_stats_shortHandedSavePercentage, 
+            "goalie_stats_wins": goalie_stat.goalie_stats_wins,
+            "goalie_stats_goalie_losses": goalie_stat.goalie_stats_goalie_losses,
+            "goalie_stats_saves": goalie_stat.goalie_stats_saves,
+         
+            # Include other attributes here from team_stat
+        }
+        goalie_stats_list.append(goalie_stat_dict)
+
+    return jsonify(goalie_stats_list)
  
 
 # Run the APIs.
