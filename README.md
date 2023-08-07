@@ -82,6 +82,8 @@ API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yea
 ## Player statistics information
 
 ## Goalie statistics comparison
+
+# rows 86 to 176 needs updating
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/deb52ecd-c463-4515-8f09-e4859228c72b)
 
 >_stanleycup_winner_cleaned_df.head()/stanleycup_losing_cleaned_df.head()_
