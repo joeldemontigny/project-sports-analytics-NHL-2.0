@@ -11,8 +11,9 @@
 _(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
 
 ## Overview
-For this version of our project, we are focused on validating our model by cross-referencing the makeup of the top potential performing teams, as per our model, prior to the 2022-2023 season vs the actual top performing teams (Stanley Cup Playoffs/Finals/etc... need to review and finalize).  We will be using statistics and data from previous Stanley Cup winning teams over the last 30 years from our initial project, (https://github.com/rbrennan55/project-sports-analytics-NHL.git).
-We will leverage player statistics such as Age, Height, Nationality, and Right-handed vs Left-handed.  Additionally, we will leverage team statistics such as +/-, Points (pts), Points Per Game (ppg), Penalty Infraction Minutes (PIM), Overtime Goals (OT Goals), Powerplay Goals (PPG), and Location (successful goals vs misses).  Once our model has been validated for the 2022-2023 season, we will be able to leverage this model to review the makeup of the 2023 NHL teams and predict which team has the best chance to win the Stanley Cup in 2024 based on current rosters.
+For this project, are focused on providing the best visuals representing data related to previous Stanley Cup winning teams over the last 30 seasons.   We are providing an enhanced user experience by creating an interactive dashboard that will enable the end user to select various filters to analyze and compare data from each winning team over the course of the last 30 seasons vs the rest of the league, or for informative purposes to analyze player statistics.  The basis of this project, is the evolution of our initial data gathering and analysis on this topic which can be found here: (https://github.com/rbrennan55/project-sports-analytics-NHL.git). 
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/bd5a11d5-a581-4af1-b790-eadef2e36abf)
+
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  Only 29 Stanley Cup seasons were analysed
 
