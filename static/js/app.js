@@ -1,7 +1,7 @@
 
 // Set Variables
 
-const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
+const url = "http://127.0.0.1:5000/api/nhl2.0/goalie_stats/";
 
 
 const jsonData = d3.json(url);
@@ -40,8 +40,8 @@ function init() {
 
        
         demographyTable(id_num);
-        barGraphDraw(id_num)
-        bubbleGraphDraw(id_num);
+        // barGraphDraw(id_num)
+        // bubbleGraphDraw(id_num);
     });
 }
 
