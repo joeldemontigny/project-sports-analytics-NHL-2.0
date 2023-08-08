@@ -19,7 +19,7 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 
 Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
 
-JavaScript: Used to plot the interactive charts.
+JavaScript: Used to plot the interactive charts.  Leaflet and dashboards were used.
 
   ***Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
 
@@ -33,9 +33,11 @@ Pandas: Used to clean, prepare, and transform the data for analysis by removing 
 
 Numpy: Used to to perform mathematical operations on arrays.
 
+Bootstrap: 
+
 Datetime: Used to manipulate date of births, time on ice, and other relevant statistics.
 
-MySQL: Used to house our data.
+MySQL: Used to house our data.  Relational database used.
 
 ## Table of Contents
 
