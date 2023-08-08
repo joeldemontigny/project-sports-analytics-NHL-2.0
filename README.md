@@ -21,6 +21,8 @@ Python Flask API: Utilised to automatically fetch data from MySQL database and r
 
 JavaScript: Used to plot the interactive charts.
 
+  ***Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
+
 API Ninjas: Used to identify longitute of latitude of a player's birth city.
 
 SQLalchamy with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
