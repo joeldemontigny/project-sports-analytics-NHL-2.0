@@ -221,10 +221,11 @@ def get_goalie_stats():
             "player_name": player_name,
             "season_id":goalie_stat.season_id,
             "goalie_stats_goalie_shutouts": goalie_stat.goalie_stats_goalie_shutouts,
-            "goalie_stats_shortHandedSavePercentage": goalie_stat.goalie_stats_shortHandedSavePercentage, 
+            "goalie_stats_shortHandedSavePercentage": float(goalie_stat.goalie_stats_shortHandedSavePercentage), 
             "goalie_stats_wins": goalie_stat.goalie_stats_wins,
             "goalie_stats_goalie_losses": goalie_stat.goalie_stats_goalie_losses,
             "goalie_stats_saves": goalie_stat.goalie_stats_saves,
+            "goalie_stats_goalie_goalsAgainst": float(goalie_stat.goalie_stats_goalie_goalsAgainst)
          
             # Include other attributes here from team_stat
         }
