@@ -221,6 +221,7 @@ def get_goalie_stats():
             "goalie_stats_wins": goalie_stat.goalie_stats_wins,
             "goalie_stats_goalie_losses": goalie_stat.goalie_stats_goalie_losses,
             "goalie_stats_saves": goalie_stat.goalie_stats_saves,
+            "goalie_stats_goalie_goalsAgainst": goalie_stat.goalie_stats_goalie_goalsAgainst
          
             # Include other attributes here from team_stat
         }
