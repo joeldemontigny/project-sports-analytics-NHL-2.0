@@ -20,6 +20,7 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
 
 JavaScript: Used to plot the interactive charts.
+
   ***Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
 
 API Ninjas: Used to identify longitute of latitude of a player's birth city.
