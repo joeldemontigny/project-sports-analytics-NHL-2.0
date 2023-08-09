@@ -39,7 +39,7 @@ MySQL-Relational database used.
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
 
-## APIs used:
+## External APIs used:
 
 Team Stats per season: 
 API Call: https://statsapi.web.nhl.com/api/v1/teams
@@ -53,6 +53,7 @@ API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster
 Player Stats year by year season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
 
+## Internal APIs created:
 
 ## App set-up:
 
