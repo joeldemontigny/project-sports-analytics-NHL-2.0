@@ -203,7 +203,7 @@ def get_player_stats():
         player_stats_list.append(player_stat_dict)
 
     return jsonify(player_stats_list)
-
+ 
 @app.route("/api/nhl2.0/goalie_stats")
 def get_goalie_stats():
     session = Session(engine)
