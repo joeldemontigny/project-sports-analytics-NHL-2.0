@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NHL Team Stats</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>NHL Analytics</h1>
+        <p>Use the interactive charts below to explore the dataset for a particular season between the years of 1991 to 2023</p>
+        <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="467"
+        height="263"
+        poster="./video/Thumbnail.png"
+        data-setup="{}"
+      >
+        <source src="./video/NHL Analytics 2.0 Opener.mp4" type="video/mp4" />
+        <source src="MY_VIDEO.webm" type="video/webm" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
+        </p>
+</video>
+      </div>
+    </div>
+        <!-- Start - Joel -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="well">
+              <h5>Season</h5>
+              <select id="selSeasonPerform" onchange="updateTeamPerform(this.value)"></select>
+              <div id="perform-stats-bar"></div>
+            </div>
+          </div>
+        </div>
+    <!-- End - Joel -->
+    <!-- Start - Ravina -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <h5>Season</h5>
+          <select id="selSeason" onchange="updateTeamStats(this.value)"></select>
+            <div id="team-stats-bar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End - Ravina -->
+    <!-- Start - Ron -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <h5>Season</h5>
+          <select id="selSeasonGoalie" onchange="updateGoalieStats(this.value)"></select>
+          <div id="goalie-stats-bubble"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End - Ron -->
+    
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app_ravina.js"></script>
+  <script src="./static/js/app_ron.js"></script>
+  <script src="./static/js/app_joel.js"></script>
+
+</body>
+
+</html>
