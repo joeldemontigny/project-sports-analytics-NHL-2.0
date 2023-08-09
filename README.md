@@ -64,7 +64,7 @@ The Stanley Cup is one of the most difficult trophies to win in all of professio
 
 ## Data Collection
 ###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
-```
+
 Team Stats per season: 
 API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
 
@@ -81,92 +81,11 @@ API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yea
 
 ## Interactive world map
 
-## Winning team comparison
+## Team comparisons per season
 
-## Player statistics information
+## Winning team performance per season
 
 ## Goalie statistics comparison
-
-# rows 86 to 176 needs updating
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/deb52ecd-c463-4515-8f09-e4859228c72b)
-
->_stanleycup_winner_cleaned_df.head()/stanleycup_losing_cleaned_df.head()_
->
->![](images/winninglosingteams.png)
-
-Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to '19911992' 
-
-Once the winning teams we identified the 30 Stanley Cup winning teams from 1991-2022, the following NHL API's were used
-
-```
-Teams Information
-GET https://statsapi.web.nhl.com/api/v1/teams
-
-Returns a list of data about all teams including their ID's, venue details, division, conference and franchise information.
-```
-
-The Team ID's were used to construct two (2) dataframes to associate the Team ID with the Winning teams and losing teams
-
->_stanleycup_winning_merge_byname_ID.head()/stanleycup_losing_merge_byname_ID.head()_
->
->![](images/winninglosingteamswithids.png)
-
-Using the Team IDs and the seasons, the winning and losing dataframes could be expanded to include the rosters and player IDs 
-```
-Team Roster
-GET https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
-
-Returns the roster for the specified season
-```
->_winning_df.head()/losing_df.head()_
->
->![](images/winninglosingteamsplayerids.png)
-
-
-The player ID was used to get the player characteristics using the player ID and appended to the winning and losing dataframes 
-```
-Player Details and Characteristics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>
-
-Returns details for a player, such as birth year and Nationality. 
-
-The birthyear was used to extrapolate the age of the player the season the player won/lost the Stanley Cup.
-```
->_winning_df.head()/losing_df.head()_
->
->![](images/winninglosingteamsplayeridsdetails.png)
-
-New dataframes were created for both the winning and losing Stanley Cup teams to hold the average age per season of the team(s).  
-
->avg_player_age_winning_df.head()/avg_player_age_losing_df
->
->![](images/winninglosingteamsavgageperseason.png)
-
-Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams in the 30 year span.
-
->player_nat_1992.value_counts()/player_nat_2022.value_counts()
->
->![](images/winningteamnationality19912022.png)
-
-Statistics of all the players were then compiled and appended to the winning and losing dataframes
-
-```
-Player Statistics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeason&season=<SEASON>
-
-Returns all statistics for that player from specified season
-```
-
-The stats that were compiled from the winning teams are:
-- Penalty Minutes (PIM)
-- PowerPlay Goals (PPG)
-- Over Time Winning Gola (OTG)
-- Plus/Minus (+/-)
-- Point (Pts)
-
->winning_df.head()/losing_df.head()
->
->![](images/playerstatswinninglosingperseason.png)
 
 ## Future Work
 # This project is an ongoing effort, and future updates will include proving our hypothesis and a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup for the following year.
