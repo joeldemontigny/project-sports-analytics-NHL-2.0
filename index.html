@@ -44,15 +44,11 @@
             <div class="well">
               <h5>Season</h5>
               <select id="selSeasonPerform" onchange="updateTeamPerform(this.value)"></select>
+              <div id="perform-stats-bar"></div>
             </div>
           </div>
         </div>
-        <div class="row"> 
-          <div class="col-md-12">
-            <div id="perform-stats-bar"></div>
-          </div>
-        </div>
-        <!-- End - Joel -->
+    <!-- End - Joel -->
     <!-- Start - Ravina -->
     <div class="row">
       <div class="col-md-12">
@@ -70,15 +66,12 @@
         <div class="well">
           <h5>Season</h5>
           <select id="selSeasonGoalie" onchange="updateGoalieStats(this.value)"></select>
+          <div id="goalie-stats-bubble"></div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="goalie-stats-bar"></div>
-      </div>
-      <!-- End - Ron -->
-    </div>
+    <!-- End - Ron -->
+    
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
