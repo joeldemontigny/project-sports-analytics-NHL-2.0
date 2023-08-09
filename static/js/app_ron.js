@@ -38,6 +38,7 @@ function updateGoalieStats(selectedSeasonId) {
     // "goalie_stats_goalie_goalsAgainst": float(goalie_stat.goalie_stats_goalie_goalsAgainst)
     // ];
       var playerName = selectedGoalieStats[0].player_name;
+      var shutouts = selectedGoalieStats[0].goalie_stats_goalie_shutouts;
       var wins = selectedGoalieStats[0].goalie_stats_wins;
       var losses = selectedGoalieStats[0].goalie_stats_goalie_losses;
       var goals_against = selectedGoalieStats[0].goalie_stats_goalie_goalsAgainst;
@@ -48,17 +49,18 @@ function updateGoalieStats(selectedSeasonId) {
       console.log("Losses:", losses)
       console.log("Goals Against:", goals_against)
       console.log("Saves:", saves)
+      console.log("Shutouts:", shutouts)
       
       var trace = {
-          x: goals_against,
-          y: losses,
+          x: [goals_against],
+          y: [losses],
           text: "losses",
+          type: "scatter",
           mode: 'markers',
           marker: {
-          size: losses,
+          size: wins,
           color: goals_against,
-          colorscale:"Portland",
-          type: "bar"
+          colorscale:"Portland"
           }
       };
       var bubbleData = [trace];
@@ -66,7 +68,9 @@ function updateGoalieStats(selectedSeasonId) {
           showlegend: false,
           title: `${playerName} statistics for Season ${selectedSeasonId}`,
           hovermode: 'closest',
-          xaxis: {title:"Goals Against"},
+          xaxis: {title:"Goals Against",
+          range: [0, 500]},
+          yaxis: {range: [0, 50]}
       };
       Plotly.newPlot('goalie-stats-bubble', bubbleData, layout); 
   });    
