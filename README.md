@@ -34,7 +34,8 @@ Datetime
 
 MySQL-Relational database used.
 
-## Relational Database (ERD)
+## Relational Database (ERD):
+
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
 
