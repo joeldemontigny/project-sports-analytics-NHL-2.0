@@ -28,15 +28,6 @@ function updateGoalieStats(selectedSeasonId) {
     // Filter team stats for the selected season
     var selectedGoalieStats = dataGoalie.filter(row => row.season_id === parseInt(selectedSeasonId));
   
-    // "player_name": player_name,
-    // "season_id":goalie_stat.season_id,
-    // "goalie_stats_goalie_shutouts": goalie_stat.goalie_stats_goalie_shutouts,
-    // "goalie_stats_shortHandedSavePercentage": float(goalie_stat.goalie_stats_shortHandedSavePercentage), 
-    // "goalie_stats_wins": goalie_stat.goalie_stats_wins,
-    // "goalie_stats_goalie_losses": goalie_stat.goals_against,
-    // "goalie_stats_saves": goalie_stat.goalie_stats_saves,
-    // "goalie_stats_goalie_goalsAgainst": float(goalie_stat.goalie_stats_goalie_goalsAgainst)
-    // ];
       var playerName = selectedGoalieStats[0].player_name;
       var wins = selectedGoalieStats[0].goalie_stats_wins;
       var losses = selectedGoalieStats[0].goalie_stats_goalie_losses;
@@ -73,34 +64,3 @@ function updateGoalieStats(selectedSeasonId) {
       Plotly.newPlot('goalie-stats-bubble', bubbleData, layout); 
   });    
 }
-    // Create traces for different team values
-//     var traces = statAttributes.map(attr => createTrace(selectedGoalieStats, attr.key, attr.name));
-
-//     var layout = {
-//       title: `Goalie Stats for Season ${selectedSeasonId}`,
-//       xaxis: {
-//         title: "Team Name"
-//       },
-//       yaxis: {
-//         title: "Value"
-//       },
-//       barmode: "group" // Display bars in grouped mode
-//     };
-
-//     // Plot the bar chart
-//     Plotly.newPlot("goalie-stats-bar", traces, layout);
-//   });
-// }
-
-// // Function to create a trace for the bar chart
-// function createTrace(data, key, name) {
-//   const teamNames = data.map(stats => stats.team_name);
-//   const teamValues = data.map(stats => stats[key]);
-
-//   return {
-//     x: teamNames,
-//     y: teamValues,
-//     type: "bar",
-//     name: name
-//   };
-// }
