@@ -94,9 +94,9 @@ This will display the dashboard.
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/0cbda9df-902a-4e34-aaab-7115e4f06193)
 
-### Stanley Cup winning team performance per season
+### Stanley Cup winning team performance per season:
 
-### Goalie statistics comparison
+### Goalie statistics comparison:
 
 
 ## Challenges and Lessons Learned
