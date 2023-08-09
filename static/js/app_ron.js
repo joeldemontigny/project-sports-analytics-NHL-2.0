@@ -59,7 +59,8 @@ function updateGoalieStats(selectedSeasonId) {
           hovermode: 'closest',
           xaxis: {title:"Goals Against",
           range: [0, 500]},
-          yaxis: {range: [0, 50]}
+          yaxis: {title: "Games Lost",
+          range: [0, 50]}
       };
       Plotly.newPlot('goalie-stats-bubble', bubbleData, layout); 
   });    
