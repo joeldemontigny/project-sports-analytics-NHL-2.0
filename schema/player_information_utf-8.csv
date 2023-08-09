@@ -1,0 +1,791 @@
+﻿player_id,player_name,player_firstName,player_lastName,player_birthDate,player_birthCity,player_birthCity_Lat,player_birthCity_Long,player_birthCountry,player_birthStateProvince,player_nationality,player_height,player_weight,player_shootsCatches,player_primaryPositionCode
+8444919,Tommy Albelin,Tommy,Albelin,1964-05-21,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 2""",195,L,D
+8444945,Glenn Anderson,Glenn,Anderson,1960-10-02,Vancouver,49.25,-123.1,CAN,BC,CAN,"6' 1""",190,L,R
+8445000,Dave Andreychuk,Dave,Andreychuk,1963-09-29,Hamilton,43.2567,-79.8692,CAN,ON,CAN,"6' 4""",225,R,L
+8445275,Tom Barrasso,Tom,Barrasso,1965-03-31,Boston,42.3188,-71.0846,USA,MA,USA,"6' 3""",210,R,G
+8445386,Ed Belfour,Ed,Belfour,1965-04-21,Carman,,,CAN,MB,CAN,"6' 0""",214,L,G
+8445417,Brian Bellows,Brian,Bellows,1964-09-01,St. Catharines,43.1833,-79.2333,CAN,ON,CAN,"5' 11""",210,R,L
+8445423,Benoit Hogue,Benoit,Hogue,1966-10-28,Repentigny,45.7333,-73.4667,CAN,QC,CAN,"5' 10""",194,L,L
+8445461,Jeff Beukeboom,Jeff,Beukeboom,1965-03-28,Ajax,43.8583,-79.0364,CAN,ON,CAN,"6' 5""",230,R,D
+8445550,Rob Blake,Rob,Blake,1969-12-10,Simcoe,,,CAN,ON,CAN,"6' 4""",220,R,D
+8445621,Ray Bourque,Ray,Bourque,1960-12-28,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 0""",223,L,D
+8445629,Phil Bourque,Phil,Bourque,1962-06-08,Chelmsford,51.7361,0.4798,USA,MA,USA,"6' 1""",196,L,L
+8445724,Neal Broten,Neal,Broten,1959-11-29,Roseau,15.3,-61.3833,USA,MN,USA,"5' 10""",175,L,C
+8445730,Doug Brown,Doug,Brown,1964-06-12,Southborough,51.1598,0.2652,USA,MA,USA,"5' 11""",185,R,R
+8445734,Benoit Brunet,Benoit,Brunet,1968-08-24,Ste-Anne-de-Bellevue,,,CAN,QC,CAN,"5' 10""",203,L,L
+8445735,Rod Brind'Amour,Rod,Brind'Amour,1970-08-09,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 1""",205,L,C
+8445739,Patrice Brisebois,Patrice,Brisebois,1971-01-27,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 2""",197,R,D
+8445861,Jock Callander,Jock,Callander,1961-04-23,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 1""",188,R,R
+8445977,Bobby Carpenter,Bobby,Carpenter,1963-07-13,Beverly,34.0786,-118.402,USA,MA,USA,"6' 0""",200,L,C
+8446013,Jay Caufield,Jay,Caufield,1960-07-17,Philadelphia,40.0077,-75.1339,USA,PA,USA,"6' 4""",237,R,R
+8446026,Tom Chorske,Tom,Chorske,1966-09-18,Minneapolis,44.9635,-93.2678,USA,MN,USA,"6' 1""",212,R,R
+8446036,Guy Carbonneau,Guy,Carbonneau,1960-03-18,Sept-Iles,50.2167,-66.3833,CAN,QC,CAN,"5' 11""",186,R,C
+8446042,Shawn Chambers,Shawn,Chambers,1966-10-11,Sterling Heights,42.5809,-83.0305,USA,MI,USA,"6' 2""",210,L,D
+8446050,Jeff Chychrun,Jeff,Chychrun,1966-05-03,LaSalle,42.2167,-83.0667,CAN,QC,CAN,"6' 4""",215,R,D
+8446053,Chris Chelios,Chris,Chelios,1962-01-25,Chicago,41.8373,-87.6862,USA,IL,USA,"6' 0""",191,R,D
+8446117,Paul Coffey,Paul,Coffey,1961-06-01,Weston,51.346,-2.977,CAN,ON,CAN,"6' 0""",205,L,D
+8446127,Danton Cole,Danton,Cole,1967-01-10,Pontiac,42.6493,-83.2878,USA,MI,USA,"5' 11""",185,R,R
+8446134,Frederic Chabot,Frederic,Chabot,1968-02-12,Herbertville Station,,,CAN,QC,CAN,"5' 11""",187,R,G
+8446286,J.J. Daigneault,J.J.,Daigneault,1965-10-12,Montréal,45.5089,-73.5617,CAN,QC,CAN,"5' 10""",192,L,D
+8446303,Vincent Damphousse,Vincent,Damphousse,1967-12-17,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 1""",205,L,C
+8446305,Jeff Daniels,Jeff,Daniels,1968-06-24,Oshawa,43.9,-78.85,CAN,ON,CAN,"6' 1""",200,L,L
+8446309,Ken Daneyko,Ken,Daneyko,1964-04-17,Windsor,42.2833,-83.0,CAN,ON,CAN,"6' 1""",215,L,D
+8446407,Eric Desjardins,Eric,Desjardins,1969-06-14,Rouyn,48.2333,-79.0167,CAN,QC,CAN,"6' 1""",205,R,D
+8446415,Gilbert Dionne,Gilbert,Dionne,1970-09-19,Drummondville,45.8833,-72.4833,CAN,QC,CAN,"6' 1""",205,L,L
+8446424,Gord Dineen,Gord,Dineen,1962-09-21,Quebec City,46.8139,-71.2081,CAN,QC,CAN,"6' 0""",195,R,D
+8446484,Bruce Driver,Bruce,Driver,1962-04-29,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",185,L,D
+8446485,Kris Draper,Kris,Draper,1971-05-24,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 10""",188,L,C
+8446494,Steve Duchesne,Steve,Duchesne,1965-06-30,Sept-Iles,50.2167,-66.3833,CAN,QC,CAN,"5' 11""",195,L,D
+8446501,Donald Dufresne,Donald,Dufresne,1967-04-10,Rimouski,48.45,-68.53,CAN,QC,CAN,"6' 1""",206,R,D
+8446715,Bob Errey,Bob,Errey,1964-09-21,Montréal,45.5089,-73.5617,CAN,QC,CAN,"5' 11""",175,L,L
+8446733,Todd Ewen,Todd,Ewen,1966-03-22,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 3""",230,R,R
+8446788,Sergei Fedorov,Sergei,Fedorov,1969-12-13,Pskov,57.8167,28.3333,RUS,N/A,RUS,"6' 2""",207,L,C
+8446789,Viacheslav Fetisov,Viacheslav,Fetisov,1958-04-20,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 1""",215,L,D
+8446831,Stephane Fiset,Stephane,Fiset,1970-06-17,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 1""",198,L,G
+8446951,Ron Francis,Ron,Francis,1963-03-01,Sault Ste. Marie,46.5333,-84.35,CAN,ON,CAN,"6' 3""",200,L,C
+8447067,Mike Gartner,Mike,Gartner,1959-10-29,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 0""",190,R,R
+8447169,Greg Gilbert,Greg,Gilbert,1962-01-22,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",195,L,L
+8447177,Brent Gilchrist,Brent,Gilchrist,1967-04-03,Moose Jaw,50.3933,-105.552,CAN,SK,CAN,"5' 11""",180,L,L
+8447363,Alexei Gusarov,Alexei,Gusarov,1964-07-08,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 2""",200,L,D
+8447364,Adam Graves,Adam,Graves,1968-04-12,Tecumseh,42.2431,-82.9256,CAN,ON,CAN,"6' 0""",205,L,L
+8447386,Stu Grimson,Stu,Grimson,1965-05-20,Kamloops,50.6761,-120.341,CAN,BC,CAN,"6' 5""",239,L,L
+8447477,Kevin Haller,Kevin,Haller,1970-12-05,Trochu,,,CAN,AB,CAN,"6' 2""",200,L,D
+8447515,Dave Hannan,Dave,Hannan,1961-11-26,Sudbury,51.5537,-0.3199,CAN,ON,CAN,"5' 10""",180,L,C
+8447673,Mike Hartman,Mike,Hartman,1967-02-07,Detroit,42.3834,-83.1024,USA,MI,USA,"6' 0""",190,L,L
+8447687,Dominik Hasek,Dominik,Hasek,1965-01-29,Pardubice,50.0386,15.7792,CZE,N/A,CZE,"6' 1""",166,L,G
+8447709,Glenn Healy,Glenn,Healy,1962-08-23,Pickering,43.8354,-79.089,CAN,ON,CAN,"5' 8""",195,L,G
+8447958,Bobby Holik,Bobby,Holik,1971-01-01,Jihlava,49.4003,15.5906,CZE,N/A,CZE,"6' 4""",230,R,C
+8448017,Tony Hrkac,Tony,Hrkac,1966-07-07,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"5' 11""",190,L,C
+8448029,Jiri Hrdina,Jiri,Hrdina,1958-01-05,Prague,50.0833,14.4167,CZE,N/A,CZE,"6' 0""",195,L,C
+8448046,Mike Hudson,Mike,Hudson,1967-02-06,Guelph,43.55,-80.25,CAN,ON,CAN,"6' 2""",205,L,C
+8448091,Brett Hull,Brett,Hull,1964-08-09,Belleville,40.795,-74.1616,CAN,ON,USA,"5' 11""",205,R,R
+8448208,Jaromir Jagr,Jaromir,Jagr,1972-02-15,Kladno,50.1431,14.1053,CZE,N/A,CZE,"6' 3""",230,L,R
+8448271,Grant Jennings,Grant,Jennings,1965-05-05,Hudson Bay,,,CAN,SK,CAN,"6' 3""",200,L,D
+8448415,Mike Keane,Mike,Keane,1967-05-29,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"5' 10""",190,R,R
+8448419,Dan Keczmer,Dan,Keczmer,1968-05-25,Mt. Clemens,,,USA,MI,USA,"6' 3""",205,L,D
+8448519,Joey Kocur,Joey,Kocur,1964-12-21,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 0""",222,R,R
+8448539,Nick Kypreos,Nick,Kypreos,1966-06-04,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",210,L,L
+8448554,Uwe Krupp,Uwe,Krupp,1965-06-24,Cologne,50.9422,6.9578,DEU,N/A,DEU,"6' 6""",240,R,D
+8448622,John LeClair,John,LeClair,1969-07-05,St. Albans,38.3769,-81.8198,USA,VT,USA,"6' 3""",233,L,L
+8448669,Igor Larionov,Igor,Larionov,1960-12-03,Voskresensk,55.3167,38.6833,RUS,N/A,RUS,"5' 11""",170,L,C
+8448674,Claude Lapointe,Claude,Lapointe,1968-10-11,Lachine,,,CAN,QC,CAN,"5' 9""",188,L,C
+8448703,Steve Larmer,Steve,Larmer,1961-06-16,Peterborough,44.3,-78.3167,CAN,ON,CAN,"5' 11""",195,L,R
+8448719,Stephan Lebeau,Stephan,Lebeau,1968-02-28,Saint-Jerome,45.7833,-74.0,CAN,QC,CAN,"5' 10""",173,R,C
+8448754,Gary Leeman,Gary,Leeman,1964-02-19,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 11""",190,R,R
+8448769,Brian Leetch,Brian,Leetch,1968-03-03,Corpus Christi,27.726,-97.3755,USA,TX,USA,"6' 0""",190,L,D
+8448770,Sylvain Lefebvre,Sylvain,Lefebvre,1967-10-14,Richmond,37.5295,-77.4756,CAN,QC,CAN,"6' 2""",204,L,D
+8448771,Jamie Leach,Jamie,Leach,1969-08-25,Philadelphia,40.0077,-75.1339,USA,PA,USA,"6' 1""",205,R,R
+8448772,Claude Lemieux,Claude,Lemieux,1965-07-16,Buckingham,51.995,-0.986,CAN,QC,CAN,"6' 1""",215,R,R
+8448782,Mario Lemieux,Mario,Lemieux,1965-10-05,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 4""",230,R,C
+8448797,Curtis Leschyshyn,Curtis,Leschyshyn,1969-09-21,Thompson,41.6474,-74.6745,CAN,MB,CAN,"6' 1""",207,L,D
+8448839,Doug Lidster,Doug,Lidster,1960-10-18,Kamloops,50.6761,-120.341,CAN,BC,CAN,"6' 1""",200,R,D
+8448841,Troy Loney,Troy,Loney,1963-09-21,Bow Island,,,CAN,AB,CAN,"6' 3""",209,L,L
+8448845,Craig Ludwig,Craig,Ludwig,1961-03-15,Rhinelander,45.6361,-89.4256,USA,WI,USA,"6' 3""",220,L,D
+8448884,Kevin Lowe,Kevin,Lowe,1959-04-15,Lachute,45.65,-74.3333,CAN,QC,CAN,"6' 2""",200,L,D
+8449009,Jamie Macoun,Jamie,Macoun,1961-08-17,Newmarket,44.05,-79.4667,CAN,ON,CAN,"6' 1""",193,L,D
+8449020,Craig MacTavish,Craig,MacTavish,1958-08-15,London,51.5072,-0.1275,CAN,ON,CAN,"6' 1""",200,L,C
+8449295,Stephane Matteau,Stephane,Matteau,1969-09-02,Rouyn,48.2333,-79.0167,CAN,QC,CAN,"6' 4""",220,L,L
+8449450,Randy McKay,Randy,McKay,1967-01-25,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 2""",210,R,R
+8449477,Jim McKenzie,Jim,McKenzie,1969-11-03,Gull Lake,,,CAN,SK,CAN,"6' 4""",230,L,L
+8449499,John MacLean,John,MacLean,1964-11-20,Oshawa,43.9,-78.85,CAN,ON,CAN,"6' 0""",200,R,R
+8449573,Mark Messier,Mark,Messier,1961-01-18,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 2""",211,L,C
+8449583,David Michayluk,David,Michayluk,1962-05-18,Wakaw,,,CAN,SK,CAN,"5' 10""",189,L,L
+8449606,Corey Millen,Corey,Millen,1964-03-30,Cloquet,46.7221,-92.4923,USA,MN,USA,"5' 7""",170,R,C
+8449645,Mike Modano,Mike,Modano,1970-06-07,Livonia,42.3972,-83.3733,USA,MI,USA,"6' 3""",212,L,C
+8449654,Alexander Mogilny,Alexander,Mogilny,1969-02-18,Khabarovsk,48.4833,135.067,RUS,N/A,RUS,"6' 0""",210,L,R
+8449740,Kirk Muller,Kirk,Muller,1966-02-08,Kingston,17.9714,-76.7931,CAN,ON,CAN,"6' 0""",205,L,L
+8449743,Joe Mullen,Joe,Mullen,1957-02-26,New York City,,,USA,NY,USA,"5' 9""",180,R,R
+8449745,Larry Murphy,Larry,Murphy,1961-03-08,Scarborough,54.2773,-0.4017,CAN,ON,CAN,"6' 1""",215,R,D
+8449773,Troy Murray,Troy,Murray,1962-07-31,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 1""",195,R,C
+8449893,Joe Nieuwendyk,Joe,Nieuwendyk,1966-09-10,Oshawa,43.9,-78.85,CAN,ON,CAN,"6' 2""",209,L,C
+8449894,Brian Noonan,Brian,Noonan,1965-05-29,Boston,42.3188,-71.0846,USA,MA,USA,"6' 1""",200,R,R
+8449895,Owen Nolan,Owen,Nolan,1972-02-12,Belfast,54.5964,-5.93,GBR,N/A,CAN,"6' 1""",214,R,R
+8449957,Lyle Odelein,Lyle,Odelein,1968-07-21,Quill Lake,,,CAN,SK,CAN,"6' 0""",212,L,D
+8449971,Fredrik Olausson,Fredrik,Olausson,1966-10-05,Dadesjo,,,SWE,N/A,SWE,"6' 0""",198,R,D
+8449973,Eddie Olczyk,Eddie,Olczyk,1966-08-16,Chicago,41.8373,-87.6862,USA,IL,USA,"6' 1""",207,L,R
+8450089,Jim Paek,Jim,Paek,1967-04-07,Seoul,37.5833,127.0,KOR,N/A,KOR,"6' 1""",200,L,D
+8450223,James Patrick,James,Patrick,1963-06-14,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 2""",198,R,D
+8450293,Mike Peluso,Mike,Peluso,1965-11-08,Pengilly,,,USA,MN,USA,"6' 4""",225,L,L
+8450390,Frank Pietrangelo,Frank,Pietrangelo,1964-12-17,Niagara Falls,43.06,-79.1067,CAN,ON,CAN,"5' 10""",185,L,G
+8450560,Ken Priestlay,Ken,Priestlay,1967-08-24,Richmond,37.5295,-77.4756,CAN,BC,CAN,"5' 10""",190,L,C
+8450642,Rob Ramage,Rob,Ramage,1959-01-11,Byron,42.1224,-89.2665,CAN,ON,CAN,"6' 2""",200,R,D
+8450645,Mike Ramsey,Mike,Ramsey,1960-12-03,Minneapolis,44.9635,-93.2678,USA,MN,USA,"6' 3""",195,L,D
+8450657,Andre Racicot,Andre,Racicot,1969-06-09,Rouyn-Noranda,48.2333,-79.0167,CAN,QC,CAN,"5' 11""",165,L,G
+8450725,Mark Recchi,Mark,Recchi,1968-02-01,Kamloops,50.6761,-120.341,CAN,BC,CAN,"5' 10""",195,L,R
+8450773,Dave Reid,Dave,Reid,1964-05-15,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",217,L,L
+8450817,Mike Ricci,Mike,Ricci,1971-10-27,Scarborough,54.2773,-0.4017,CAN,ON,CAN,"6' 0""",200,L,C
+8450825,Stephane Richer,Stephane,Richer,1966-06-07,Ripon,54.138,-1.524,CAN,QC,CAN,"6' 2""",218,R,R
+8450833,Mike Richter,Mike,Richter,1966-09-22,Abington,40.1108,-75.1146,USA,PA,USA,"5' 10""",190,L,G
+8450890,Mario Roberge,Mario,Roberge,1964-01-25,Quebec City,46.8139,-71.2081,CAN,QC,CAN,"5' 10""",200,L,L
+8450905,Gordie Roberts,Gordie,Roberts,1957-10-02,Detroit,42.3834,-83.1024,USA,MI,USA,"6' 1""",195,L,D
+8450941,Luc Robitaille,Luc,Robitaille,1966-02-17,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 1""",215,L,L
+8451022,Bob Rouse,Bob,Rouse,1964-06-18,Surrey,49.19,-122.849,CAN,BC,CAN,"6' 2""",220,R,D
+8451033,Patrick Roy,Patrick,Roy,1965-10-05,Québec,46.8139,-71.2081,CAN,QC,CAN,"6' 2""",190,L,G
+8451059,Darren Rumble,Darren,Rumble,1969-01-23,Barrie,44.3711,-79.6769,CAN,ON,CAN,"6' 1""",207,L,D
+8451089,Warren Rychel,Warren,Rychel,1967-05-12,Tecumseh,42.2431,-82.9256,CAN,ON,CAN,"6' 0""",205,L,L
+8451101,Joe Sakic,Joe,Sakic,1969-07-07,Burnaby,49.2667,-122.967,CAN,BC,CAN,"5' 11""",195,L,C
+8451105,Kjell Samuelsson,Kjell,Samuelsson,1958-10-18,Tingsryd,,,SWE,N/A,SWE,"6' 6""",235,R,D
+8451107,Ulf Samuelsson,Ulf,Samuelsson,1964-03-26,Fagerstad,,,SWE,N/A,SWE,"6' 1""",205,L,D
+8451122,Tomas Sandstrom,Tomas,Sandstrom,1964-09-04,Jakobstad,63.6667,22.7,FIN,N/A,SWE,"6' 2""",205,L,R
+8451146,Denis Savard,Denis,Savard,1961-02-04,Pointe Gatineau,,,CAN,QC,CAN,"5' 10""",175,R,C
+8451224,Mathieu Schneider,Mathieu,Schneider,1969-06-12,New York City,,,USA,NY,USA,"5' 11""",192,L,D
+8451293,Brent Severyn,Brent,Severyn,1966-02-22,Vegreville,53.4928,-112.052,CAN,AB,CAN,"6' 2""",211,L,L
+8451302,Brendan Shanahan,Brendan,Shanahan,1969-01-23,Mimico,,,CAN,ON,CAN,"6' 3""",220,R,L
+8451427,Brian Skrudland,Brian,Skrudland,1963-07-31,Peace River,56.2339,-117.29,CAN,AB,CAN,"6' 0""",195,L,C
+8451657,Paul Stanton,Paul,Stanton,1967-06-22,Boston,42.3188,-71.0846,USA,MA,USA,"6' 1""",200,R,D
+8451711,Kevin Stevens,Kevin,Stevens,1965-04-15,Brockton,42.0821,-71.0242,USA,MA,USA,"6' 3""",231,L,L
+8451715,Scott Stevens,Scott,Stevens,1964-04-01,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"6' 2""",215,L,D
+8451805,Ken Sutton,Ken,Sutton,1969-11-05,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 1""",205,L,D
+8451836,Peter Taglianetti,Peter,Taglianetti,1963-08-15,Framingham,42.3085,-71.4368,USA,MA,USA,"6' 2""",195,L,D
+8451860,Chris Terreri,Chris,Terreri,1964-11-15,Providence,41.823,-71.4187,USA,RI,USA,"5' 9""",170,L,G
+8451905,Esa Tikkanen,Esa,Tikkanen,1965-01-25,Helsinki,60.1756,24.9342,FIN,N/A,FIN,"6' 1""",200,L,L
+8451925,Rick Tocchet,Rick,Tocchet,1964-04-09,Scarborough,54.2773,-0.4017,CAN,ON,CAN,"6' 0""",210,R,R
+8451965,Bryan Trottier,Bryan,Trottier,1956-07-17,Val Marie,,,CAN,SK,CAN,"5' 11""",195,L,C
+8451994,Darren Turcotte,Darren,Turcotte,1968-03-02,Boston,42.3188,-71.0846,USA,MA,USA,"6' 0""",190,L,C
+8452216,Pat Verbeek,Pat,Verbeek,1964-05-24,Sarnia,42.9994,-82.3089,CAN,ON,CAN,"5' 9""",190,R,R
+8452217,Mike Vernon,Mike,Vernon,1963-02-24,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 9""",175,L,G
+8452366,Jay Wells,Jay,Wells,1959-05-18,Paris,48.8566,2.3522,CAN,ON,CAN,"6' 1""",210,L,D
+8452371,Glen Wesley,Glen,Wesley,1968-10-02,Red Deer,52.2681,-113.811,CAN,AB,CAN,"6' 1""",207,L,D
+8452516,Craig Wolanin,Craig,Wolanin,1967-07-27,Grosse Pointe,42.4366,-82.8987,USA,MI,USA,"6' 4""",215,L,D
+8452535,Ken Wregget,Ken,Wregget,1964-03-25,Brandon,27.9367,-82.3,CAN,MB,CAN,"6' 1""",201,L,G
+8452569,Scott Young,Scott,Young,1967-10-01,Clinton,38.7499,-76.9063,USA,MA,USA,"6' 1""",200,R,R
+8452576,Wendell Young,Wendell,Young,1963-08-01,Halifax,44.6475,-63.5906,CAN,NS,CAN,"5' 9""",181,L,G
+8452578,Steve Yzerman,Steve,Yzerman,1965-05-09,Cranbrook,49.5097,-115.767,CAN,BC,CAN,"5' 10""",187,R,C
+8455429,Tony Amonte,Tony,Amonte,1970-08-02,Hingham,42.2176,-70.8854,USA,MA,USA,"6' 0""",202,L,R
+8455441,Peter Andersson,Peter,Andersson,1965-08-29,Orebro,59.2669,15.1965,SWE,N/A,SWE,"6' 0""",196,L,D
+8455564,Jesse Belanger,Jesse,Belanger,1969-06-15,St-Georges De Beauce,,,CAN,QC,CAN,"6' 1""",190,R,C
+8455653,Brad Bombardir,Brad,Bombardir,1972-05-05,Powell River,49.8353,-124.525,CAN,BC,CAN,"6' 1""",205,L,D
+8455710,Martin Brodeur,Martin,Brodeur,1972-05-06,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 2""",220,L,G
+8455801,Patrik Carnback,Patrik,Carnback,1968-02-01,Gothenburg,57.6717,11.981,SWE,N/A,SWE,"6' 0""",205,L,R
+8455843,Eric Charron,Eric,Charron,1970-01-14,Verdun,,,CAN,QC,CAN,"6' 3""",215,L,D
+8456024,Kevin Dean,Kevin,Dean,1969-04-01,Madison,43.0826,-89.3931,USA,WI,USA,"6' 3""",205,L,D
+8456080,Paul Di Pietro,Paul,Di Pietro,1970-09-08,Sault Ste. Marie,46.5333,-84.35,CAN,ON,CHE,"5' 8""",179,R,C
+8456100,Jim Dowd,Jim,Dowd,1968-12-25,Brick,40.06,-74.1099,USA,NJ,USA,"6' 0""",180,R,C
+8456106,Dallas Drake,Dallas,Drake,1969-02-04,Trail,35.0698,-80.6457,CAN,BC,CAN,"6' 0""",186,L,R
+8456182,David Emma,David,Emma,1969-01-14,Cranston,41.7658,-71.4857,USA,RI,USA,"5' 10""",187,L,C
+8456283,Adam Foote,Adam,Foote,1971-07-10,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 2""",220,R,D
+8456430,Travis Green,Travis,Green,1970-12-20,Castlegar,49.3256,-117.666,CAN,BC,CAN,"6' 2""",200,R,C
+8456464,Bill Guerin,Bill,Guerin,1970-11-09,Worcester,42.2705,-71.8079,USA,MA,USA,"6' 2""",220,R,R
+8456496,Ben Hankinson,Ben,Hankinson,1969-05-01,Edina,24.4667,39.6,USA,MN,USA,"6' 2""",210,R,R
+8456531,Derian Hatcher,Derian,Hatcher,1972-06-04,Sterling Heights,42.5809,-83.0305,USA,MI,USA,"6' 5""",235,L,D
+8456547,Bret Hedican,Bret,Hedican,1970-08-10,St. Paul,44.9477,-93.104,USA,MN,USA,"6' 2""",210,L,D
+8456595,Sean Hill,Sean,Hill,1970-02-14,Duluth,46.7756,-92.1392,USA,MN,USA,"6' 0""",204,R,D
+8456597,Jim Hiller,Jim,Hiller,1969-05-13,Port Alberni,49.2339,-124.805,CAN,BC,CAN,"6' 0""",190,R,R
+8456734,Greg Johnson,Greg,Johnson,1971-03-16,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"5' 11""",200,L,C
+8456770,Valeri Kamensky,Valeri,Kamensky,1966-04-18,Voskresensk,55.3167,38.6833,RUS,N/A,RUS,"6' 2""",205,R,L
+8456793,Alexander Karpovtsev,Alexander,Karpovtsev,1970-04-07,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 3""",221,L,D
+8456848,Patric Kjellberg,Patric,Kjellberg,1969-06-17,Trelleborg,,,SWE,N/A,SWE,"6' 3""",210,L,L
+8456852,Jon Klemm,Jon,Klemm,1970-01-08,Cranbrook,49.5097,-115.767,CAN,BC,CAN,"6' 2""",205,R,D
+8456870,Vladimir Konstantinov,Vladimir,Konstantinov,1967-03-19,Murmansk,68.9667,33.0833,RUS,N/A,RUS,"6' 0""",195,R,D
+8456882,Andrei Kovalenko,Andrei,Kovalenko,1970-06-07,Balakovo,52.039,47.7839,RUS,N/A,RUS,"5' 10""",215,L,R
+8456887,Vyacheslav Kozlov,Vyacheslav,Kozlov,1972-05-03,Voskresensk,55.3167,38.6833,RUS,N/A,RUS,"5' 10""",190,L,L
+8456932,Daniel Lacroix,Daniel,Lacroix,1969-03-11,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 2""",205,L,C
+8457063,Nicklas Lidstrom,Nicklas,Lidstrom,1970-04-28,Vasteras,59.6173,16.5422,SWE,N/A,SWE,"6' 1""",192,L,D
+8457186,Mark Major,Mark,Major,1970-03-20,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 3""",223,L,L
+8457191,Vladimir Malakhov,Vladimir,Malakhov,1968-08-30,Sverdlovskurg,,,RUS,N/A,RUS,"6' 4""",230,L,D
+8457261,Brad May,Brad,May,1971-11-29,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",213,L,L
+8457264,Chris McAlpine,Chris,McAlpine,1971-12-01,Roseville,38.7703,-121.32,USA,MN,USA,"6' 1""",215,R,D
+8457297,Shawn McEachern,Shawn,McEachern,1969-02-28,Waltham,51.59,,USA,MA,USA,"5' 11""",200,L,L
+8457372,Joby Messier,Joby,Messier,1970-03-02,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 1""",207,R,D
+8457384,Aaron Miller,Aaron,Miller,1971-08-11,Buffalo,42.9016,-78.8487,USA,NY,USA,"6' 3""",210,R,D
+8457403,Jaroslav Modry,Jaroslav,Modry,1971-02-27,eské Budjovice,,,CZE,N/A,CZE,"6' 2""",220,L,D
+8457421,Ian Moran,Ian,Moran,1972-08-24,Cleveland,41.4767,-81.6804,USA,OH,USA,"5' 11""",197,R,D
+8457451,Glenn Mulvenna,Glenn,Mulvenna,1967-02-18,Calgary,51.05,-114.067,CAN,AB,GBR,"5' 11""",187,L,C
+8457481,Michael Needham,Michael,Needham,1970-04-04,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 10""",185,R,R
+8457490,Todd Nelson,Todd,Nelson,1969-05-15,Prince Albert,53.2,-105.75,CAN,SK,CAN,"6' 0""",201,L,D
+8457491,Sergei Nemchinov,Sergei,Nemchinov,1964-01-14,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 1""",205,L,L
+8457686,Derek Plante,Derek,Plante,1971-01-17,Cloquet,46.7221,-92.4923,USA,MN,USA,"5' 11""",181,L,C
+8457704,Shjon Podein,Shjon,Podein,1968-03-05,Rochester,43.168,-77.6162,USA,MN,USA,"6' 2""",200,L,L
+8457849,Ed Ronan,Ed,Ronan,1968-03-21,Quincy,42.2516,-71.0183,USA,MA,USA,"6' 0""",197,R,R
+8457969,Corey Schwab,Corey,Schwab,1970-11-04,North Battleford,52.7575,-108.286,CAN,SK,CAN,"6' 0""",180,L,G
+8457981,Teemu Selanne,Teemu,Selanne,1970-07-03,Helsinki,60.1756,24.9342,FIN,N/A,FIN,"6' 0""",209,R,R
+8457983,Alexander Semak,Alexander,Semak,1966-02-11,Ufa,54.7333,55.9667,RUS,N/A,RUS,"5' 10""",190,R,C
+8458031,Chris Simon,Chris,Simon,1972-01-30,Wawa,-16.035,34.801,CAN,ON,CAN,"6' 3""",232,L,L
+8458036,Reid Simpson,Reid,Simpson,1969-05-21,Flin Flon,54.7667,-101.878,CAN,MB,CAN,"6' 2""",216,L,L
+8458048,John Slaney,John,Slaney,1972-02-07,St. John's,47.4817,-52.7971,CAN,NL,CAN,"6' 0""",190,L,D
+8458052,Jiri Slegr,Jiri,Slegr,1971-05-30,Jihlava,49.4003,15.5906,CZE,N/A,CZE,"6' 1""",210,L,D
+8458058,Richard Smehlik,Richard,Smehlik,1970-01-23,Ostrava,49.8356,18.2925,CZE,N/A,CZE,"6' 3""",230,L,D
+8458125,Turner Stevenson,Turner,Stevenson,1972-05-18,Prince George,53.9169,-122.749,CAN,BC,CAN,"6' 3""",230,R,R
+8458172,Darryl Sydor,Darryl,Sydor,1972-05-13,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 1""",211,L,D
+8458192,Tim Taylor,Tim,Taylor,1969-02-06,Stratford,51.5423,-0.0026,CAN,ON,CAN,"6' 1""",190,L,C
+8458266,Roman Turek,Roman,Turek,1970-05-21,Strakonice,49.2615,13.9024,CZE,N/A,CZE,"6' 4""",222,R,G
+8458361,Doug Weight,Doug,Weight,1971-01-21,Detroit,42.3834,-83.1024,USA,MI,USA,"5' 11""",202,L,C
+8458483,Valeri Zelepukin,Valeri,Zelepukin,1968-09-17,Voskresensk,55.3167,38.6833,RUS,N/A,RUS,"6' 1""",200,L,L
+8458494,Sergei Zubov,Sergei,Zubov,1970-07-22,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 1""",198,R,D
+8458517,Scott Niedermayer,Scott,Niedermayer,1973-08-31,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 1""",194,L,D
+8458519,Aaron Ward,Aaron,Ward,1973-01-17,Windsor,42.2833,-83.0,CAN,ON,CAN,"6' 2""",209,R,D
+8458520,Peter Forsberg,Peter,Forsberg,1973-07-20,Ornskoldsvik,63.318,18.7167,SWE,N/A,SWE,"6' 0""",205,L,C
+8458522,Richard Matvichuk,Richard,Matvichuk,1973-02-05,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 3""",210,L,D
+8458524,Martin Lapointe,Martin,Lapointe,1973-09-12,Ville St. Pierre,,,CAN,QC,CAN,"5' 11""",215,R,R
+8458525,Brian Rolston,Brian,Rolston,1973-02-21,Flint,43.0235,-83.6922,USA,MI,USA,"6' 2""",215,L,R
+8458527,Philippe Boucher,Philippe,Boucher,1973-03-24,St. Apollinaire,,,CAN,QC,CAN,"6' 3""",218,R,D
+8458529,Alex Kovalev,Alex,Kovalev,1973-02-24,Togliatti,,,RUS,N/A,RUS,"6' 2""",222,L,R
+8458534,Martin Rucinsky,Martin,Rucinsky,1971-03-11,Most,43.3494,17.8125,CZE,N/A,CZE,"6' 1""",205,L,L
+8458537,Ray Whitney,Ray,Whitney,1972-05-08,Fort Saskatchewan,53.7128,-113.213,CAN,AB,CAN,"5' 10""",180,R,L
+8458538,Rene Corbet,Rene,Corbet,1973-06-25,Victoriaville,46.05,-71.9667,CAN,QC,CAN,"6' 0""",187,L,L
+8458543,Jassen Cullimore,Jassen,Cullimore,1972-12-04,Simcoe,,,CAN,ON,CAN,"6' 5""",235,L,D
+8458544,Sandis Ozolinsh,Sandis,Ozolinsh,1972-08-03,Riga,56.9475,24.1069,LVA,N/A,LVA,"6' 3""",215,L,D
+8458546,Jamie Pushor,Jamie,Pushor,1973-02-11,Lethbridge,49.6942,-112.833,CAN,AB,CAN,"6' 3""",218,R,D
+8458557,Craig Darby,Craig,Darby,1972-09-26,Oneida,43.0769,-75.6621,USA,NY,USA,"6' 3""",205,R,C
+8458568,Chris Osgood,Chris,Osgood,1972-11-26,Peace River,56.2339,-117.29,CAN,AB,CAN,"5' 10""",180,L,G
+8458590,Mike Knuble,Mike,Knuble,1972-07-04,Toronto,43.7417,-79.3733,CAN,ON,USA,"6' 3""",229,R,R
+8458637,Sean O'Donnell,Sean,O'Donnell,1971-10-13,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 2""",238,L,D
+8458641,Oleg Petrov,Oleg,Petrov,1971-04-18,Moscow,55.7558,37.6178,RUS,N/A,RUS,"5' 9""",172,L,R
+8458666,Kelly Fairchild,Kelly,Fairchild,1973-04-09,Hibbing,47.3981,-92.9487,USA,MN,USA,"5' 11""",198,L,C
+8458672,Dmitri Mironov,Dmitri,Mironov,1965-12-25,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 4""",227,R,D
+8458805,Janne Laukkanen,Janne,Laukkanen,1970-03-19,Lahti,60.9833,25.6556,FIN,N/A,FIN,"6' 1""",187,L,D
+8458943,Cory Stillman,Cory,Stillman,1973-12-20,Peterborough,44.3,-78.3167,CAN,ON,CAN,"6' 0""",193,L,L
+8458951,Sergei Gonchar,Sergei,Gonchar,1974-04-13,Chelyabinsk,55.15,61.4,RUS,N/A,RUS,"6' 2""",210,L,D
+8458954,Jason Smith,Jason,Smith,1973-11-02,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 3""",220,R,D
+8458959,Grant Marshall,Grant,Marshall,1973-06-09,Mississauga,43.6,-79.65,CAN,ON,CAN,"6' 1""",200,R,R
+8458964,Paul Brousseau,Paul,Brousseau,1973-09-18,Pierrefonds,,,CAN,QC,CAN,"6' 2""",212,R,R
+8458978,Sergei Brylin,Sergei,Brylin,1974-01-13,Moscow,55.7558,37.6178,RUS,N/A,RUS,"5' 10""",190,L,L
+8458982,Darren McCarty,Darren,McCarty,1972-04-01,Burnaby,49.2667,-122.967,CAN,BC,CAN,"6' 1""",210,R,R
+8458984,Mattias Norstrom,Mattias,Norstrom,1972-01-02,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 2""",210,L,D
+8458988,Manny Fernandez,Manny,Fernandez,1974-08-27,Etobicoke,,,CAN,ON,CAN,"6' 0""",207,L,G
+8459001,Kirk Maltby,Kirk,Maltby,1972-12-22,Guelph,43.55,-80.25,CAN,ON,CAN,"6' 0""",195,R,L
+8459010,Aaron Gavey,Aaron,Gavey,1974-02-22,Sudbury,51.5537,-0.3199,CAN,ON,CAN,"6' 2""",189,L,C
+8459024,Jere Lehtinen,Jere,Lehtinen,1973-06-24,Espoo,60.21,24.66,FIN,N/A,FIN,"6' 0""",194,R,R
+8459122,Stephane Yelle,Stephane,Yelle,1974-05-09,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 2""",182,L,C
+8459140,Nikolai Khabibulin,Nikolai,Khabibulin,1973-01-13,Sverdlovsk,,,RUS,N/A,RUS,"6' 1""",208,L,G
+8459223,Pascal Rheaume,Pascal,Rheaume,1973-06-21,Quebec City,46.8139,-71.2081,CAN,QC,CAN,"6' 1""",210,L,C
+8459308,Manny Legace,Manny,Legace,1973-02-04,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 10""",200,L,G
+8459357,Kevin Hodson,Kevin,Hodson,1972-03-27,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 0""",182,L,G
+8459424,Chris Pronger,Chris,Pronger,1974-10-10,Dryden,42.4786,-76.3563,CAN,ON,CAN,"6' 6""",220,L,D
+8459427,Rob Niedermayer,Rob,Niedermayer,1974-12-28,Cassiar,,,CAN,BC,CAN,"6' 2""",203,L,C
+8459429,Jason Arnott,Jason,Arnott,1974-10-11,Collingwood,44.5,-80.2167,CAN,ON,CAN,"6' 5""",220,R,C
+8459432,Jocelyn Thibault,Jocelyn,Thibault,1975-01-12,Montréal,45.5089,-73.5617,CAN,QC,CAN,"5' 11""",169,L,G
+8459435,Denis Pederson,Denis,Pederson,1975-09-10,Prince Albert,53.2,-105.75,CAN,SK,CAN,"6' 2""",205,R,C
+8459436,Adam Deadmarsh,Adam,Deadmarsh,1975-05-10,Trail,35.0698,-80.6457,CAN,BC,USA,"6' 0""",205,R,R
+8459441,Landon Wilson,Landon,Wilson,1975-03-13,St. Louis,38.6358,-90.2451,USA,MO,USA,"6' 3""",224,R,R
+8459443,Anders Eriksson,Anders,Eriksson,1975-01-09,Bollnas,61.352,16.3666,SWE,N/A,SWE,"6' 3""",224,L,D
+8459446,Kevyn Adams,Kevyn,Adams,1974-10-08,Washington,38.9047,-77.0163,USA,DC,USA,"6' 1""",200,R,C
+8459454,Jay Pandolfo,Jay,Pandolfo,1974-12-27,Winchester,36.1368,-115.13,USA,MA,USA,"6' 1""",190,L,L
+8459457,Jamie Langenbrunner,Jamie,Langenbrunner,1975-07-24,Cloquet,46.7221,-92.4923,USA,MN,USA,"6' 1""",205,R,R
+8459461,Brendan Morrison,Brendan,Morrison,1975-08-15,Pitt Meadows,49.2333,-122.683,CAN,BC,CAN,"5' 11""",176,L,C
+8459486,Krzysztof Oliwa,Krzysztof,Oliwa,1973-04-12,Tychy,50.1667,19.0,POL,N/A,POL,"6' 5""",245,L,L
+8459514,Jamal Mayers,Jamal,Mayers,1974-10-24,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",222,R,R
+8459534,Miroslav Satan,Miroslav,Satan,1974-10-22,Topolcany,,,SVK,N/A,SVK,"6' 3""",191,L,R
+8459538,Nolan Pratt,Nolan,Pratt,1975-08-14,Fort McMurray,,,CAN,AB,CAN,"6' 3""",207,L,D
+8459549,Norm Maracle,Norm,Maracle,1974-10-02,Belleville,40.795,-74.1616,CAN,ON,CAN,"5' 9""",175,L,G
+8459550,Anders Myrvold,Anders,Myrvold,1975-08-12,Lorenskog,,,NOR,N/A,NOR,"6' 1""",178,L,D
+8459566,Steve Brule,Steve,Brule,1975-01-15,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 0""",200,R,C
+8459587,Todd Marchant,Todd,Marchant,1973-08-12,Buffalo,42.9016,-78.8487,USA,NY,USA,"5' 10""",180,L,C
+8459628,Hal Gill,Hal,Gill,1975-04-06,Concord,37.9722,-122.002,USA,MA,USA,"6' 7""",243,L,D
+8459654,Joel Prpic,Joel,Prpic,1974-09-25,Sudbury,51.5537,-0.3199,CAN,ON,CAN,"6' 6""",236,L,C
+8459670,Kimmo Timonen,Kimmo,Timonen,1975-03-18,Kuopio,62.8925,27.6783,FIN,N/A,FIN,"5' 10""",194,L,D
+8460012,Eric Messier,Eric,Messier,1973-10-29,Drummondville,45.8833,-72.4833,CAN,QC,CAN,"6' 2""",197,L,L
+8460014,Eric Bertrand,Eric,Bertrand,1975-04-16,St-Ephrem,,,CAN,QC,CAN,"6' 1""",205,L,L
+8460254,Greg De Vries,Greg,De Vries,1973-01-04,Sundridge,,,CAN,ON,CAN,"6' 2""",205,L,D
+8460465,Petr Sykora,Petr,Sykora,1976-11-19,Plzen,49.7414,13.3825,CZE,N/A,CZE,"6' 0""",190,L,R
+8460482,Stephen Guolla,Stephen,Guolla,1973-03-15,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",190,L,C
+8460493,Oleg Tverdovsky,Oleg,Tverdovsky,1976-05-18,Donetsk,48.0089,37.8042,UKR,N/A,RUS,"6' 1""",211,L,D
+8460501,Jeff Friesen,Jeff,Friesen,1976-08-05,Meadow Lake,40.924,-74.5121,CAN,SK,CAN,"6' 1""",212,L,L
+8460504,Ethan Moreau,Ethan,Moreau,1975-09-22,Huntsville,34.6988,-86.6412,CAN,ON,CAN,"6' 3""",223,L,L
+8460509,Chris Dingman,Chris,Dingman,1976-07-06,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 4""",244,L,L
+8460510,Jason Botterill,Jason,Botterill,1976-05-19,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 4""",217,L,L
+8460513,Yan Golubovsky,Yan,Golubovsky,1976-03-09,Novosibirsk,55.0333,82.9167,RUS,N/A,RUS,"6' 3""",205,R,D
+8460515,Vadim Sharifijanov,Vadim,Sharifijanov,1975-12-23,Ufa,54.7333,55.9667,RUS,N/A,RUS,"6' 0""",205,L,R
+8460520,Stan Neckar,Stan,Neckar,1975-12-22,eské Budjovice,,,CZE,N/A,CZE,"6' 1""",214,L,D
+8460521,Deron Quint,Deron,Quint,1976-03-12,Durham,35.9794,-78.9031,USA,NH,USA,"6' 2""",192,L,D
+8460526,Josef Marha,Josef,Marha,1976-06-02,Havlickuv Brod,49.6079,15.5807,CZE,N/A,CZE,"6' 1""",191,L,C
+8460540,Mathieu Dandenault,Mathieu,Dandenault,1976-02-03,Sherbrooke,45.4,-71.9,CAN,QC,CAN,"6' 0""",208,R,R
+8460542,Patrik Elias,Patrik,Elias,1976-04-13,Trebic,49.215,15.8817,CZE,N/A,CZE,"6' 1""",190,L,C
+8460556,Freddy Modin,Freddy,Modin,1974-10-08,Sundsvall,62.4001,17.3167,SWE,N/A,SWE,"6' 4""",220,L,L
+8460561,Sheldon Souray,Sheldon,Souray,1976-07-13,Elk Point,,,CAN,AB,CAN,"6' 4""",231,L,D
+8460562,Chris Drury,Chris,Drury,1976-08-20,Trumbull,41.2602,-73.2083,USA,CT,USA,"5' 10""",191,R,C
+8460577,Milan Hejduk,Milan,Hejduk,1976-02-14,Usti,30.3004,-97.7522,CZE,N/A,CZE,"6' 0""",190,R,R
+8460580,Brad Lukowich,Brad,Lukowich,1976-08-12,Cranbrook,49.5097,-115.767,CAN,BC,CAN,"6' 1""",191,L,D
+8460587,Jamie Wright,Jamie,Wright,1976-05-13,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"6' 0""",194,L,L
+8460639,Andre Roy,Andre,Roy,1975-02-08,Port Chester,41.0052,-73.668,USA,NY,USA,"6' 4""",229,L,R
+8460661,Shane Hnidy,Shane,Hnidy,1975-11-08,Neepawa,,,CAN,MB,CAN,"6' 2""",204,R,D
+8460663,Ladislav Kohn,Ladislav,Kohn,1975-03-04,Uherské Hradiste,49.0698,17.4597,CZE,N/A,CZE,"5' 11""",200,L,R
+8460689,Raymond Giroux,Raymond,Giroux,1976-07-20,North Bay,40.7601,-73.2618,CAN,ON,CAN,"6' 1""",190,L,D
+8460692,Jason Elliott,Jason,Elliott,1975-11-10,Inuvik,,,CAN,NT,CAN,"6' 2""",183,L,G
+8460696,Frederic Cassivi,Frederic,Cassivi,1975-06-12,Sorel,46.0333,-73.1167,CAN,QC,CAN,"6' 4""",220,L,G
+8460703,Tim Thomas,Tim,Thomas,1974-04-15,Flint,43.0235,-83.6922,USA,MI,USA,"5' 11""",201,L,G
+8460715,John Grahame,John,Grahame,1975-08-31,Denver,39.7621,-104.876,USA,CO,USA,"6' 3""",220,L,G
+8460743,Tomas Holmstrom,Tomas,Holmstrom,1973-01-23,Pitea,,,SWE,N/A,SWE,"6' 0""",200,L,L
+8460770,Kim Johnsson,Kim,Johnsson,1976-03-16,Malmo,55.5932,13.0214,SWE,N/A,SWE,"6' 1""",193,L,D
+8462037,Steve Kelly,Steve,Kelly,1976-10-26,Vancouver,49.25,-123.1,CAN,BC,CAN,"6' 2""",210,L,C
+8462044,Jean-Sebastien Giguere,Jean-Sebastien,Giguere,1977-05-16,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 1""",202,L,G
+8462056,Maxim Kuznetsov,Maxim,Kuznetsov,1977-03-24,Pavlodar,52.3156,76.9564,RUS,N/A,RUS,"6' 5""",230,L,D
+8462082,Brad Larsen,Brad,Larsen,1977-06-28,Nakusp,,,CAN,BC,CAN,"6' 0""",210,L,L
+8462085,Shane Willis,Shane,Willis,1977-06-13,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 1""",195,R,R
+8462087,Darryl Laplante,Darryl,Laplante,1977-03-28,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 0""",185,L,C
+8462090,Petr Buzek,Petr,Buzek,1977-04-26,Jihlava,49.4003,15.5906,CZE,N/A,CZE,"6' 1""",220,L,D
+8462096,Sergey Gusev,Sergey,Gusev,1975-07-31,Nizhny Tagil,,,RUS,N/A,RUS,"6' 1""",205,L,D
+8462118,Marc Savard,Marc,Savard,1977-07-17,Ottawa,45.4247,-75.695,CAN,ON,CAN,"5' 10""",191,L,C
+8462129,Michal Handzus,Michal,Handzus,1977-03-11,Banská Bystrica,48.7353,19.1453,SVK,N/A,SVK,"6' 5""",215,L,C
+8462176,Brent Sopel,Brent,Sopel,1977-01-07,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 2""",205,R,D
+8462600,Rob Shearer,Rob,Shearer,1976-10-19,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"5' 10""",190,R,C
+8463638,Bryan Muir,Bryan,Muir,1973-06-08,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 3""",225,L,D
+8464959,Ric Jackman,Ric,Jackman,1978-06-28,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 2""",214,R,D
+8464960,Boyd Devereaux,Boyd,Devereaux,1978-04-16,Seaforth,,,CAN,ON,CAN,"6' 2""",195,L,C
+8464976,Jesse Wallin,Jesse,Wallin,1978-03-10,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 2""",203,L,D
+8464981,Cory Sarich,Cory,Sarich,1978-08-16,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 4""",207,R,D
+8464989,Matt Cullen,Matt,Cullen,1976-11-02,Virginia,36.7335,-76.0435,USA,MN,USA,"6' 1""",202,L,C
+8464999,Mathieu Garon,Mathieu,Garon,1978-01-09,Chandler,33.2826,-111.852,CAN,QC,CAN,"6' 1""",198,R,G
+8465002,Yuri Babenko,Yuri,Babenko,1978-01-02,Penza,53.2,45.0,RUS,N/A,RUS,"6' 1""",205,L,C
+8465005,Colin White,Colin,White,1977-12-12,New Glasgow,45.5926,-62.6455,CAN,NS,CAN,"6' 4""",215,L,D
+8465009,Zdeno Chara,Zdeno,Chara,1977-03-18,Trencin,48.8942,18.0406,SVK,N/A,SVK,"6' 9""",250,L,D
+8465016,Scott Parker,Scott,Parker,1978-01-29,Hanford,36.3274,-119.655,USA,CA,USA,"6' 5""",240,R,R
+8465024,Jon Sim,Jon,Sim,1977-09-29,New Glasgow,45.5926,-62.6455,CAN,NS,CAN,"5' 10""",189,L,L
+8465058,Michal Rozsival,Michal,Rozsival,1978-09-03,Vlasim,49.7064,14.8989,CZE,N/A,CZE,"6' 1""",210,R,D
+8465067,Jesse Boulerice,Jesse,Boulerice,1978-08-10,Plattsburgh,44.6951,-73.4563,USA,NY,USA,"6' 2""",215,R,R
+8465166,Craig Adams,Craig,Adams,1977-04-26,Seria,4.6142,114.33,BRN,N/A,CAN,"6' 0""",200,R,R
+8465175,Dan Hinote,Dan,Hinote,1977-01-30,Leesburg,28.7657,-81.8996,USA,FL,USA,"6' 0""",187,R,R
+8465185,Willie Mitchell,Willie,Mitchell,1977-04-23,Port McNeill,,,CAN,BC,CAN,"6' 3""",210,L,D
+8465192,Samuel Pahlsson,Samuel,Pahlsson,1977-12-17,Ange,34.1139,-118.407,SWE,N/A,SWE,"6' 0""",202,L,C
+8465200,Tomas Kaberle,Tomas,Kaberle,1978-03-02,Rakovnik,50.1038,13.7335,CZE,N/A,CZE,"6' 1""",212,L,D
+8465210,Pavel Kubina,Pavel,Kubina,1977-04-15,Celadna,,,CZE,N/A,CZE,"6' 4""",258,R,D
+8465250,Andrei Zyuzin,Andrei,Zyuzin,1978-01-21,Ufa,54.7333,55.9667,RUS,N/A,RUS,"6' 1""",208,L,D
+8465951,Matt Cooke,Matt,Cooke,1978-09-07,Belleville,40.795,-74.1616,CAN,ON,CAN,"5' 11""",216,L,L
+8465978,Shawn Thornton,Shawn,Thornton,1977-07-23,Oshawa,43.9,-78.85,CAN,ON,CAN,"6' 2""",217,R,L
+8465992,Aaron Downey,Aaron,Downey,1974-08-27,Shelburne,44.0833,-80.2,CAN,ON,CAN,"6' 1""",215,R,R
+8466145,Nick Boynton,Nick,Boynton,1979-01-14,Nobleton,,,CAN,ON,CAN,"6' 1""",218,R,D
+8466148,Marian Hossa,Marian,Hossa,1979-01-12,Stará Lubovna,,,SVK,N/A,SVK,"6' 1""",207,L,R
+8466149,Daniel Cleary,Daniel,Cleary,1978-12-18,Carbonear,,,CAN,NL,CAN,"6' 1""",205,L,R
+8466162,Ben Clymer,Ben,Clymer,1978-04-11,Bloom,40.4757,-88.9703,USA,MN,USA,"6' 1""",200,R,R
+8466183,Yuri Butsayev,Yuri,Butsayev,1978-10-11,Togliatti,,,RUS,N/A,RUS,"6' 0""",195,L,L
+8466189,Rick Berry,Rick,Berry,1978-11-04,Birtle,54.9,-1.577,CAN,MB,CAN,"6' 2""",213,L,D
+8466210,Ville Nieminen,Ville,Nieminen,1977-04-06,Tampere,61.4981,23.7608,FIN,N/A,FIN,"6' 1""",220,L,L
+8466261,Jiri Bicek,Jiri,Bicek,1978-12-03,Kosice,48.7167,21.25,SVK,N/A,SVK,"5' 10""",195,L,R
+8466285,Brian Campbell,Brian,Campbell,1979-05-23,Strathroy,42.9575,-81.6167,CAN,ON,CAN,"5' 10""",192,L,D
+8466290,David Aebischer,David,Aebischer,1978-02-07,Fribourg,46.8,7.15,CHE,N/A,CHE,"6' 1""",187,L,G
+8466292,Todd Fedoruk,Todd,Fedoruk,1979-02-13,Redwater,,,CAN,AB,CAN,"6' 2""",232,L,L
+8466320,Niklas Nordgren,Niklas,Nordgren,1979-06-28,Ornskoldsvik,63.318,18.7167,SWE,N/A,SWE,"6' 0""",185,R,L
+8466333,Andrew Ference,Andrew,Ference,1979-03-17,Edmonton,53.5344,-113.49,CAN,AB,CAN,"5' 11""",182,L,D
+8466339,Scott Clemmensen,Scott,Clemmensen,1977-07-23,Des Moines,41.5725,-93.6105,USA,IA,USA,"6' 2""",200,L,G
+8466371,John Madden,John,Madden,1973-05-04,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 11""",190,L,C
+8466378,Martin St. Louis,Martin,St. Louis,1975-06-18,Laval,45.5833,-73.75,CAN,QC,CAN,"5' 8""",180,L,R
+8466393,Pascal Dupuis,Pascal,Dupuis,1979-04-07,Laval,45.5833,-73.75,CAN,QC,CAN,"6' 1""",205,L,R
+8466399,Eric Perrin,Eric,Perrin,1975-11-01,Laval,45.5833,-73.75,CAN,QC,CAN,"5' 9""",180,L,C
+8466971,Blake Sloan,Blake,Sloan,1975-07-27,Park Ridge,42.0125,-87.8436,USA,IL,USA,"5' 10""",196,R,R
+8467096,Dan Boyle,Dan,Boyle,1976-07-12,Ottawa,45.4247,-75.695,CAN,ON,CAN,"5' 11""",194,R,D
+8467329,Vincent Lecavalier,Vincent,Lecavalier,1980-04-21,Ile Bizard,,,CAN,QC,CAN,"6' 4""",215,L,C
+8467331,Brad Stuart,Brad,Stuart,1979-11-06,Rocky Mountain House,52.3753,-114.922,CAN,AB,CAN,"6' 2""",215,L,D
+8467336,Mike Rupp,Mike,Rupp,1980-01-13,Cleveland,41.4767,-81.6804,USA,OH,USA,"6' 5""",235,L,L
+8467338,Alex Tanguay,Alex,Tanguay,1979-11-21,Ste-Justine,,,CAN,QC,CAN,"6' 1""",194,L,L
+8467343,Martin Skoula,Martin,Skoula,1979-10-28,Litomerice,50.5336,14.1319,CZE,N/A,CZE,"6' 3""",226,L,D
+8467344,Robyn Regehr,Robyn,Regehr,1980-04-19,Recife,-8.0539,-34.8808,BRA,N/A,CAN,"6' 3""",222,L,D
+8467346,Simon Gagne,Simon,Gagne,1980-02-29,Ste. Foy,,,CAN,QC,CAN,"6' 1""",195,L,L
+8467349,Jiri Fischer,Jiri,Fischer,1980-07-31,Horovice,49.8361,13.9027,CZE,N/A,CZE,"6' 5""",229,L,D
+8467351,Scott Gomez,Scott,Gomez,1979-12-23,Anchorage,61.1508,-149.109,USA,AK,USA,"5' 11""",200,L,C
+8467363,Christian Berglund,Christian,Berglund,1980-03-12,Orebro,59.2669,15.1965,SWE,N/A,SWE,"5' 11""",195,L,L
+8467364,Philippe Sauve,Philippe,Sauve,1980-02-27,Buffalo,42.9016,-78.8487,USA,NY,USA,"6' 0""",190,L,G
+8467387,Joe DiPenta,Joe,DiPenta,1979-02-25,Barrie,44.3711,-79.6769,CAN,ON,CAN,"6' 2""",220,R,D
+8467389,Brad Richards,Brad,Richards,1980-05-02,Murray Harbour,,,CAN,PE,CAN,"6' 0""",199,L,C
+8467396,Erik Cole,Erik,Cole,1978-11-06,Oswego,45.413,-122.7,USA,NY,USA,"6' 2""",205,L,L
+8467397,Dimitri Afanasenkov,Dimitri,Afanasenkov,1980-05-12,Arkhangelsk,64.55,40.5333,RUS,N/A,RUS,"6' 2""",209,R,L
+8467400,Francois Beauchemin,Francois,Beauchemin,1980-06-04,Sorel,46.0333,-73.1167,CAN,QC,CAN,"5' 11""",208,L,D
+8467407,Brian Gionta,Brian,Gionta,1979-01-18,Rochester,43.168,-77.6162,USA,NY,USA,"5' 7""",178,R,R
+8467416,Josef Vasicek,Josef,Vasicek,1980-09-12,Havlickuv Brod,49.6079,15.5807,CZE,N/A,CZE,"6' 5""",214,L,C
+8467430,Dany Sabourin,Dany,Sabourin,1980-09-02,Val-d'Or,48.1,-77.7833,CAN,QC,CAN,"6' 4""",204,L,G
+8467452,Rob Scuderi,Rob,Scuderi,1978-12-30,Syosset,40.8156,-73.502,USA,NY,USA,"6' 1""",216,L,D
+8467463,Mikael Samuelsson,Mikael,Samuelsson,1976-12-23,Mariefred,,,SWE,N/A,SWE,"6' 2""",218,R,R
+8467466,Trent Hunter,Trent,Hunter,1980-07-05,Red Deer,52.2681,-113.811,CAN,AB,CAN,"6' 3""",217,R,R
+8467478,Kent Huskins,Kent,Huskins,1979-05-04,Almonte,37.2612,-6.5176,CAN,ON,CAN,"6' 4""",210,L,D
+8467514,Pavel Datsyuk,Pavel,Datsyuk,1978-07-20,Sverdlovsk,,,RUS,N/A,RUS,"5' 11""",194,L,C
+8467545,Michael Ryder,Michael,Ryder,1980-03-31,Bonavista,,,CAN,NL,CAN,"6' 1""",200,R,R
+8467557,Martin Cibak,Martin,Cibak,1980-05-17,Liptovský Mikulá,,,SVK,N/A,SVK,"6' 1""",203,L,C
+8467580,Mark Eaton,Mark,Eaton,1977-05-06,Wilmington,34.21,-77.8866,USA,DE,USA,"6' 1""",215,L,D
+8467856,Brian Rafalski,Brian,Rafalski,1973-09-28,Dearborn,42.3127,-83.2129,USA,MI,USA,"5' 10""",194,R,D
+8467900,Ari Ahonen,Ari,Ahonen,1981-02-06,Jyväskylä,62.2333,25.7333,FIN,N/A,FIN,"6' 1""",190,L,G
+8467915,Mike Commodore,Mike,Commodore,1979-11-07,Fort Saskatchewan,53.7128,-113.213,CAN,AB,CAN,"6' 4""",227,R,D
+8467927,Andrew Hutchinson,Andrew,Hutchinson,1980-03-24,Evanston,42.0463,-87.6942,USA,IL,USA,"6' 2""",195,R,D
+8467937,Mike Zigomanis,Mike,Zigomanis,1981-01-17,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",200,R,C
+8467949,Frantisek Kaberle,Frantisek,Kaberle,1973-11-08,Kladno,50.1431,14.1053,CZE,N/A,CZE,"6' 0""",190,L,D
+8467959,Sebastien Caron,Sebastien,Caron,1980-06-25,Amqui,48.4667,-67.4333,CAN,QC,CAN,"6' 1""",170,L,G
+8467967,Chris Kelly,Chris,Kelly,1980-11-11,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",190,L,C
+8468036,Bjorn Melin,Bjorn,Melin,1981-07-04,Jonkoping,57.7713,14.165,SWE,N/A,SWE,"6' 1""",205,R,R
+8468083,Henrik Zetterberg,Henrik,Zetterberg,1980-10-09,Njurunda,,,SWE,N/A,SWE,"6' 0""",197,L,C
+8468085,Radim Vrbata,Radim,Vrbata,1981-06-13,Mlada Boleslav,50.4125,14.9064,CZE,N/A,CZE,"6' 1""",194,R,R
+8468095,George Parros,George,Parros,1979-12-29,Washington,38.9047,-77.0163,USA,PA,USA,"6' 5""",224,R,R
+8468172,Ruslan Fedotenko,Ruslan,Fedotenko,1979-01-18,Kiev,,,UKR,N/A,UKR,"6' 1""",200,L,L
+8468224,Sean Avery,Sean,Avery,1980-04-10,North York,,,CAN,ON,CAN,"5' 10""",195,L,L
+8468252,Eric Godard,Eric,Godard,1980-03-07,Vernon,40.9136,-73.8291,CAN,BC,CAN,"6' 4""",222,R,R
+8468309,Mark Streit,Mark,Streit,1977-12-11,Bern,46.948,7.4474,CHE,N/A,CHE,"5' 11""",186,L,D
+8468432,Steve Reinprecht,Steve,Reinprecht,1976-05-07,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 0""",188,L,C
+8468434,Andy McDonald,Andy,McDonald,1977-08-25,Strathroy,42.9575,-81.6167,CAN,ON,CAN,"5' 10""",175,L,C
+8468483,Marian Gaborik,Marian,Gaborik,1982-02-14,Trencin,48.8942,18.0406,SVK,N/A,SVK,"6' 1""",200,L,R
+8468493,Ron Hainsey,Ron,Hainsey,1981-03-24,Bolton,53.578,-2.429,USA,CT,USA,"6' 3""",201,L,D
+8468498,Brooks Orpik,Brooks,Orpik,1980-09-26,San Francisco,37.7562,-122.443,USA,CA,USA,"6' 3""",217,L,D
+8468508,Justin Williams,Justin,Williams,1981-10-04,Cobourg,43.9667,-78.1667,CAN,ON,CAN,"6' 1""",184,R,R
+8468509,Niklas Kronwall,Niklas,Kronwall,1981-01-12,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 0""",194,L,D
+8468510,Jeff Taffe,Jeff,Taffe,1981-02-19,Hastings,50.85,0.57,USA,MN,USA,"6' 3""",207,L,L
+8468518,Tomas Kopecky,Tomas,Kopecky,1982-02-05,Ilava,48.9994,18.2361,SVK,N/A,SVK,"6' 3""",210,L,R
+8468524,Ilya Bryzgalov,Ilya,Bryzgalov,1980-06-22,Togliatti,,,RUS,N/A,RUS,"6' 3""",213,L,G
+8468526,Jarret Stoll,Jarret,Stoll,1982-06-24,Melville,40.7823,-73.4088,CAN,SK,CAN,"6' 1""",216,R,C
+8468534,Andreas Lilja,Andreas,Lilja,1975-07-13,Helsingborg,56.0424,12.721,SWE,N/A,SWE,"6' 3""",220,L,D
+8468535,Antoine Vermette,Antoine,Vermette,1982-07-20,St. Agapit,,,CAN,QC,CAN,"6' 1""",197,L,C
+8468577,Niclas Wallin,Niclas,Wallin,1975-02-20,Boden,47.7369,8.9697,SWE,N/A,SWE,"6' 3""",220,L,D
+8468615,Michael Danton,Michael,Danton,1980-10-21,Brampton,43.6833,-79.7667,CAN,ON,CAN,"5' 9""",191,R,C
+8468635,Travis Moen,Travis,Moen,1982-04-06,Stewart Valley,,,CAN,SK,CAN,"6' 2""",215,L,L
+8468789,Jason Williams,Jason,Williams,1980-08-11,London,51.5072,-0.1275,CAN,ON,CAN,"5' 11""",192,R,C
+8469132,David Gove,David,Gove,1978-05-04,Centerville,39.6339,-84.1449,USA,MA,USA,"5' 9""",190,L,L
+8469456,Alexander Svitov,Alexander,Svitov,1982-11-03,Omsk,54.9667,73.3833,RUS,N/A,RUS,"6' 3""",228,L,C
+8469458,Stanislav Chistov,Stanislav,Chistov,1983-04-17,Chelyabinsk,55.15,61.4,RUS,N/A,RUS,"5' 10""",193,R,R
+8469501,Chris Thorburn,Chris,Thorburn,1983-06-03,Sault Ste. Marie,46.5333,-84.35,CAN,ON,CAN,"6' 3""",235,R,R
+8469544,Patrick Sharp,Patrick,Sharp,1981-12-27,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 1""",200,R,L
+8469548,Ray Emery,Ray,Emery,1982-09-28,Hamilton,43.2567,-79.8692,CAN,ON,CAN,"6' 2""",196,L,G
+8469619,Dennis Seidenberg,Dennis,Seidenberg,1981-07-18,Schwenningen,48.0603,8.4586,DEU,N/A,DEU,"6' 0""",199,L,D
+8469658,Cristobal Huet,Cristobal,Huet,1975-09-03,Saint-Martin-d'Hères,45.1672,5.7653,FRA,N/A,FRA,"6' 1""",205,L,G
+8469665,Johnny Oduya,Johnny,Oduya,1981-10-01,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 0""",191,L,D
+8469675,Martin Gerber,Martin,Gerber,1974-09-03,Burgdorf,52.45,10.0083,CHE,N/A,CHE,"6' 0""",205,L,G
+8469779,Keith Aucoin,Keith,Aucoin,1978-11-06,Waltham,51.59,,USA,MA,USA,"5' 8""",171,L,C
+8469812,Chad LaRose,Chad,LaRose,1982-03-27,Fraser,57.693,-2.005,USA,MI,USA,"5' 10""",181,R,R
+8469992,Sheldon Brookbank,Sheldon,Brookbank,1980-10-03,Lanigan,,,CAN,SK,CAN,"6' 1""",202,R,D
+8469997,Mark Hartigan,Mark,Hartigan,1977-10-15,Fort St. John,56.2465,-120.848,CAN,BC,CAN,"6' 0""",200,L,C
+8470018,Matt Ellis,Matt,Ellis,1981-08-31,Welland,42.9833,-79.2333,CAN,ON,CAN,"6' 0""",208,L,L
+8470047,Valtteri Filppula,Valtteri,Filppula,1984-03-20,Vantaa,60.3,25.0333,FIN,N/A,FIN,"6' 0""",189,L,C
+8470061,Derek Meech,Derek,Meech,1984-04-21,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"5' 11""",200,L,D
+8470063,Adam Burish,Adam,Burish,1983-01-06,Madison,43.0826,-89.3931,USA,WI,USA,"6' 1""",195,R,R
+8470110,Trevor Daley,Trevor,Daley,1983-10-09,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 11""",199,L,D
+8470121,Matt Greene,Matt,Greene,1983-05-13,Grand Ledge,42.7534,-84.7448,USA,MI,USA,"6' 3""",236,R,D
+8470147,Curtis McElhinney,Curtis,McElhinney,1983-05-23,London,51.5072,-0.1275,CAN,ON,CAN,"6' 1""",210,L,G
+8470151,Jay Bouwmeester,Jay,Bouwmeester,1983-09-27,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 4""",206,L,D
+8470169,Gregory Campbell,Gregory,Campbell,1983-12-17,London,51.5072,-0.1275,CAN,ON,CAN,"6' 0""",188,L,C
+8470171,Max Talbot,Max,Talbot,1984-02-11,Lemoyne,,,CAN,QC,CAN,"5' 11""",186,L,C
+8470187,Johnny Boychuk,Johnny,Boychuk,1984-01-19,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 2""",227,R,D
+8470201,Jiri Hudler,Jiri,Hudler,1984-01-04,Olomouc,49.5939,17.2508,CZE,N/A,CZE,"5' 10""",190,L,R
+8470230,Daniel Paille,Daniel,Paille,1984-04-15,Welland,42.9833,-79.2333,CAN,ON,CAN,"6' 1""",200,L,L
+8470257,Alexander Steen,Alexander,Steen,1984-03-01,Winnipeg,49.8844,-97.1464,CAN,MB,SWE,"6' 0""",211,L,L
+8470265,Anton Babchuk,Anton,Babchuk,1984-05-06,Kiev,,,UKR,N/A,UKR,"6' 5""",200,R,D
+8470280,Ben Eager,Ben,Eager,1984-01-22,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 2""",226,L,L
+8470281,Duncan Keith,Duncan,Keith,1983-07-16,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 1""",192,L,D
+8470283,Tim Brent,Tim,Brent,1984-03-10,Cambridge,43.3972,-80.3114,CAN,ON,CAN,"6' 0""",188,R,C
+8470295,Connor James,Connor,James,1982-08-25,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 10""",180,R,L
+8470309,Ryan Whitney,Ryan,Whitney,1983-02-19,Boston,42.3188,-71.0846,USA,MA,USA,"6' 4""",209,L,D
+8470310,Aaron Rome,Aaron,Rome,1983-09-27,Nesbitt,,,CAN,MB,CAN,"6' 1""",220,L,D
+8470318,Jonathan Ericsson,Jonathan,Ericsson,1984-03-02,Karlskrona,56.203,15.296,SWE,N/A,SWE,"6' 4""",218,L,D
+8470320,Cam Ward,Cam,Ward,1984-02-29,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 1""",194,L,G
+8470383,Chris Minard,Chris,Minard,1981-11-18,Owen Sound,44.5667,-80.9333,CAN,ON,CAN,"6' 1""",190,L,L
+8470543,Chris Kunitz,Chris,Kunitz,1979-09-26,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 0""",188,L,L
+8470564,Joe Motzko,Joe,Motzko,1980-03-14,Bemidji,47.4828,-94.8796,USA,MN,USA,"6' 0""",184,R,R
+8470594,Marc-Andre Fleury,Marc-Andre,Fleury,1984-11-28,Sorel,46.0333,-73.1167,CAN,QC,CAN,"6' 2""",185,L,G
+8470595,Eric Staal,Eric,Staal,1984-10-29,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 4""",195,L,C
+8470596,Nathan Horton,Nathan,Horton,1985-05-29,Welland,42.9833,-79.2333,CAN,ON,CAN,"6' 2""",229,R,R
+8470601,Braydon Coburn,Braydon,Coburn,1985-02-27,Shaunavon,,,CAN,SK,CAN,"6' 5""",224,L,D
+8470604,Jeff Carter,Jeff,Carter,1985-01-01,London,51.5072,-0.1275,CAN,ON,CAN,"6' 3""",219,R,C
+8470606,Dustin Brown,Dustin,Brown,1984-11-04,Ithaca,42.4442,-76.5032,USA,NY,USA,"6' 0""",205,R,R
+8470607,Brent Seabrook,Brent,Seabrook,1985-04-20,Richmond,37.5295,-77.4756,CAN,BC,CAN,"6' 3""",220,R,D
+8470611,Eric Fehr,Eric,Fehr,1985-09-07,Winkler,49.1817,-97.9397,CAN,MB,CAN,"6' 4""",209,R,C
+8470612,Ryan Getzlaf,Ryan,Getzlaf,1985-05-10,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 4""",220,R,C
+8470614,Mark Stuart,Mark,Stuart,1984-04-27,Rochester,43.168,-77.6162,USA,MN,USA,"6' 2""",215,L,D
+8470617,Mike Richards,Mike,Richards,1985-02-11,Kenora,49.7667,-94.4833,CAN,ON,CAN,"5' 11""",196,L,C
+8470621,Corey Perry,Corey,Perry,1985-05-16,Peterborough,44.3,-78.3167,CAN,ON,CAN,"6' 3""",208,R,R
+8470624,Danny Richmond,Danny,Richmond,1984-08-01,Chicago,41.8373,-87.6862,USA,IL,USA,"6' 1""",190,L,D
+8470625,Ryan Stone,Ryan,Stone,1985-03-20,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 2""",207,L,C
+8470638,Patrice Bergeron,Patrice,Bergeron,1985-07-24,L'Ancienne-Lorette,46.8,-71.35,CAN,QC,CAN,"6' 1""",196,R,C
+8470645,Corey Crawford,Corey,Crawford,1984-12-31,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 2""",216,L,G
+8470657,Jimmy Howard,Jimmy,Howard,1984-03-26,Syracuse,43.0409,-76.1438,USA,NY,USA,"6' 1""",218,L,G
+8470662,Colin Fraser,Colin,Fraser,1985-01-28,Sicamous,,,CAN,BC,CAN,"6' 1""",190,L,C
+8470666,Daniel Carcillo,Daniel,Carcillo,1985-01-28,King City,36.2166,-121.133,CAN,ON,CAN,"6' 0""",200,L,L
+8470713,Paul Bissonnette,Paul,Bissonnette,1985-03-11,Welland,42.9833,-79.2333,CAN,ON,CAN,"6' 2""",216,L,L
+8470724,Kyle Quincey,Kyle,Quincey,1985-08-12,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"6' 2""",210,L,D
+8470755,Brad Richardson,Brad,Richardson,1985-02-04,Belleville,40.795,-74.1616,CAN,ON,CAN,"6' 0""",190,L,R
+8470778,Drew Miller,Drew,Miller,1984-02-17,Dover,39.161,-75.5203,USA,NJ,USA,"6' 2""",183,L,L
+8470834,Dustin Byfuglien,Dustin,Byfuglien,1985-03-27,Roseau,15.3,-61.3833,USA,MN,USA,"6' 5""",260,R,D
+8470839,Shane O'Brien,Shane,O'Brien,1983-08-09,Port Hope,43.95,-78.3,CAN,ON,CAN,"6' 3""",230,L,D
+8471011,Garrett Stafford,Garrett,Stafford,1980-01-28,Los Angeles,34.1139,-118.407,USA,CA,USA,"6' 1""",207,R,D
+8471185,Curtis Glencross,Curtis,Glencross,1982-12-28,Kindersley,,,CAN,SK,CAN,"6' 1""",197,L,L
+8471187,Brett Lebda,Brett,Lebda,1982-01-15,Buffalo Grove,42.1673,-87.9616,USA,IL,USA,"5' 9""",195,L,D
+8471208,Dustin Penner,Dustin,Penner,1982-09-28,Winkler,49.1817,-97.9397,CAN,MB,CAN,"6' 4""",247,L,L
+8471214,Alex Ovechkin,Alex,Ovechkin,1985-09-17,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 3""",238,R,L
+8471215,Evgeni Malkin,Evgeni,Malkin,1986-07-31,Magnitogorsk,53.3833,59.0333,RUS,N/A,RUS,"6' 3""",195,L,C
+8471216,Cam Barker,Cam,Barker,1986-04-04,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 3""",223,L,D
+8471217,Andrew Ladd,Andrew,Ladd,1985-12-12,Maple Ridge,49.2167,-122.6,CAN,BC,CAN,"6' 3""",205,L,L
+8471218,Blake Wheeler,Blake,Wheeler,1986-08-31,Plymouth,50.3714,-4.1422,USA,MN,USA,"6' 5""",220,R,R
+8471240,Jeff Schultz,Jeff,Schultz,1986-02-25,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 6""",225,L,D
+8471245,Dave Bolland,Dave,Bolland,1986-06-05,Mimico,,,CAN,ON,CAN,"6' 0""",184,R,C
+8471254,Bryan Bickell,Bryan,Bickell,1986-03-09,Bowmanville,,,CAN,ON,CAN,"6' 4""",223,L,L
+8471274,Alex Goligoski,Alex,Goligoski,1985-07-30,Grand Rapids,42.962,-85.6562,USA,MN,USA,"5' 11""",173,L,D
+8471276,David Krejci,David,Krejci,1986-04-28,Sternberk,49.7305,17.2989,CZE,N/A,CZE,"6' 0""",192,R,C
+8471299,Peter Regin,Peter,Regin,1986-04-16,Herning,,,DNK,N/A,DNK,"6' 2""",190,L,C
+8471309,Johan Franzen,Johan,Franzen,1979-12-23,Vetlanda,,,SWE,N/A,SWE,"6' 4""",232,L,R
+8471311,Tyler Kennedy,Tyler,Kennedy,1986-07-15,Sault Ste. Marie,46.5333,-84.35,CAN,ON,CAN,"5' 11""",185,R,C
+8471331,Kevin Porter,Kevin,Porter,1986-03-12,Detroit,42.3834,-83.1024,USA,MI,USA,"6' 0""",190,L,C
+8471346,Kris Versteeg,Kris,Versteeg,1986-05-13,Lethbridge,49.6942,-112.833,CAN,AB,CAN,"5' 11""",176,R,R
+8471352,Jake Dowell,Jake,Dowell,1985-03-04,Eau Claire,44.8199,-91.4949,USA,WI,USA,"6' 0""",200,L,C
+8471386,Scott Parse,Scott,Parse,1984-09-05,Portage,42.2,-85.5906,USA,MI,USA,"5' 11""",189,R,L
+8471426,Troy Brouwer,Troy,Brouwer,1985-08-17,Vancouver,49.25,-123.1,CAN,BC,CAN,"6' 3""",213,R,R
+8471436,Matt Hunwick,Matt,Hunwick,1985-05-21,Warren,42.4934,-83.027,USA,MI,USA,"5' 11""",194,L,D
+8471480,Janne Pesonen,Janne,Pesonen,1982-05-11,Suomussalmi,,,FIN,N/A,FIN,"5' 11""",180,L,L
+8471514,Rich Peverley,Rich,Peverley,1982-07-08,Kingston,17.9714,-76.7931,CAN,ON,CAN,"5' 11""",195,R,C
+8471526,Michael Wall,Michael,Wall,1985-07-25,Telkwa,,,CAN,BC,CAN,"6' 2""",209,L,G
+8471634,Ryan Shannon,Ryan,Shannon,1983-03-02,Darien,41.0786,-73.4819,USA,CT,USA,"5' 9""",175,R,R
+8471668,Mattias Ritola,Mattias,Ritola,1987-03-14,Borlange,60.4833,15.4167,SWE,N/A,SWE,"6' 0""",192,L,C
+8471675,Sidney Crosby,Sidney,Crosby,1987-08-07,Cole Harbour,,,CAN,NS,CAN,"5' 11""",200,L,C
+8471677,Jack Johnson,Jack,Johnson,1987-01-13,Indianapolis,39.7771,-86.1458,USA,IN,USA,"6' 1""",227,L,D
+8471681,Jack Skille,Jack,Skille,1987-05-19,Madison,43.0826,-89.3931,USA,WI,USA,"6' 1""",216,R,R
+8471685,Anze Kopitar,Anze,Kopitar,1987-08-24,Jesenice,46.4366,14.0602,SVN,N/A,SVN,"6' 3""",225,L,C
+8471695,Tuukka Rask,Tuukka,Rask,1987-03-10,Savonlinna,61.8667,28.8831,FIN,N/A,FIN,"6' 3""",176,L,G
+8471698,T.J. Oshie,T.J.,Oshie,1986-12-23,Everett,47.9525,-122.167,USA,WA,USA,"6' 0""",187,R,R
+8471699,Andrew Cogliano,Andrew,Cogliano,1987-06-14,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 10""",179,L,C
+8471702,Matt Niskanen,Matt,Niskanen,1986-12-06,Virginia,36.7335,-76.0435,USA,MN,USA,"6' 1""",203,R,D
+8471710,Taylor Chorney,Taylor,Chorney,1987-04-27,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 0""",193,L,D
+8471716,Justin Abdelkader,Justin,Abdelkader,1987-02-25,Muskegon,43.2281,-86.2563,USA,MI,USA,"6' 2""",213,L,L
+8471717,Adam McQuaid,Adam,McQuaid,1986-10-12,Charlottetown,46.2403,-63.1347,CAN,PE,CAN,"6' 4""",210,R,D
+8471724,Kris Letang,Kris,Letang,1987-04-24,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 0""",201,R,D
+8471734,Jonathan Quick,Jonathan,Quick,1986-01-21,Milford,51.7142,-5.0427,USA,CT,USA,"6' 1""",220,L,G
+8471736,Radek Smolenak,Radek,Smolenak,1986-12-03,Prague,50.0833,14.4167,CZE,N/A,CZE,"6' 2""",207,L,L
+8471761,Chris Butler,Chris,Butler,1986-10-27,St. Louis,38.6358,-90.2451,USA,MO,USA,"6' 1""",196,L,D
+8471769,Niklas Hjalmarsson,Niklas,Hjalmarsson,1987-06-06,Eksjo,,,SWE,N/A,SWE,"6' 3""",197,L,D
+8471794,Darren Helm,Darren,Helm,1987-01-21,St. Andrews,34.051,-81.1057,CAN,MB,CAN,"6' 0""",192,L,C
+8471879,Kyle Cumiskey,Kyle,Cumiskey,1986-12-02,Abbotsford,49.05,-122.317,CAN,BC,CAN,"5' 11""",180,L,D
+8471887,Patric Hornqvist,Patric,Hornqvist,1987-01-01,Sollentuna,,,SWE,N/A,SWE,"5' 11""",189,R,R
+8471956,Andrew Desjardins,Andrew,Desjardins,1986-07-27,Lively,,,CAN,ON,CAN,"6' 1""",195,L,L
+8472361,Bill Thomas,Bill,Thomas,1983-06-20,Pittsburgh,40.4396,-79.9762,USA,PA,USA,"6' 1""",185,R,R
+8472370,Jordan Hendry,Jordan,Hendry,1984-02-23,Lanigan,,,CAN,SK,CAN,"6' 0""",194,L,D
+8473419,Brad Marchand,Brad,Marchand,1988-05-11,Halifax,44.6475,-63.5906,CAN,NS,CAN,"5' 9""",176,L,L
+8473434,Chad Johnson,Chad,Johnson,1986-06-10,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 3""",197,L,G
+8473446,Erik Johnson,Erik,Johnson,1988-03-21,Bloomington,40.4757,-88.9703,USA,MN,USA,"6' 4""",225,R,D
+8473453,Trevor Lewis,Trevor,Lewis,1987-01-08,Salt Lake City,40.7777,-111.931,USA,UT,USA,"6' 1""",201,R,C
+8473473,Milan Lucic,Milan,Lucic,1988-06-07,Vancouver,49.25,-123.1,CAN,BC,CAN,"6' 3""",240,L,L
+8473533,Jordan Staal,Jordan,Staal,1988-09-10,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 4""",220,L,C
+8473537,Viktor Stalberg,Viktor,Stalberg,1986-01-17,Gothenburg,57.6717,11.981,SWE,N/A,SWE,"6' 3""",209,L,L
+8473541,Jonathan Bernier,Jonathan,Bernier,1988-08-07,Laval,45.5833,-73.75,CAN,QC,CAN,"6' 0""",185,L,G
+8473542,Tom Sestito,Tom,Sestito,1987-09-28,Rome,41.8931,12.4828,USA,NY,USA,"6' 5""",228,L,L
+8473548,Phil Kessel,Phil,Kessel,1987-10-02,Madison,43.0826,-89.3931,USA,WI,USA,"5' 11""",208,R,R
+8473553,Jeff Zatkoff,Jeff,Zatkoff,1987-06-09,Detroit,42.3834,-83.1024,USA,MI,USA,"6' 2""",186,L,G
+8473563,Nicklas Backstrom,Nicklas,Backstrom,1987-11-23,Gavle,60.667,17.1666,SWE,N/A,SWE,"6' 1""",202,L,C
+8473564,Michael Frolik,Michael,Frolik,1988-02-17,Kladno,50.1431,14.1053,CZE,N/A,CZE,"6' 1""",186,L,R
+8473604,Jonathan Toews,Jonathan,Toews,1988-04-29,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 2""",201,L,C
+8473646,Ryan Carter,Ryan,Carter,1983-08-03,White Bear Lake,45.0657,-93.015,USA,MN,USA,"6' 1""",205,L,L
+8473682,Andrew Ebbett,Andrew,Ebbett,1983-01-02,Vernon,40.9136,-73.8291,CAN,BC,CAN,"5' 9""",174,L,C
+8473734,Tim Wallace,Tim,Wallace,1984-08-06,Anchorage,61.1508,-149.109,USA,AK,USA,"6' 1""",207,R,R
+8473908,Kevin Westgarth,Kevin,Westgarth,1984-02-07,Amherstburg,42.1,-83.0833,CAN,ON,CAN,"6' 4""",234,R,R
+8473933,Ben Lovejoy,Ben,Lovejoy,1984-02-20,Concord,37.9722,-122.002,USA,NH,USA,"6' 1""",205,R,D
+8473986,Alex Killorn,Alex,Killorn,1989-09-14,Halifax,44.6475,-63.5906,CAN,NS,CAN,"6' 1""",194,L,C
+8473997,Luca Caputi,Luca,Caputi,1988-10-01,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 3""",200,L,L
+8474000,Steven Kampfer,Steven,Kampfer,1988-09-24,Ann Arbor,42.2755,-83.7312,USA,MI,USA,"5' 11""",198,R,D
+8474009,Nick Bonino,Nick,Bonino,1988-04-20,Hartford,41.7661,-72.6834,USA,CT,USA,"6' 1""",195,L,C
+8474013,Ian Cole,Ian,Cole,1989-02-21,Ann Arbor,42.2755,-83.7312,USA,MI,USA,"6' 1""",225,L,D
+8474031,Kevin Shattenkirk,Kevin,Shattenkirk,1989-01-29,New Rochelle,40.9305,-73.7836,USA,NY,USA,"6' 0""",212,R,D
+8474034,Pat Maroon,Pat,Maroon,1988-04-23,St. Louis,38.6358,-90.2451,USA,MO,USA,"6' 3""",234,L,L
+8474045,Zach Hamill,Zach,Hamill,1988-09-23,Vancouver,49.25,-123.1,CAN,BC,CAN,"5' 11""",180,R,C
+8474061,Anthony Peluso,Anthony,Peluso,1989-04-18,North York,,,CAN,ON,CAN,"6' 3""",225,R,R
+8474100,Dwight King,Dwight,King,1989-07-05,Meadow Lake,40.924,-74.5121,CAN,SK,CAN,"6' 4""",229,L,L
+8474102,David Perron,David,Perron,1988-05-28,Sherbrooke,45.4,-71.9,CAN,QC,CAN,"6' 1""",196,R,L
+8474125,Carl Gunnarsson,Carl,Gunnarsson,1986-11-09,Orebro,59.2669,15.1965,SWE,N/A,SWE,"6' 2""",198,L,D
+8474138,Dustin Jeffrey,Dustin,Jeffrey,1988-02-27,Sarnia,42.9994,-82.3089,CAN,ON,CAN,"6' 1""",205,L,L
+8474141,Patrick Kane,Patrick,Kane,1988-11-19,Buffalo,42.9016,-78.8487,USA,NY,USA,"5' 10""",177,L,R
+8474145,Robert Bortuzzo,Robert,Bortuzzo,1989-03-18,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 4""",216,R,D
+8474151,Ryan McDonagh,Ryan,McDonagh,1989-06-13,St. Paul,44.9477,-93.104,USA,MN,USA,"6' 1""",215,L,D
+8474152,Scott Darling,Scott,Darling,1988-12-22,Newport News,37.1051,-76.5185,USA,VA,USA,"6' 5""",226,L,G
+8474162,Jake Muzzin,Jake,Muzzin,1989-02-21,Woodstock,43.1306,-80.7467,CAN,ON,CAN,"6' 3""",227,L,D
+8474166,Alec Martinez,Alec,Martinez,1987-07-26,Rochester Hills,42.6645,-83.1563,USA,MI,USA,"6' 1""",210,L,D
+8474176,Carl Hagelin,Carl,Hagelin,1988-08-23,Sodertalje,,,SWE,N/A,SWE,"6' 0""",183,L,L
+8474189,Lars Eller,Lars,Eller,1989-05-08,Rodovre,,,DNK,N/A,DNK,"6' 2""",205,L,C
+8474192,Matt Frattin,Matt,Frattin,1988-01-03,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 0""",205,R,R
+8474202,John Curry,John,Curry,1984-02-27,Shorewood,43.0914,-87.8864,USA,MN,USA,"5' 11""",185,L,G
+8474291,Jay Beagle,Jay,Beagle,1985-10-16,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 3""",210,R,C
+8474518,Davis Drewiske,Davis,Drewiske,1984-11-22,Hudson,-34.7903,-58.1486,USA,WI,USA,"6' 2""",222,L,D
+8474550,Antti Niemi,Antti,Niemi,1983-08-29,Vantaa,60.3,25.0333,FIN,N/A,FIN,"6' 2""",209,L,G
+8474563,Drew Doughty,Drew,Doughty,1989-12-08,London,51.5072,-0.1275,CAN,ON,CAN,"6' 1""",210,R,D
+8474564,Steven Stamkos,Steven,Stamkos,1990-02-07,Markham,43.8767,-79.2633,CAN,ON,CAN,"6' 0""",182,R,C
+8474565,Alex Pietrangelo,Alex,Pietrangelo,1990-01-18,King City,36.2166,-121.133,CAN,ON,CAN,"6' 3""",215,R,D
+8474567,Zach Bogosian,Zach,Bogosian,1990-07-15,Massena,44.9609,-74.8339,USA,NY,USA,"6' 2""",222,R,D
+8474568,Luke Schenn,Luke,Schenn,1989-11-02,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 2""",225,R,D
+8474584,Michael Del Zotto,Michael,Del Zotto,1990-06-24,Stouffville,43.9667,-79.25,CAN,ON,CAN,"6' 0""",195,L,D
+8474590,John Carlson,John,Carlson,1990-01-10,Natick,42.2847,-71.3497,USA,MA,USA,"6' 3""",215,R,D
+8474594,Slava Voynov,Slava,Voynov,1990-01-15,Chelyabinsk,55.15,61.4,RUS,N/A,RUS,"6' 0""",194,R,D
+8474596,Jake Allen,Jake,Allen,1990-08-07,Fredericton,45.9636,-66.6431,CAN,NB,CAN,"6' 2""",195,L,G
+8474602,Justin Schultz,Justin,Schultz,1990-07-06,Kelowna,49.8881,-119.496,CAN,BC,CAN,"6' 2""",190,R,D
+8474604,Aaron Ness,Aaron,Ness,1990-05-18,Roseau,15.3,-61.3833,USA,MN,USA,"5' 10""",184,L,D
+8474611,Cameron Gaunce,Cameron,Gaunce,1990-03-19,Sudbury,51.5537,-0.3199,CAN,ON,CAN,"6' 1""",194,L,D
+8474625,Jimmy Hayes,Jimmy,Hayes,1989-11-21,Dorchester,50.7154,-2.4367,USA,MA,USA,"6' 5""",215,R,R
+8474629,Shawn Lalonde,Shawn,Lalonde,1990-03-10,Ottawa,45.4247,-75.695,CAN,ON,CAN,"6' 1""",204,R,D
+8474638,Andrew Campbell,Andrew,Campbell,1988-02-04,Caledonia,42.7986,-87.8762,CAN,ON,CAN,"6' 4""",205,L,D
+8474651,Braden Holtby,Braden,Holtby,1989-09-16,Lloydminster,53.2783,-110.005,CAN,SK,CAN,"6' 1""",215,L,G
+8474657,Jamie Arniel,Jamie,Arniel,1989-11-16,Kingston,17.9714,-76.7931,CAN,ON,CAN,"5' 11""",183,R,C
+8474660,David Warsofsky,David,Warsofsky,1990-05-30,Marshfield,42.114,-70.715,USA,MA,USA,"5' 9""",174,L,D
+8474681,Andrei Loktionov,Andrei,Loktionov,1990-05-30,Voskresensk,55.3167,38.6833,RUS,N/A,RUS,"5' 11""",190,L,C
+8474722,Luke Witkowski,Luke,Witkowski,1990-04-14,Holland,42.7677,-86.0985,USA,MI,USA,"6' 2""",210,R,D
+8474727,Ben Smith,Ben,Smith,1988-07-11,Winston-Salem,36.1029,-80.2611,USA,NC,USA,"5' 11""",203,R,R
+8474749,Matt Bartkowski,Matt,Bartkowski,1988-06-04,Pittsburgh,40.4396,-79.9762,USA,PA,USA,"6' 1""",201,L,D
+8474870,Tyler Johnson,Tyler,Johnson,1990-07-29,Spokane,47.6671,-117.433,USA,WA,USA,"5' 8""",185,R,C
+8474889,Martin Jones,Martin,Jones,1990-01-10,North Vancouver,49.3641,-123.007,CAN,BC,CAN,"6' 4""",203,L,G
+8475098,Tyler Bozak,Tyler,Bozak,1986-03-19,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 1""",187,R,C
+8475148,Tim Erixon,Tim,Erixon,1991-02-24,Port Chester,41.0052,-73.668,USA,NY,SWE,"6' 2""",200,L,D
+8475150,Jordan Caron,Jordan,Caron,1990-11-02,Sayabec,,,CAN,QC,CAN,"6' 3""",204,L,R
+8475158,Ryan O'Reilly,Ryan,O'Reilly,1991-02-07,Clinton,38.7499,-76.9063,CAN,ON,CAN,"6' 1""",207,L,C
+8475160,Kyle Clifford,Kyle,Clifford,1991-01-13,Ayr,30.3892,47.7081,CAN,ON,CAN,"6' 2""",217,L,L
+8475163,Alex Chiasson,Alex,Chiasson,1990-10-01,Montréal,45.5089,-73.5617,CAN,QC,CAN,"6' 4""",208,R,R
+8475167,Victor Hedman,Victor,Hedman,1990-12-18,Ornskoldsvik,63.318,18.7167,SWE,N/A,SWE,"6' 7""",244,L,D
+8475170,Brayden Schenn,Brayden,Schenn,1991-08-22,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 1""",199,L,C
+8475172,Nazem Kadri,Nazem,Kadri,1990-10-06,London,51.5072,-0.1275,CAN,ON,CAN,"6' 0""",185,L,C
+8475181,Nick Leddy,Nick,Leddy,1991-03-20,Eden Prairie,44.8488,-93.4595,USA,MN,USA,"6' 0""",205,L,D
+8475182,David Rundblad,David,Rundblad,1990-10-08,Lycksele,,,SWE,N/A,SWE,"6' 2""",187,R,D
+8475188,Brayden McNabb,Brayden,McNabb,1991-01-21,Davidson,35.4846,-80.8252,CAN,SK,CAN,"6' 4""",215,L,D
+8475191,Reilly Smith,Reilly,Smith,1991-04-01,Mimico,,,CAN,ON,CAN,"6' 1""",185,L,R
+8475200,Dmitry Orlov,Dmitry,Orlov,1991-07-23,Novokuznetsk,53.75,87.1167,RUS,N/A,RUS,"5' 11""",214,L,D
+8475204,Brandon Pirri,Brandon,Pirri,1991-04-10,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",180,L,C
+8475208,Brian Dumoulin,Brian,Dumoulin,1991-09-06,Biddeford,43.4674,-70.4512,USA,ME,USA,"6' 4""",207,L,D
+8475214,Jeremy Morin,Jeremy,Morin,1991-04-16,Auburn,32.6087,-85.4899,USA,NY,USA,"6' 1""",195,R,L
+8475223,Linden Vey,Linden,Vey,1991-07-17,Wakaw,,,CAN,SK,CAN,"6' 0""",189,R,R
+8475233,David Savard,David,Savard,1990-10-22,St-Hyacinthe,,,CAN,QC,CAN,"6' 1""",235,R,D
+8475278,Byron Froese,Byron,Froese,1991-03-12,Winkler,49.1817,-97.9397,CAN,MB,CAN,"6' 1""",202,R,C
+8475311,Darcy Kuemper,Darcy,Kuemper,1990-05-05,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 5""",215,L,G
+8475323,Marcus Kruger,Marcus,Kruger,1990-05-27,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 0""",186,L,C
+8475325,Jordan Nolan,Jordan,Nolan,1989-06-23,"Garden River, First Nations",,,CAN,ON,CAN,"6' 3""",219,L,C
+8475598,Ryan Stanton,Ryan,Stanton,1989-07-20,St. Albert,53.6303,-113.626,CAN,AB,CAN,"6' 2""",205,L,D
+8475622,Carter Hutton,Carter,Hutton,1985-12-19,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 0""",211,L,G
+8475650,Brandon Bollig,Brandon,Bollig,1987-01-31,St. Charles,38.7954,-90.5157,USA,MO,USA,"6' 2""",220,L,L
+8475681,Ben Scrivens,Ben,Scrivens,1986-09-11,Spruce Grove,53.545,-113.901,CAN,AB,CAN,"6' 2""",181,L,G
+8475726,Tyler Toffoli,Tyler,Toffoli,1992-04-24,Scarborough,54.2773,-0.4017,CAN,ON,CAN,"6' 0""",203,R,R
+8475744,Evgeny Kuznetsov,Evgeny,Kuznetsov,1992-05-19,Chelyabinsk,55.15,61.4,RUS,N/A,RUS,"6' 2""",207,L,C
+8475758,Devante Smith-Pelly,Devante,Smith-Pelly,1992-06-14,Scarborough,54.2773,-0.4017,CAN,ON,CAN,"6' 0""",223,R,R
+8475761,Beau Bennett,Beau,Bennett,1991-11-27,Gardena,33.8944,-118.307,USA,CA,USA,"6' 2""",195,R,R
+8475765,Vladimir Tarasenko,Vladimir,Tarasenko,1991-12-13,Yaroslavl,57.6167,39.85,RUS,N/A,RUS,"6' 1""",228,L,R
+8475768,Jaden Schwartz,Jaden,Schwartz,1992-06-25,Wilcox,,,CAN,SK,CAN,"5' 10""",185,L,C
+8475792,Brett Connolly,Brett,Connolly,1992-05-02,Campbell River,50.0244,-125.247,CAN,BC,CAN,"6' 3""",198,R,R
+8475794,Tyler Seguin,Tyler,Seguin,1992-01-31,Brampton,43.6833,-79.7667,CAN,ON,CAN,"6' 1""",205,R,C
+8475807,Joakim Nordstrom,Joakim,Nordstrom,1992-02-25,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 1""",194,L,C
+8475810,Bryan Rust,Bryan,Rust,1992-05-11,Pontiac,42.6493,-83.2878,USA,MI,USA,"5' 11""",192,R,R
+8475831,Philipp Grubauer,Philipp,Grubauer,1991-11-25,Rosenheim,47.8561,12.1289,DEU,N/A,DEU,"6' 1""",188,L,G
+8475832,Tom Kuhnhackl,Tom,Kuhnhackl,1992-01-21,Landshut,48.5397,12.1508,DEU,N/A,DEU,"6' 2""",190,L,R
+8475913,Mark Stone,Mark,Stone,1992-05-13,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 3""",217,R,R
+8476147,Kael Mouillierat,Kael,Mouillierat,1987-12-09,Edmonton,53.5344,-113.49,CAN,AB,CAN,"6' 0""",188,L,L
+8476162,Steve Oleksy,Steve,Oleksy,1986-02-04,Chesterfield,38.6588,-90.5804,USA,MI,USA,"5' 11""",188,R,D
+8476195,Cory Conacher,Cory,Conacher,1989-12-14,Burlington,43.3167,-79.8,CAN,ON,CAN,"5' 8""",185,L,C
+8476292,Ondrej Palat,Ondrej,Palat,1991-03-28,Frydek-Mistek,49.6881,18.3536,CZE,N/A,CZE,"6' 0""",194,L,L
+8476293,Scott Wilson,Scott,Wilson,1992-04-24,Oakville,43.45,-79.6833,CAN,ON,CAN,"5' 11""",177,L,C
+8476302,Frank Corrado,Frank,Corrado,1993-03-26,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 0""",205,R,D
+8476312,Josh Manson,Josh,Manson,1991-10-07,Hinsdale,41.8005,-87.9273,USA,IL,CAN,"6' 3""",218,R,D
+8476316,Laurent Brossoit,Laurent,Brossoit,1993-03-23,Port Alberni,49.2339,-124.805,CAN,BC,CAN,"6' 3""",215,L,G
+8476326,Josh Archibald,Josh,Archibald,1992-10-06,Regina,50.4547,-104.607,CAN,SK,CAN,"5' 10""",176,R,R
+8476329,Travis Boyd,Travis,Boyd,1993-09-14,Hopkins,36.8386,-87.4776,USA,MN,USA,"6' 0""",190,R,C
+8476344,Tyler Graovac,Tyler,Graovac,1993-04-27,Brampton,43.6833,-79.7667,CAN,ON,CAN,"6' 5""",208,L,C
+8476368,Fredrik Claesson,Fredrik,Claesson,1992-11-24,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 1""",196,L,D
+8476381,Andrew Shaw,Andrew,Shaw,1991-07-20,Belleville,40.795,-74.1616,CAN,ON,CAN,"5' 11""",182,R,R
+8476394,Michael Paliotta,Michael,Paliotta,1993-04-06,Westport,41.1428,-73.3475,USA,CT,USA,"6' 4""",207,R,D
+8476399,Blake Coleman,Blake,Coleman,1991-11-28,Plano,33.0502,-96.7487,USA,TX,USA,"5' 11""",199,L,C
+8476403,Klas Dahlbeck,Klas,Dahlbeck,1991-07-06,Katrineholm,,,SWE,N/A,SWE,"6' 3""",207,L,D
+8476412,Jordan Binnington,Jordan,Binnington,1993-07-11,Richmond Hill,43.8667,-79.4333,CAN,ON,CAN,"6' 2""",172,L,G
+8476431,Adam Clendening,Adam,Clendening,1992-10-26,Niagara Falls,43.06,-79.1067,USA,NY,USA,"6' 0""",194,R,D
+8476438,Brandon Saad,Brandon,Saad,1992-10-27,Pittsburgh,40.4396,-79.9762,USA,PA,USA,"6' 1""",215,L,L
+8476441,Joel Edmundson,Joel,Edmundson,1993-06-28,Brandon,27.9367,-82.3,CAN,MB,CAN,"6' 5""",221,L,D
+8476444,Christopher Gibson,Christopher,Gibson,1992-12-27,Karkkila,60.5347,24.2097,FIN,N/A,FIN,"6' 2""",217,L,G
+8476448,William Karlsson,William,Karlsson,1993-01-08,Marsta,,,SWE,N/A,SWE,"6' 0""",190,L,C
+8476453,Nikita Kucherov,Nikita,Kucherov,1993-06-17,Maykop,44.6,40.0833,RUS,N/A,RUS,"5' 11""",181,L,R
+8476455,Gabriel Landeskog,Gabriel,Landeskog,1992-11-23,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 1""",215,L,L
+8476479,Phillip Danault,Phillip,Danault,1993-02-24,Victoriaville,46.05,-71.9667,CAN,QC,CAN,"6' 1""",200,L,C
+8476539,Jonathan Marchessault,Jonathan,Marchessault,1990-12-27,Cap-Rouge,,,CAN,QC,CAN,"5' 9""",183,R,R
+8476624,Barclay Goodrow,Barclay,Goodrow,1993-02-26,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 2""",204,L,C
+8476769,Bobby Farnham,Bobby,Farnham,1989-01-21,North Andover,42.6713,-71.0865,USA,MA,USA,"5' 10""",190,L,R
+8476826,Yanni Gourde,Yanni,Gourde,1991-12-15,Saint-Narcisse,,,CAN,QC,CAN,"5' 9""",174,L,C
+8476850,Ryan Murray,Ryan,Murray,1993-09-27,Regina,50.4547,-104.607,CAN,SK,CAN,"6' 1""",206,L,D
+8476870,Stefan Matteau,Stefan,Matteau,1994-02-23,Chicago,41.8373,-87.6862,USA,IL,USA,"6' 2""",208,L,C
+8476871,Tanner Pearson,Tanner,Pearson,1992-08-10,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"6' 1""",201,L,L
+8476874,Olli Maatta,Olli,Maatta,1994-08-22,Jyväskylä,62.2333,25.7333,FIN,N/A,FIN,"6' 2""",207,L,D
+8476877,Jordan Schmaltz,Jordan,Schmaltz,1993-10-08,Madison,43.0826,-89.3931,USA,WI,USA,"6' 2""",196,R,D
+8476880,Tom Wilson,Tom,Wilson,1994-03-29,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 4""",220,R,R
+8476882,Teuvo Teravainen,Teuvo,Teravainen,1994-09-11,Helsinki,60.1756,24.9342,FIN,N/A,FIN,"5' 11""",191,L,L
+8476883,Andrei Vasilevskiy,Andrei,Vasilevskiy,1994-07-25,Tyumen,57.15,65.5333,RUS,N/A,RUS,"6' 4""",220,L,G
+8476884,Derrick Pouliot,Derrick,Pouliot,1994-01-16,Estevan,49.1392,-102.986,CAN,SK,CAN,"6' 0""",196,L,D
+8476892,Colton Parayko,Colton,Parayko,1993-05-12,St. Albert,53.6303,-113.626,CAN,AB,CAN,"6' 6""",228,R,D
+8476897,Oskar Sundqvist,Oskar,Sundqvist,1994-03-23,Boden,47.7369,8.9697,SWE,N/A,SWE,"6' 3""",220,R,C
+8476899,Matt Murray,Matt,Murray,1994-05-25,Thunder Bay,48.3822,-89.2461,CAN,ON,CAN,"6' 5""",203,L,G
+8476905,Chandler Stephenson,Chandler,Stephenson,1994-04-22,Saskatoon,52.1333,-106.683,CAN,SK,CAN,"6' 0""",209,L,C
+8476907,Mackenzie MacEachern,Mackenzie,MacEachern,1994-03-09,Bloomfield Hills,,,USA,MI,USA,"6' 2""",193,L,L
+8476927,Teddy Blueger,Teddy,Blueger,1994-08-15,Riga,56.9475,24.1069,LVA,N/A,LVA,"6' 0""",185,L,C
+8476966,Gemel Smith,Gemel,Smith,1994-04-16,Toronto,43.7417,-79.3733,CAN,ON,CAN,"5' 10""",203,L,C
+8476975,Cedric Paquette,Cedric,Paquette,1993-08-13,Gaspe,48.8333,-64.4833,CAN,QC,CAN,"6' 0""",205,L,C
+8477018,Ben Hutton,Ben,Hutton,1993-04-20,Brockville,44.5833,-75.6833,CAN,ON,CAN,"6' 3""",201,L,D
+8477043,Christian Djoos,Christian,Djoos,1994-08-06,Gothenburg,57.6717,11.981,SWE,N/A,SWE,"6' 0""",180,L,D
+8477070,Liam O'Brien,Liam,O'Brien,1994-07-29,Halifax,44.6475,-63.5906,CAN,NS,CAN,"6' 1""",213,L,C
+8477073,Kurtis MacDermid,Kurtis,MacDermid,1994-03-25,Sauble Beach,,,CAN,ON,CAN,"6' 5""",233,L,D
+8477126,Jayson Megna,Jayson,Megna,1990-02-01,Fort Lauderdale,26.1412,-80.1464,USA,FL,USA,"6' 1""",195,R,C
+8477237,Mike Condon,Mike,Condon,1990-04-27,Holliston,42.1977,-71.445,USA,MA,USA,"6' 2""",196,L,G
+8477240,Carter Rowney,Carter,Rowney,1989-05-10,Grande Prairie,55.1708,-118.795,CAN,AB,CAN,"6' 2""",208,R,C
+8477243,Drew LeBlanc,Drew,LeBlanc,1989-06-29,Duluth,46.7756,-92.1392,USA,MN,USA,"6' 0""",194,L,C
+8477244,Chad Ruhwedel,Chad,Ruhwedel,1990-05-07,San Diego,32.8312,-117.122,USA,CA,USA,"5' 11""",191,R,D
+8477293,Antti Raanta,Antti,Raanta,1989-05-12,Rauma,61.1167,21.5,FIN,N/A,FIN,"6' 0""",195,L,G
+8477404,Jake Guentzel,Jake,Guentzel,1994-10-06,Omaha,41.2627,-96.0522,USA,NE,USA,"5' 11""",180,L,L
+8477409,Carter Verhaeghe,Carter,Verhaeghe,1995-08-14,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 2""",180,L,C
+8477444,Andre Burakovsky,Andre,Burakovsky,1995-02-09,Klagenfurt,46.6167,14.3,AUT,N/A,SWE,"6' 3""",209,L,L
+8477447,Shea Theodore,Shea,Theodore,1995-08-03,Aldergrove,,,CAN,BC,CAN,"6' 2""",197,L,D
+8477451,Ryan Hartman,Ryan,Hartman,1994-09-20,Hilton Head Island,32.1896,-80.7499,USA,SC,USA,"6' 0""",197,R,R
+8477456,J.T. Compher,J.T.,Compher,1995-04-08,Northbrook,39.2467,-84.5796,USA,IL,USA,"6' 0""",190,R,L
+8477465,Tristan Jarry,Tristan,Jarry,1995-04-29,Surrey,49.19,-122.849,CAN,BC,CAN,"6' 2""",194,L,G
+8477474,Madison Bowey,Madison,Bowey,1995-04-22,Winnipeg,49.8844,-97.1464,CAN,MB,CAN,"6' 1""",207,R,D
+8477476,Artturi Lehkonen,Artturi,Lehkonen,1995-07-04,Piikkio,,,FIN,N/A,FIN,"5' 11""",179,L,L
+8477478,William Carrier,William,Carrier,1994-12-20,LaSalle,42.2167,-83.0667,CAN,QC,CAN,"6' 2""",218,L,L
+8477482,Zach Sanford,Zach,Sanford,1994-11-09,Salem,31.7833,35.2167,USA,MA,USA,"6' 4""",206,L,L
+8477492,Nathan MacKinnon,Nathan,MacKinnon,1995-09-01,Halifax,44.6475,-63.5906,CAN,NS,CAN,"6' 0""",200,R,C
+8477501,Valeri Nichushkin,Valeri,Nichushkin,1995-03-04,Chelyabinsk,55.15,61.4,RUS,N/A,RUS,"6' 4""",210,L,R
+8477520,Jean-Sebastien Dea,Jean-Sebastien,Dea,1994-02-08,Laval,45.5833,-73.75,CAN,QC,CAN,"5' 11""",174,R,C
+8477573,Nathan Walker,Nathan,Walker,1994-02-07,Cardiff,,,GBR,N/A,AUS,"5' 9""",187,L,L
+8477839,Conor Sheary,Conor,Sheary,1992-06-08,Winchester,36.1368,-115.13,USA,MA,USA,"5' 9""",179,L,L
+8477845,Trevor van Riemsdyk,Trevor,van Riemsdyk,1991-07-24,Middletown,41.4459,-74.4236,USA,NJ,USA,"6' 3""",191,R,D
+8477944,Jakub Vrana,Jakub,Vrana,1996-02-28,Prague,50.0833,14.4167,CZE,N/A,CZE,"6' 0""",190,L,L
+8477952,Robby Fabbri,Robby,Fabbri,1996-01-22,Mississauga,43.6,-79.65,CAN,ON,CAN,"5' 11""",185,L,C
+8477964,Ivan Barbashev,Ivan,Barbashev,1995-12-14,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 1""",195,L,C
+8477979,Nicolas Aube-Kubel,Nicolas,Aube-Kubel,1996-05-10,Slave Lake,55.2853,-114.771,CAN,AB,CAN,"6' 0""",207,R,R
+8477992,Jonas Johansson,Jonas,Johansson,1995-09-19,Gavle,60.667,17.1666,SWE,N/A,SWE,"6' 5""",220,L,G
+8478010,Brayden Point,Brayden,Point,1996-03-13,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 11""",180,R,C
+8478020,Michael Amadio,Michael,Amadio,1996-05-13,Sault Ste. Marie,46.5333,-84.35,CAN,ON,CAN,"6' 1""",204,R,R
+8478038,Devon Toews,Devon,Toews,1994-02-21,Abbotsford,49.05,-122.317,CAN,BC,CAN,"6' 1""",191,L,D
+8478049,Ben Thomas,Ben,Thomas,1996-05-28,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 1""",187,R,D
+8478063,Shane Gersich,Shane,Gersich,1996-07-10,Chaska,44.8164,-93.6092,USA,MN,USA,"5' 11""",185,L,L
+8478069,Daniel Walcott,Daniel,Walcott,1994-02-19,Ile Perrot,,,CAN,QC,CAN,"6' 1""",175,L,L
+8478104,Sammy Blais,Sammy,Blais,1996-06-17,Montmagny,46.9833,-70.55,CAN,QC,CAN,"6' 2""",206,L,L
+8478106,Dylan Sikura,Dylan,Sikura,1995-06-01,Aurora,39.7087,-104.727,CAN,ON,CAN,"5' 11""",170,L,R
+8478373,Nikita Soshnikov,Nikita,Soshnikov,1993-10-14,Nizhny Tagil,,,RUS,N/A,RUS,"5' 11""",190,L,R
+8478393,Kyle Baun,Kyle,Baun,1992-05-04,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 2""",209,R,R
+8478403,Jack Eichel,Jack,Eichel,1996-10-28,North Chelmsford,,,USA,MA,USA,"6' 2""",207,R,C
+8478407,Vince Dunn,Vince,Dunn,1996-10-29,Mississauga,43.6,-79.65,CAN,ON,CAN,"6' 0""",200,L,D
+8478416,Erik Cernak,Erik,Cernak,1997-05-28,Kosice,48.7167,21.25,SVK,N/A,SVK,"6' 4""",224,R,D
+8478420,Mikko Rantanen,Mikko,Rantanen,1996-10-29,Nousiainen,,,FIN,N/A,FIN,"6' 4""",215,L,R
+8478434,Keegan Kolesar,Keegan,Kolesar,1997-04-08,Brandon,27.9367,-82.3,CAN,MB,CAN,"6' 2""",217,R,R
+8478462,Nicolas Roy,Nicolas,Roy,1997-02-05,Amos,5.72,-72.94,CAN,QC,CAN,"6' 4""",202,R,C
+8478466,Daniel Sprong,Daniel,Sprong,1997-03-17,Amsterdam,52.35,4.9166,NLD,N/A,NLD,"6' 0""",202,R,R
+8478472,Mathieu Joseph,Mathieu,Joseph,1997-02-09,Laval,45.5833,-73.75,CAN,QC,CAN,"6' 1""",187,L,R
+8478477,Mitchell Stephens,Mitchell,Stephens,1997-02-05,Peterborough,44.3,-78.3167,CAN,ON,CAN,"5' 11""",197,R,C
+8478499,Adin Hill,Adin,Hill,1996-05-11,Comox,49.6733,-124.902,CAN,BC,CAN,"6' 4""",215,L,G
+8478519,Anthony Cirelli,Anthony,Cirelli,1997-07-15,Etobicoke,,,CAN,ON,CAN,"6' 0""",189,L,C
+8478866,Dominik Simon,Dominik,Simon,1994-08-08,Prague,50.0833,14.4167,CZE,N/A,CZE,"5' 11""",190,L,C
+8478928,Sergei Plotnikov,Sergei,Plotnikov,1990-06-03,Komsomolsk,57.0333,40.3833,RUS,N/A,RUS,"6' 2""",202,L,L
+8479353,Brett Howden,Brett,Howden,1998-03-29,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 2""",203,L,C
+8479370,Tyson Jost,Tyson,Jost,1998-03-14,St. Albert,53.6303,-113.626,CAN,AB,CAN,"5' 11""",187,L,C
+8479385,Jordan Kyrou,Jordan,Kyrou,1998-05-05,Toronto,43.7417,-79.3733,CAN,ON,CAN,"6' 1""",196,R,C
+8479398,Samuel Girard,Samuel,Girard,1998-05-12,Roberval,48.52,-72.23,CAN,QC,CAN,"5' 10""",170,L,D
+8479410,Mikhail Sergachev,Mikhail,Sergachev,1998-06-25,Nizhnekamsk,55.6333,51.8167,RUS,N/A,RUS,"6' 1""",217,L,D
+8479439,Jacob MacDonald,Jacob,MacDonald,1993-02-26,Portland,45.5372,-122.65,USA,OR,USA,"6' 0""",204,L,D
+8479482,Michal Kempny,Michal,Kempny,1990-09-08,Hodonin,48.849,17.1324,CZE,N/A,CZE,"6' 1""",190,L,D
+8479525,Ross Colton,Ross,Colton,1996-09-11,Robbinsville,40.222,-74.591,USA,NJ,USA,"6' 0""",194,L,C
+8479573,Mikhail Maltsev,Mikhail,Maltsev,1998-03-12,St. Petersburg,27.7931,-82.6652,RUS,N/A,RUS,"6' 3""",198,L,L
+8479718,Alex Barré-Boulet,Alex,Barré-Boulet,1997-05-21,Montmagny,46.9833,-70.55,CAN,QC,CAN,"5' 10""",180,L,C
+8479980,Nicolas Hague,Nicolas,Hague,1998-12-05,Kitchener,43.4186,-80.4728,CAN,ON,CAN,"6' 6""",230,L,D
+8479984,Cal Foote,Cal,Foote,1998-12-13,Denver,39.7621,-104.876,USA,CO,USA,"6' 5""",224,R,D
+8479991,Jake Leschyshyn,Jake,Leschyshyn,1999-03-10,Raleigh,35.8325,-78.6435,USA,NC,USA,"5' 11""",195,L,C
+8480007,Jonas Rondbjerg,Jonas,Rondbjerg,1999-03-31,Horsholm,,,DNK,N/A,DNK,"6' 2""",203,L,R
+8480023,Robert Thomas,Robert,Thomas,1999-07-02,Aurora,39.7087,-104.727,CAN,ON,CAN,"6' 0""",218,R,C
+8480069,Cale Makar,Cale,Makar,1998-10-30,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 11""",187,R,D
+8480143,Jakub Jerabek,Jakub,Jerabek,1991-05-12,Pilsen,,,CZE,N/A,CZE,"5' 11""",199,L,D
+8480158,Andreas Borgman,Andreas,Borgman,1995-06-18,Stockholm,59.3294,18.0686,SWE,N/A,SWE,"6' 0""",200,L,D
+8480172,Jan Rutta,Jan,Rutta,1990-07-29,Pisek,49.3089,14.1475,CZE,N/A,CZE,"6' 3""",204,R,D
+8480186,Alexander Volkov,Alexander,Volkov,1997-08-02,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 1""",195,L,R
+8480238,Jiri Patera,Jiri,Patera,1999-02-24,Praha,,,CZE,N/A,CZE,"6' 2""",209,L,G
+8480313,Logan Thompson,Logan,Thompson,1997-02-25,Calgary,51.05,-114.067,CAN,AB,CAN,"6' 4""",205,R,G
+8480727,Zach Whitecloud,Zach,Whitecloud,1996-11-28,Brandon,27.9367,-82.3,CAN,MB,CAN,"6' 2""",207,R,D
+8480748,Kiefer Sherwood,Kiefer,Sherwood,1995-03-31,Columbus,39.9862,-82.985,USA,OH,USA,"6' 0""",194,R,L
+8480776,Sheldon Rempal,Sheldon,Rempal,1995-08-07,Calgary,51.05,-114.067,CAN,AB,CAN,"5' 10""",165,R,R
+8480822,Martin Kaut,Martin,Kaut,1999-10-02,Brno,49.1953,16.6083,CZE,N/A,CZE,"6' 2""",190,R,R
+8480846,Sampo Ranta,Sampo,Ranta,2000-05-31,Naantali,60.4681,22.0264,FIN,N/A,FIN,"6' 2""",195,L,L
+8480913,Jordan Gross,Jordan,Gross,1995-05-09,Maple Grove,45.1089,-93.4626,USA,MN,USA,"5' 10""",190,R,D
+8480925,Pavel Francouz,Pavel,Francouz,1990-06-03,Plzen,49.7414,13.3825,CZE,N/A,CZE,"6' 0""",179,R,G
+8481020,Justus Annunen,Justus,Annunen,2000-03-11,Kempele,,,FIN,N/A,FIN,"6' 4""",210,L,G
+8481032,Paul Cotter,Paul,Cotter,1999-11-16,Canton,40.8075,-81.3677,USA,MI,USA,"6' 2""",212,L,C
+8481167,Brayden Pachal,Brayden,Pachal,1999-08-23,Estevan,49.1392,-102.986,CAN,SK,CAN,"6' 2""",203,R,D
+8481186,Logan O'Connor,Logan,O'Connor,1996-08-14,Missouri City,29.563,-95.5365,USA,TX,USA,"6' 0""",175,R,R
+8481477,Nico Sturm,Nico,Sturm,1995-05-03,Augsburg,48.3717,10.8983,DEU,N/A,DEU,"6' 3""",209,L,C
+8481524,Bowen Byram,Bowen,Byram,2001-06-13,Cranbrook,49.5097,-115.767,CAN,BC,CAN,"6' 1""",190,L,D
+8481527,Kaedan Korczak,Kaedan,Korczak,2001-01-29,Yorkton,51.2139,-102.463,CAN,SK,CAN,"6' 3""",202,R,D
+8481604,Pavel Dorofeyev,Pavel,Dorofeyev,2000-10-26,Nizhny Tagil,,,RUS,N/A,RUS,"6' 1""",194,L,L
+8481618,Alex Newhook,Alex,Newhook,2001-01-28,St. John's,47.4817,-52.7971,CAN,NL,CAN,"5' 10""",190,L,C
+8482111,Justin Barron,Justin,Barron,2001-11-15,Halifax,44.6475,-63.5906,CAN,NS,CAN,"6' 2""",201,R,D
+8482624,Daniil Miromanov,Daniil,Miromanov,1997-07-11,Moscow,55.7558,37.6178,RUS,N/A,RUS,"6' 4""",200,R,D
+8483570,Ben Meyers,Ben,Meyers,1998-11-15,Delano,35.767,-119.264,USA,MN,USA,"5' 11""",194,L,C
