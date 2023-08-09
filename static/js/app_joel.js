@@ -1,108 +1,74 @@
-const urlTeam = "http://127.0.0.1:5000/api/nhl2.0/goalie_stats";
+// const url = "http://127.0.0.1:5000/api/nhl2.0/team_stats";
 
 // Fetch data and populate dropdown
-d3.json(urlTeam).then(dataGoalie => {
-  var seasonDropdownGoalie = d3.select("#selSeasonPerform");
-  var goalieStatsList = dataGoalie;
+d3.json(url).then(data => {
+  const seasonDropdownss = d3.select("#selSeasonPerform");
+  const teamStatsListss = data;
 
   // Extract unique season IDs
   
-  var seasonIds = goalieStatsList.map(row => row.season_id);
-  var uniqueSeasonIds = seasonIds.filter((seasonId, index) => seasonIds.indexOf(seasonId) === index);
+  const seasonIds = teamStatsListss.map(stats => stats.season_id);
+  const uniqueSeasonIdsss = seasonIds.filter((seasonId, index) => seasonIds.indexOf(seasonId) === index);
 
   // Populate the dropdown with season IDs
-  uniqueSeasonIds.forEach(seasonId => {
-    seasonDropdownGoalie
+  uniqueSeasonIdsss.forEach(seasonId => {
+    seasonDropdownss
       .append("option")
       .attr("value", seasonId)
       .text(seasonId);
   });
  
   // Initialize the graph with the first season
-  updateTeamPerform(uniqueSeasonIds[0]);
+  updateTeamPerform(uniqueSeasonIdsss[0]);
 });
 
 // Function to update team stats graph based on selected season
 function updateTeamPerform(selectedSeasonId) {
-  d3.json(urlTeam).then(dataGoalie => {
+  d3.json(url).then(data => {
     // Filter team stats for the selected season
-    var selectedGoalieStats = dataGoalie.filter(row => row.season_id === parseInt(selectedSeasonId));
-  
-    // "player_name": player_name,
-    // "season_id":goalie_stat.season_id,
-    // "goalie_stats_goalie_shutouts": goalie_stat.goalie_stats_goalie_shutouts,
-    // "goalie_stats_shortHandedSavePercentage": float(goalie_stat.goalie_stats_shortHandedSavePercentage), 
-    // "goalie_stats_wins": goalie_stat.goalie_stats_wins,
-    // "goalie_stats_goalie_losses": goalie_stat.goals_against,
-    // "goalie_stats_saves": goalie_stat.goalie_stats_saves,
-    // "goalie_stats_goalie_goalsAgainst": float(goalie_stat.goalie_stats_goalie_goalsAgainst)
-    // ];
-      var playerName = selectedGoalieStats[0].player_name;
-      var shutouts = selectedGoalieStats[0].goalie_stats_goalie_shutouts;
-      var wins = selectedGoalieStats[0].goalie_stats_wins;
-      var losses = selectedGoalieStats[0].goalie_stats_goalie_losses;
-      var goals_against = selectedGoalieStats[0].goalie_stats_goalie_goalsAgainst;
-      var saves = selectedGoalieStats[0].goalie_stats_saves;
-     
-      console.log("Current Player:", playerName)
-      console.log("Wins:", wins)
-      console.log("Losses:", losses)
-      console.log("Goals Against:", goals_against)
-      console.log("Saves:", saves)
-      console.log("Shutouts:", shutouts)
-      
-      var trace = {
-          x: [goals_against],
-          y: [losses],
-          text: "losses",
-          type: "scatter",
-          mode: 'markers',
-          marker: {
-          size: wins,
-          color: goals_against,
-          colorscale:"Portland"
-          }
-      };
-      var bubbleData = [trace];
-      var layout = {
-          showlegend: false,
-          title: `${playerName} statistics for Season ${selectedSeasonId}`,
-          hovermode: 'closest',
-          xaxis: {title:"Goals Against",
-          range: [0, 500]},
-          yaxis: {range: [0, 50]}
-      };
-      Plotly.newPlot('perform-stats-bar', bubbleData, layout); 
-  });    
-}
+    const selectedTeamStatsss = data.filter(stats => stats.season_id === parseInt(selectedSeasonId));
+    console.log("Updating team stats for season:", selectedSeasonId);
+
+    // Define an array of team stat attributes
+    const statAttributesss = [
+      { key: "team_stats_pts", name: "Points" },
+      { key: "team_stats_powerPlayGoals", name: "Power Play Goals" },
+      { key: "team_stats_powerPlayGoalsAgainst", name: "Power Play Goals Against" },
+      { key: "team_stats_powerPlayPercentage", name: "Power Play %" },
+      { key: "team_stats_penaltyKillPercentage", name: "Penalty Kill %" }
+    
+    ];
+
     // Create traces for different team values
-//     var traces = statAttributes.map(attr => createTrace(selectedGoalieStats, attr.key, attr.name));
+    const tracess = statAttributesss.map(attr => createTrace(selectedTeamStatsss, attr.key, attr.name));
 
-//     var layout = {
-//       title: `Goalie Stats for Season ${selectedSeasonId}`,
-//       xaxis: {
-//         title: "Team Name"
-//       },
-//       yaxis: {
-//         title: "Value"
-//       },
-//       barmode: "group" // Display bars in grouped mode
-//     };
+    const layoutss = {
+      title: `Team Stats for Season ${selectedSeasonId}`,
+      xaxis: {
+        title: "Team Name",
+        tickangle: -45,
+        automargin: true,
+      },
+      yaxis: {
+        title: "Value"
+      },
+      barmode: "group" // Display bars in grouped mode
+    };
 
-//     // Plot the bar chart
-//     Plotly.newPlot("goalie-stats-bar", traces, layout);
-//   });
-// }
+    // Plot the bar chart
+    Plotly.newPlot("perform-stats-bar", tracess, layoutss);
+  });
+}
 
-// // Function to create a trace for the bar chart
-// function createTrace(data, key, name) {
-//   const teamNames = data.map(stats => stats.team_name);
-//   const teamValues = data.map(stats => stats[key]);
+// Function to create a trace for the bar chart
+function createTrace(data, key, name) {
+  const teamNamesss = data.map(stats => stats.team_name);
+  const teamValuesss = data.map(stats => stats[key]);
 
-//   return {
-//     x: teamNames,
-//     y: teamValues,
-//     type: "bar",
-//     name: name
-//   };
-// }
+  return {
+    x: teamNamesss,
+    y: teamValuesss,
+    type: "bar",
+    name: name
+  };
+}

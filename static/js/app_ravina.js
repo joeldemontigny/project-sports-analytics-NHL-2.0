@@ -31,7 +31,7 @@ function updateTeamStats(selectedSeasonId) {
 
     // Define an array of team stat attributes
     const statAttributes = [
-      { key: "team_stats_pts", name: "Points" },
+      
       { key: "team_stats_wins", name: "Wins" },
       { key: "team_stats_goalsPerGame", name: "Goals Per Game" },
       { key: "team_stats_goalsAgainstPerGame", name: "Goals Against Per Game" },
@@ -45,7 +45,9 @@ function updateTeamStats(selectedSeasonId) {
     const layout = {
       title: `Team Stats for Season ${selectedSeasonId}`,
       xaxis: {
-        title: "Team Name"
+        title: "Team Name",
+        tickangle: -45,
+        automargin: true,
       },
       yaxis: {
         title: "Value"
