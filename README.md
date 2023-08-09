@@ -15,7 +15,7 @@ For this project, we are focused on providing the best visuals representing data
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  30 Stanley Cup seasons were analysed.
 
-# Technology used:
+## Technology used:
 
 Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
 
