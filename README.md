@@ -53,19 +53,19 @@ API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster
 Player Stats year by year season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
 
-## Internal APIs created with Flask:
+## Internal APIs created with Flask: - Needs update
 
 ## Background:
 
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
-## App set-up:
+## App set-up: *Needs update
 
-## Data Collection:
+## Data Collection: *Needs update
 
 The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
 
-## How to access the index.html
+## How to access the index.html: *Needs update and do we need this
 
 First download the folder called 'NHLStats'.
 Open you terminal and 'cd' into where the 'NHL' folder is located in your computer.
@@ -76,15 +76,15 @@ This will display the dashboard.
 
 ## Dashboards:
 
-### Interactive world map
+### Interactive world map:  *Needs image
 
 ### Team comparisons per season:
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/0cbda9df-902a-4e34-aaab-7115e4f06193)
 
-### Stanley Cup winning team performance per season:
+### Stanley Cup winning team performance per season:  *Needs image
 
-### Goalie statistics comparison:
+### Goalie statistics comparison:   *Needs image
 
 
 ## Challenges and Lessons Learned:
