@@ -50,15 +50,15 @@ function updateGoalieStats(selectedSeasonId) {
       console.log("Saves:", saves)
       
       var trace = {
-          x: goals_against,
-          y: losses,
+          x: [goals_against],
+          y: [losses],
           text: "losses",
+          type: "scatter",
           mode: 'markers',
           marker: {
-          size: losses,
+          size: saves,
           color: goals_against,
-          colorscale:"Portland",
-          type: "bar"
+          colorscale:"Portland"
           }
       };
       var bubbleData = [trace];
