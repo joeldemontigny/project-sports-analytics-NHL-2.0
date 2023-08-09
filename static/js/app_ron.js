@@ -66,7 +66,9 @@ function updateGoalieStats(selectedSeasonId) {
           showlegend: false,
           title: `${playerName} statistics for Season ${selectedSeasonId}`,
           hovermode: 'closest',
-          xaxis: {title:"Goals Against"},
+          xaxis: {title:"Goals Against",
+          range: [0, 500]},
+          yaxis: {range: [0, 50]}
       };
       Plotly.newPlot('goalie-stats-bubble', bubbleData, layout); 
   });    
