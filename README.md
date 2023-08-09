@@ -13,7 +13,7 @@ Note: The 2004-2005 season was player work stopage and therefore the National Ho
 
 Python Flask API
 
-JavaScript:  Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
+Embedded Video - JavaScript:  Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to host/play a video at launch of the HTML page.
 
 API Ninjas
 
@@ -52,12 +52,12 @@ API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=st
 
 ## Internal APIs created with Flask: 
 
-Season:/api/nhl2.0/season
-Players:/api/nhl2.0/players
-Player_Stats:/api/nhl2.0/player_stats
-Goalie_Stats:/api/nhl2.0/goalie_stats
-Teams:/api/nhl2.0/teams
-Team_Stats:/api/nhl2.0/team_stats
+- Season:/api/nhl2.0/season
+- Players:/api/nhl2.0/players
+- Player_Stats:/api/nhl2.0/player_stats
+- Goalie_Stats:/api/nhl2.0/goalie_stats
+- Teams:/api/nhl2.0/teams
+- Team_Stats:/api/nhl2.0/team_stats
 
 ## Background:
 
