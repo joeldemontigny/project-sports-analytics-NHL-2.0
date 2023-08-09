@@ -12,8 +12,6 @@ For this project, we are focused on providing the best visuals representing data
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  30 Stanley Cup seasons were analysed.
 
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
-
 ## Technology used:
 
 Python Flask API
@@ -35,6 +33,10 @@ Bootstrap
 Datetime
 
 MySQL-Relational database used.
+
+## Relational Database (ERD)
+
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
 
 ## APIs used:
 
