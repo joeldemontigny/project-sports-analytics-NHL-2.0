@@ -2,7 +2,7 @@ const urlTeam = "http://127.0.0.1:5000/api/nhl2.0/goalie_stats";
 
 // Fetch data and populate dropdown
 d3.json(urlTeam).then(dataGoalie => {
-  var seasonDropdownGoalie = d3.select("#selSeasonGoalie");
+  var seasonDropdownGoalie = d3.select("#selSeasonPerform");
   var goalieStatsList = dataGoalie;
 
   // Extract unique season IDs
