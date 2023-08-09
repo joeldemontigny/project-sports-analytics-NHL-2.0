@@ -56,7 +56,7 @@ function updateGoalieStats(selectedSeasonId) {
           type: "scatter",
           mode: 'markers',
           marker: {
-          size: saves,
+          size: wins,
           color: goals_against,
           colorscale:"Portland"
           }
