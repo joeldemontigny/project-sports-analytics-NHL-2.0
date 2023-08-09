@@ -1,11 +1,7 @@
 # project-sports-analytics-NHL-2.0
 [Project 3 proposal.docx](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/files/12222431/Project.3.proposal.docx)
 
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
-
-
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/cead8b13-dcb9-48cb-92b8-19ee070227a9)
-
 
 # project-sports-analytics-NHL
 _(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
@@ -15,29 +11,29 @@ For this project, we are focused on providing the best visuals representing data
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  30 Stanley Cup seasons were analysed.
 
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
+
 ## Technology used:
 
-Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
+Python Flask API
 
-JavaScript: Used to plot the interactive charts.  Leaflet and dashboards were used.
+JavaScript:  Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
 
-  ***Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
+API Ninjas
 
-API Ninjas: Used to identify longitute of latitude of a player's birth city.
+SQLAlchamy
 
-SQLalchamy with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
+HTML and CSS
 
-HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
+Pandas
 
-Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
+Numpy
 
-Numpy: Used to to perform mathematical operations on arrays.
+Bootstrap 
 
-Bootstrap: 
+Datetime
 
-Datetime: Used to manipulate date of births, time on ice, and other relevant statistics.
-
-MySQL: Used to house our data.  Relational database used.
+MySQL-Relational database used.
 
 ## Table of Contents
 
