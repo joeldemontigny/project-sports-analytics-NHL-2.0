@@ -63,20 +63,9 @@ API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=st
 
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
-## App set-up: *Needs update
-
 ## Data Collection: *Needs update
 
 The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
-
-## How to access the index.html: *Needs update and do we need this
-
-First download the folder called 'NHLStats'.
-Open you terminal and 'cd' into where the 'NHL' folder is located in your computer.
-Then in the terminal type in, 'python -m http.server'.
-It should show, 'Serving HTTP on :: 8000'.
-Go to your browser and type in the search bar, 'localhost8000'.
-This will display the dashboard.
 
 ## Dashboards:
 
@@ -86,9 +75,14 @@ This will display the dashboard.
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/0cbda9df-902a-4e34-aaab-7115e4f06193)
 
-### Stanley Cup winning team performance per season:  *Needs image
+### Stanley Cup winning team performance per season:
 
-### Goalie statistics comparison:   *Needs image
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/bfb40df9-e911-41b2-bbb8-199d38136c1b)
+
+
+### Goalie statistics comparison:
+
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/404445a9-96fb-4e33-a404-43781016fa98)
 
 
 ## Challenges and Lessons Learned:
