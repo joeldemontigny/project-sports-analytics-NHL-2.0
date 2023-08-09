@@ -5,72 +5,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>NHL Analytics</title>
+  <title>NHL Team Stats</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
 </head>
 
 <body>
-  
+
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>NHL Analytics</h1>
-        <p>Use the interactive charts below to explore the dataset for a particular season between the years of 1991 to 2023
+        <p>Use the interactive charts below to explore the dataset for a particular season between the years of 1991 to 2023</p>
+        <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="467"
+        height="263"
+        poster="./video/Thumbnail.png"
+        data-setup="{}"
+      >
+        <source src="./video/NHL Analytics 2.0 Opener.mp4" type="video/mp4" />
+        <source src="MY_VIDEO.webm" type="video/webm" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
         </p>
+</video>
       </div>
     </div>
+        <!-- Start - Joel -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="well">
+              <h5>Season</h5>
+              <select id="selSeasonPerform" onchange="updateTeamPerform(this.value)"></select>
+            </div>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-md-12">
+            <div id="perform-stats-bar"></div>
+          </div>
+        </div>
+        <!-- End - Joel -->
+    <!-- Start - Ravina -->
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-12">
         <div class="well">
           <h5>Season</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Stanley Cup Winning Team </h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <select id="selSeason" onchange="updateTeamStats(this.value)"></select>
+            <div id="team-stats-bar"></div>
         </div>
       </div>
-      <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-  >
-    <source src="NHL Analytics 2.0 Opener.mp4" type="video/mp4" />
-    <source src="MY_VIDEO.webm" type="video/webm" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
+    </div>
+    <!-- End - Ravina -->
+    <!-- Start - Ron -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <h5>Season</h5>
+          <select id="selSeasonGoalie" onchange="updateGoalieStats(this.value)"></select>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div id="goalie-stats-bar"></div>
       </div>
+      <!-- End - Ron -->
     </div>
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="./static/js/app.js"></script>
-  <script src="./static/js/bonus.js"></script>
+  <script src="./static/js/app_ravina.js"></script>
+  <script src="./static/js/app_ron.js"></script>
 
 </body>
 
