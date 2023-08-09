@@ -50,7 +50,14 @@ API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster
 Player Stats year by year season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
 
-## Internal APIs created with Flask: - Needs update
+## Internal APIs created with Flask: 
+
+Season:/api/nhl2.0/season
+Players:/api/nhl2.0/players
+Player_Stats:/api/nhl2.0/player_stats
+Goalie_Stats:/api/nhl2.0/goalie_stats
+Teams:/api/nhl2.0/teams
+Team_Stats:/api/nhl2.0/team_stats
 
 ## Background:
 
