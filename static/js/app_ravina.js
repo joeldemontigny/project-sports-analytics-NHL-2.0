@@ -17,7 +17,7 @@ d3.json(url).then(data => {
       .attr("value", seasonId)
       .text(seasonId);
   });
-
+ 
   // Initialize the graph with the first season
   updateTeamStats(uniqueSeasonIds[0]);
 });

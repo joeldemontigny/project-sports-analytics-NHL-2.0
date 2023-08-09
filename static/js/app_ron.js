@@ -17,7 +17,7 @@ d3.json(urlGoalie).then(dataGoalie => {
       .attr("value", seasonId)
       .text(seasonId);
   });
-
+ 
   // Initialize the graph with the first season
   updateGoalieStats(uniqueSeasonIds[0]);
 });
