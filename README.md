@@ -53,27 +53,15 @@ API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster
 Player Stats year by year season:
 API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
 
-## Internal APIs created:
+## Internal APIs created with Flask:
 
-## App set-up:
-
-## Table of Contents
-
-- [Background](#background)
-- [Limitations](#limitations)
-- [Data Collection](#data-collection)
-- [Analysis](#analysis)
-- [Conclusion](#conclusion) 
-- [Future Work](#future-work)
-- [Team Members](#team-members)
-- [Appendix](#appendix)
-
-
-## Background
+## Background:
 
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
-## Data Collection
+## App set-up:
+
+## Data Collection:
 
 The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
 
@@ -99,7 +87,7 @@ This will display the dashboard.
 ### Goalie statistics comparison:
 
 
-## Challenges and Lessons Learned
+## Challenges and Lessons Learned:
 
 Financials, only free APIs were used as there was not a budget to purchase additional APIs.
 
@@ -109,15 +97,15 @@ Underestimating the complexity and skills required to achieve the desired end re
 
 Need to improve assessing timelines and time constraints.
 
-## Limitations
+## Limitations:
 
 The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
 
-## Future Work
+## Future Work:
 
 This project is an ongoing effort, and future updates will include proving our hypothesis and a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup for the following year.
 
-## Team Members
+## Team Members:
 
 Ravina Kolsawala
 
