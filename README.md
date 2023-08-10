@@ -42,13 +42,13 @@ Team Stats per season:
 API Call: https://statsapi.web.nhl.com/api/v1/teams
 
 Roster per team per season:	
-API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>
+API Call: https://statsapi.web.nhl.com/api/v1/teams//<Team ID/>?expand=team.stats&season=<season>
 
 Player Stats per season:
-API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
+API Call: https://statsapi.web.nhl.com/api/v1/teams//<Team ID/>?expand=team.roster&season=<season>
 
 Player Stats year by year season:
-API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
+API Call: https://statsapi.web.nhl.com/api/v1/people//<Player ID/>/stats??stats=statsSingleSeason&season=<season>
 
 ## Internal APIs created with Flask: 
 
@@ -63,13 +63,11 @@ API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=st
 
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
-## Data Collection: *Needs update
+## Data Collection:
 
-The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
+The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023). Once the teams were gathered, the team id's were used to get the roster for that team id for that winning season.  With this information, team statistics and player statistics can be gathered.
 
 ## Dashboards:
-
-### Interactive world map:  *Needs image
 
 ### Team comparisons per season:
 
@@ -95,9 +93,13 @@ Underestimating the complexity and skills required to achieve the desired end re
 
 Need to improve assessing timelines and time constraints.
 
+The Player Statistics by Year APIs used in this project evolverd over time.  More data points were added to the statistics during the 30 year span of data.  As more data was collected to from by the NHL, the datasets (API) grew.  This caused NULL and Zero values in our database.  With about 1/3 of the data not available, the decision was made to remove the player statistics portion of the project.  Investigation into what the best practise is for this situation and how to overcome it and provide acurrate analysis.  
+
+
 ## Limitations:
 
-The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
+The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons.
+
 
 ## Future Work:
 
