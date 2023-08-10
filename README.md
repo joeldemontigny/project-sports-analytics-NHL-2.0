@@ -1,186 +1,111 @@
 # project-sports-analytics-NHL-2.0
 [Project 3 proposal.docx](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/files/12222431/Project.3.proposal.docx)
 
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/113490286/74c01426-f5f3-4fb8-a9a1-5c4a5b042b27)
-
-
-
+# project timelines:
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/cead8b13-dcb9-48cb-92b8-19ee070227a9)
-
-
-# project-sports-analytics-NHL
-_(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
 
 ## Overview
 For this project, we are focused on providing the best visuals representing data related to previous Stanley Cup winning teams over the last 30 seasons.   We are providing an enhanced user experience by creating an interactive dashboard that will enable the end user to select various filters to analyze and compare data from each winning team over the course of the last 30 seasons vs the rest of the league, or for informative purposes to analyze player statistics.  The basis of this project, is the evolution of our initial data gathering and analysis on this topic which can be found here: (https://github.com/rbrennan55/project-sports-analytics-NHL.git). 
 
 Note: The 2004-2005 season was player work stopage and therefore the National Hockey League (NHL) suspended the season.  30 Stanley Cup seasons were analysed.
 
-# Technology used:
+## Technology used:
 
-Python Flask API: Utilised to automatically fetch data from MySQL database and render the template. Powering the dashboard.
+Python Flask API
 
-JavaScript: Used to plot the interactive charts.  Leaflet and dashboards were used.
+Embedded Video - JavaScript:  Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to host/play a video at launch of the HTML page.
 
-  ***Note, video.min.js is a JS library that has not been covered in our course.  It's specific use enables us to create a video at launch of the HTML page.
+API Ninjas
 
-API Ninjas: Used to identify longitute of latitude of a player's birth city.
+SQLAlchamy
 
-SQLalchamy with Flask: Utilised to import data from a CSV file obtained from NHL statsapi.
+HTML and CSS
 
-HTML and CSS: Utilised to create the web application, with HTML providing the structure and layout and CSS enhancing the appearance.
+Pandas
 
-Pandas: Used to clean, prepare, and transform the data for analysis by removing unnecessary columns and data.
+Numpy
 
-Numpy: Used to to perform mathematical operations on arrays.
+Bootstrap 
 
-Bootstrap: 
+Datetime
 
-Datetime: Used to manipulate date of births, time on ice, and other relevant statistics.
+MySQL-Relational database used.
 
-MySQL: Used to house our data.  Relational database used.
-
-## Table of Contents
-
-- [Background](#background)
-- [Limitations](#limitations)
-- [Data Collection](#data-collection)
-- [Analysis](#analysis)
-- [Conclusion](#conclusion) 
-- [Future Work](#future-work)
-- [Team Members](#team-members)
-- [Appendix](#appendix)
+## Relational Database (ERD):
 
 
-## Background
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/2ab208c6-1356-467d-af15-ee7fccd62c96)
+
+## External APIs used:
+
+Team Stats per season: 
+API Call: https://statsapi.web.nhl.com/api/v1/teams
+
+Roster per team per season:	
+API Call: https://statsapi.web.nhl.com/api/v1/teams//<Team ID/>?expand=team.stats&season=<season>
+
+Player Stats per season:
+API Call: https://statsapi.web.nhl.com/api/v1/teams//<Team ID/>?expand=team.roster&season=<season>
+
+Player Stats year by year season:
+API Call: https://statsapi.web.nhl.com/api/v1/people//<Player ID/>/stats??stats=statsSingleSeason&season=<season>
+
+## Internal APIs created with Flask: 
+
+- Season:/api/nhl2.0/season
+- Players:/api/nhl2.0/players
+- Player_Stats:/api/nhl2.0/player_stats
+- Goalie_Stats:/api/nhl2.0/goalie_stats
+- Teams:/api/nhl2.0/teams
+- Team_Stats:/api/nhl2.0/team_stats
+
+## Background:
 
 The Stanley Cup is one of the most difficult trophies to win in all of professional sports, awarded annually to the team that emerges victorious in the National Hockey League (NHL) playoffs.  The winning team must qualify for the playoffs and win another 16 games in order to win "The Cup". Understanding the composition of historical winning teams can provide valuable insights into the dynamics and strategies that contribute to success on the ice.
 
+## Data Collection:
 
-## Limitations
-###- Data/API related limitations ***needs updating***.
-###- Financials, only free APIs were used as there was not a budget to purchase additional APIs
-###- The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons. 
+The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023). Once the teams were gathered, the team id's were used to get the roster for that team id for that winning season.  With this information, team statistics and player statistics can be gathered.
 
+## Dashboards:
 
-## Data Collection
-###The data used for this analysis was collected from the NHL's free Application Programing Interface (API) which included official NHL records and statistics for each season, team and player. It includes information such as player's name, age, nationality, and team affiliation for each season.  As well as player specific information.  In order to harvest the information needed, the first task was to get a list of all Stanley Cup winners for the past 30 seasons (1992-2023).  To obtain this information, a scrape of:
-```
-Team Stats per season: 
-API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.stats&season=<season>  
+### Team comparisons per season:
 
-Roster per team per season:
-API Call: https://statsapi.web.nhl.com/api/v1/teams/<Team ID>?expand=team.roster&season=<season>
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/0cbda9df-902a-4e34-aaab-7115e4f06193)
 
-Player Stats per season:
-API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats??stats=statsSingleSeason&season=<season>
+### Stanley Cup winning team performance per season:
 
-Player Stats year by year season:
-API Call: https://statsapi.web.nhl.com/api/v1/people/<Player ID>/stats?stats=yearByYear
-
-# Leveraging various datapoints, we were able to create the following interactive web page and dashboard(s):
-
-## Interactive world map
-
-## Winning team comparison
-
-## Player statistics information
-
-## Goalie statistics comparison
-
-# rows 86 to 176 needs updating
-![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/deb52ecd-c463-4515-8f09-e4859228c72b)
-
->_stanleycup_winner_cleaned_df.head()/stanleycup_losing_cleaned_df.head()_
->
->![](images/winninglosingteams.png)
-
-Due to the format of the "season" needed as a parameter used by the NHL API, the dates were formated from '1991' to '19911992' 
-
-Once the winning teams we identified the 30 Stanley Cup winning teams from 1991-2022, the following NHL API's were used
-
-```
-Teams Information
-GET https://statsapi.web.nhl.com/api/v1/teams
-
-Returns a list of data about all teams including their ID's, venue details, division, conference and franchise information.
-```
-
-The Team ID's were used to construct two (2) dataframes to associate the Team ID with the Winning teams and losing teams
-
->_stanleycup_winning_merge_byname_ID.head()/stanleycup_losing_merge_byname_ID.head()_
->
->![](images/winninglosingteamswithids.png)
-
-Using the Team IDs and the seasons, the winning and losing dataframes could be expanded to include the rosters and player IDs 
-```
-Team Roster
-GET https://statsapi.web.nhl.com/api/v1/team/<ID>?expand=team.roster&season=<seasom>
-
-Returns the roster for the specified season
-```
->_winning_df.head()/losing_df.head()_
->
->![](images/winninglosingteamsplayerids.png)
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/bfb40df9-e911-41b2-bbb8-199d38136c1b)
 
 
-The player ID was used to get the player characteristics using the player ID and appended to the winning and losing dataframes 
-```
-Player Details and Characteristics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>
+### Goalie statistics comparison:
 
-Returns details for a player, such as birth year and Nationality. 
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/404445a9-96fb-4e33-a404-43781016fa98)
 
-The birthyear was used to extrapolate the age of the player the season the player won/lost the Stanley Cup.
-```
->_winning_df.head()/losing_df.head()_
->
->![](images/winninglosingteamsplayeridsdetails.png)
 
-New dataframes were created for both the winning and losing Stanley Cup teams to hold the average age per season of the team(s).  
+## Challenges and Lessons Learned:
 
->avg_player_age_winning_df.head()/avg_player_age_losing_df
->
->![](images/winninglosingteamsavgageperseason.png)
+Financials, only free APIs were used as there was not a budget to purchase additional APIs.
 
-Nationalities of the Stanley Cup Winning Team in 1991 and 2022 dataframes were generated in order to evaluate a trend in the nationality make-up of the teams in the 30 year span.
+Data/API related limitations.  APIs used are not locked or static, and therefore updates to the source are made impacting the output of our code.
 
->player_nat_1992.value_counts()/player_nat_2022.value_counts()
->
->![](images/winningteamnationality19912022.png)
+Underestimating the complexity and skills required to achieve the desired end result.
 
-Statistics of all the players were then compiled and appended to the winning and losing dataframes
+Need to improve assessing timelines and time constraints.
 
-```
-Player Statistics
-GET https://statsapi.web.nhl.com/api/v1/people/<ID>/stats?stats=statsSingleSeason&season=<SEASON>
+The Player Statistics by Year APIs used in this project evolverd over time.  More data points were added to the statistics during the 30 year span of data.  As more data was collected to from by the NHL, the datasets (API) grew.  This caused NULL and Zero values in our database.  With about 1/3 of the data not available, the decision was made to remove the player statistics portion of the project.  Investigation into what the best practise is for this situation and how to overcome it and provide acurrate analysis.  
 
-Returns all statistics for that player from specified season
-```
 
-The stats that were compiled from the winning teams are:
-- Penalty Minutes (PIM)
-- PowerPlay Goals (PPG)
-- Over Time Winning Gola (OTG)
-- Plus/Minus (+/-)
-- Point (Pts)
+## Limitations:
 
->winning_df.head()/losing_df.head()
->
->![](images/playerstatswinninglosingperseason.png)
+The 2004 - 2005 season was cancelled due to the NHL labour dispute. Hence, although our data pulls over 31 years, there are only 30 actual seasons.
 
-## Future Work
-# This project is an ongoing effort, and future updates will include proving our hypothesis and a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup for the following year.
 
-## How to access the index.html
-First download the folder called 'NHLStats'.
-Open you terminal and 'cd' into where the 'NHL' folder is located in your computer.
-Then in the terminal type in, 'python -m http.server'.
-It should show, 'Serving HTTP on :: 8000'.
-Go to your browser and type in the search bar, 'localhost8000'.
-This will display the dashboard.
+## Future Work:
 
-## Team Members
+This project is an ongoing effort, and future updates will include proving our hypothesis and a predictive model.  We will use our model to measure against current NHL rosters to identify what teams have a preferred chance of winning the Stanley Cup for the following year.
+
+## Team Members:
 
 Ravina Kolsawala
 
@@ -192,7 +117,6 @@ Ghislain Nyirumuheto
 
 Joel Demontigny
 
-# Appendix
 ## Glossary
 
 ### Player Statistics per Season:
@@ -307,3 +231,6 @@ faceOffWinPercentage – Faceoff Win Percentage
 shootingPctg – Shooting Faceoff Percentage
 
 savePctg – Average Save Percentage
+
+
+_(The NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.)_
