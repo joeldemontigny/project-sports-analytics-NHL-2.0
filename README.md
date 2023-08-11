@@ -69,6 +69,11 @@ The data used for this analysis was collected from the NHL's free Application Pr
 
 ## Dashboards:
 
+### Player's geographic birth city:
+
+![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/6ab764f2-ec90-4b58-81dc-46c38d29c3cb)
+
+
 ### Team comparisons per season:
 
 ![image](https://github.com/joeldemontigny/project-sports-analytics-NHL-2.0/assets/130711180/0cbda9df-902a-4e34-aaab-7115e4f06193)
